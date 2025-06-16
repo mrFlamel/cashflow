@@ -2,7 +2,7 @@
   "careers": {
     "careerData": [
       {
-        "title": "Police Officer",
+        "title": "Politseiohvitser",
         "salary": 3000,
         "taxes": 580,
         "mortgagePayment": 400,
@@ -20,7 +20,7 @@
         "retailDebtLiability": 1000
       },
       {
-        "title": "Lawyer",
+        "title": "Advokaat",
         "salary": 7500,
         "taxes": 1830,
         "mortgagePayment": 1100,
@@ -38,7 +38,7 @@
         "retailDebtLiability": 1000
       },
       {
-        "title": "Truck Driver",
+        "title": "Veoautojuht",
         "salary": 2500,
         "taxes": 460,
         "mortgagePayment": 400,
@@ -56,7 +56,7 @@
         "retailDebtLiability": 1000
       },
       {
-        "title": "Secretary",
+        "title": "Sekretär",
         "salary": 2500,
         "taxes": 460,
         "mortgagePayment": 400,
@@ -74,7 +74,7 @@
         "retailDebtLiability": 1000
       },
       {
-        "title": "Engineer",
+        "title": "Insener",
         "salary": 4900,
         "taxes": 1050,
         "mortgagePayment": 700,
@@ -92,7 +92,7 @@
         "retailDebtLiability": 1000
       },
       {
-        "title": "Business Manager",
+        "title": "Osakonnajuhataja",
         "salary": 4600,
         "taxes": 910,
         "mortgagePayment": 700,
@@ -110,7 +110,7 @@
         "retailDebtLiability": 1000
       },
       {
-        "title": "Nurse",
+        "title": "Meditsiiniõde",
         "salary": 3100,
         "taxes": 600,
         "mortgagePayment": 400,
@@ -128,7 +128,7 @@
         "retailDebtLiability": 1000
       },
       {
-        "title": "Janitor",
+        "title": "Koristaja",
         "salary": 1600,
         "taxes": 280,
         "mortgagePayment": 200,
@@ -146,7 +146,7 @@
         "retailDebtLiability": 1000
       },
       {
-        "title": "Airline Pilot",
+        "title": "Lennukipiloot",
         "salary": 9500,
         "taxes": 2350,
         "mortgagePayment": 1330,
@@ -164,7 +164,7 @@
         "retailDebtLiability": 1000
       },
       {
-        "title": "Teacher (K-12)",
+        "title": "Põhikooli õpetaja",
         "salary": 3300,
         "taxes": 630,
         "mortgagePayment": 500,
@@ -182,7 +182,7 @@
         "retailDebtLiability": 1000
       },
       {
-        "title": "Mechanic",
+        "title": "Mehaanik",
         "salary": 2000,
         "taxes": 360,
         "mortgagePayment": 300,
@@ -200,7 +200,7 @@
         "retailDebtLiability": 1000
       },
       {
-        "title": "Doctor (MD)",
+        "title": "Arst",
         "salary": 13200,
         "taxes": 3420,
         "mortgagePayment": 1900,

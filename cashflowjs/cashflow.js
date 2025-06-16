@@ -22,7 +22,12 @@ const translations = {
     "incorrect-password": "Incorrect Password",
     "already-started": "Game Has Already Started",
     "game-full": "Game is Full",
-    "loading-no": "no"
+    "loading-no": "no",
+    "ready": "Ready",
+    "name": "Name",
+    "money_format": ".\n", // Meant for these languages that don't like "$10" but "10€"
+    "currency": "", // Same thing here
+    "total-expenses": "Total Expenses: $"
   },
   "ee": {
     "title": "Mängi mängu CASHFLOW® Classic siin.",
@@ -37,7 +42,12 @@ const translations = {
     "incorrect-password": "Vale parool",
     "already-started": "Mäng on juba alanud",
     "game-full": "Mäng on täis",
-    "loading-no": "-"
+    "loading-no": "-",
+    "ready": "Valmis",
+    "name": "Nimi",
+    "money_format": "€.\n",
+    "currency": "€",
+    "total-expenses": "Kulutused kokku: "
   },
 };
 
@@ -468,17 +478,17 @@ function getManifest(basePath) {
             { "id": "fastTrack", "src": "assets/data/"+ language + "/fasttrack.json", "type": "json" },
 
             // templates
-            { "id": "cardTemplate", "src": "assets/data/templates/card_template.json", "type": "json" },
-            { "id": "dreamSelectorScreen", "src": "assets/data/templates/dream_selector_screen.json", "type": "json" },
-            { "id": "endGameWidget", "src": "assets/data/templates/end_game_widget.json", "type": "json" },
-            { "id": "gameScreen", "src": "assets/data/templates/game_screen.json", "type": "json" },
-            { "id": "lobbyScreen", "src": "assets/data/templates/lobby_screen.json", "type": "json" },
-            { "id": "modeSelectScreen", "src": "assets/data/templates/mode_select_screen.json", "type": "json" },
-            { "id": "partySetupScreen", "src": "assets/data/templates/party_setup_screen.json", "type": "json" },
-            { "id": "playerHeader", "src": "assets/data/templates/player_header.json", "type": "json" },
-            { "id": "splashScreen", "src": "assets/data/templates/splash_screen.json", "type": "json" },
-            { "id": "statementSheetTemplate", "src": "assets/data/templates/statement_sheet_template.json", "type": "json" },
-            { "id": "titleScreen", "src": "assets/data/templates/title_screen.json", "type": "json" },
+            { "id": "cardTemplate", "src": "assets/data/"+ language + "/templates/card_template.json", "type": "json" },
+            { "id": "dreamSelectorScreen", "src": "assets/data/"+ language + "/templates/dream_selector_screen.json", "type": "json" },
+            { "id": "endGameWidget", "src": "assets/data/"+ language + "/templates/end_game_widget.json", "type": "json" },
+            { "id": "gameScreen", "src": "assets/data/"+ language + "/templates/game_screen.json", "type": "json" },
+            { "id": "lobbyScreen", "src": "assets/data/"+ language + "/templates/lobby_screen.json", "type": "json" },
+            { "id": "modeSelectScreen", "src": "assets/data/"+ language + "/templates/mode_select_screen.json", "type": "json" },
+            { "id": "partySetupScreen", "src": "assets/data/"+ language + "/templates/party_setup_screen.json", "type": "json" },
+            { "id": "playerHeader", "src": "assets/data/"+ language + "/templates/player_header.json", "type": "json" },
+            { "id": "splashScreen", "src": "assets/data/"+ language + "/templates/splash_screen.json", "type": "json" },
+            { "id": "statementSheetTemplate", "src": "assets/data/"+ language + "/templates/statement_sheet_template.json", "type": "json" },
+            { "id": "titleScreen", "src": "assets/data/"+ language + "/templates/title_screen.json", "type": "json" },
 
 
             // // spritesheets
@@ -2655,7 +2665,7 @@ var StatementElement = (function () {
 			incomeAmountText.text = "$" + MathHelper.formatNumber(m_playerData.totalIncome);
 			expensesAmountText.text = "$-" + MathHelper.formatNumber(m_playerData.totalExpenses);
 			totalExpensesBarText.text =
-				"Total Expenses: $" + MathHelper.formatNumber(m_playerData.totalExpenses);
+				translations[language]["total-expenses"] + MathHelper.formatNumber(m_playerData.totalExpenses) + translations[language]["currency"];
 
 			var progressRect = function () {
 				var rect = makeAndAttachRect("progressBar", playerColor);
@@ -4516,13 +4526,14 @@ var DreamSelectCard = (function () {
 							".\n" +
 							Data.vocab().startGameCard.copy2 +
 							MathHelper.formatNumber(currentPlayerblob.salary) +
-							".\n" +
+							translations[language]["money_format"] +
 							Data.vocab().startGameCard.copy3 +
 							MathHelper.formatNumber(currentPlayerblob.savings) +
 							Data.vocab().startGameCard.copy4 +
 							".\n" +
 							Data.vocab().startGameCard.copy5 +
-							MathHelper.formatNumber(currentPlayerblob.cash)
+							MathHelper.formatNumber(currentPlayerblob.cash) +
+                            translations[language]["money_format"]
 					};
 				} else {
 					config.cardInformation = {
@@ -4532,13 +4543,14 @@ var DreamSelectCard = (function () {
 							".\n" +
 							Data.vocab().startGameCard.copy2 +
 							MathHelper.formatNumber(currentPlayerblob.salary) +
-							".\n" +
+							translations[language]["money_format"] +
 							Data.vocab().startGameCard.copy3 +
 							MathHelper.formatNumber(currentPlayerblob.savings) +
 							Data.vocab().startGameCard.copy4 +
 							".\n" +
 							Data.vocab().startGameCard.copy5 +
-							MathHelper.formatNumber(currentPlayerblob.cash)
+							MathHelper.formatNumber(currentPlayerblob.cash) +
+                            translations[language]["money_format"]
 					};
 				}
 			}
@@ -7833,7 +7845,7 @@ var SettingsHelper = (function () {
         if (!settings) {
             settings = {
                 userID: Math.round(Math.random() * 1000),
-                gameHandle: "Name"
+                gameHandle: translations[language]["name"]
             };
 
             Cookies.set('rdid', settings);
@@ -13762,7 +13774,7 @@ var WaitingScreen = (function () {
 
                     if (playerBlob && playerBlob.isActive === true) {
                         var index = playerBlob.index;
-                        types[index].text = playerBlob.isReady ? "Ready" : "";
+                        types[index].text = playerBlob.isReady ? translations[language]["ready"] : "";
                         
 
                         if (index === Main.gameSession.playerData.index) {

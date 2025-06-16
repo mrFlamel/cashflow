@@ -3,222 +3,222 @@
     "cards": [
       {
         "type": "doodad",
-        "title": "LUNCH WITH FRIENDS",
+        "title": "LÕUNASÖÖK SÕPRADEGA",
         "cost": 40
       },
       {
         "type": "doodad",
-        "title": "GO TO CASINO",
+        "title": "LÄKSID KASIINOSSE",
         "cost": 200
       },
       {
         "type": "doodad",
-        "title": "TAX AUDIT - OUCH!",
+        "title": "MAKSUAUDIT - AI!",
         "cost": 350
       },
       {
         "type": "doodad",
-        "title": "REPAINT HOUSE",
+        "title": "VÄRVISID MAJA ÜLE",
         "cost": 600
       },
       {
         "type": "doodad",
-        "title": "BUY NEW SPEAKERS FOR STEREO",
+        "title": "OSTSID UUED KÕLARID",
         "cost": 500
       },
       {
         "type": "doodad",
-        "title": "BUY NEW CELL PHONE",
+        "title": "OSTSID UUE MOBIILTELEFONI",
         "cost": 100
       },
       {
         "type": "doodad",
-        "title": "BUY NEW MUSIC CDS",
+        "title": "OSTSID UUSI CD-PLAATE",
         "cost": 100
       },
       {
         "type": "doodad",
-        "title": "BUY A LATTE AND CAPPUCCINO FOR YOU AND A FRIEND",
+        "title": "OSTSID ENDALE JA SÕBRALE LATTE JA CAPPUCCINO",
         "cost": 10
       },
       {
         "type": "doodad",
-        "title": "PLAY 2 ROUNDS OF GOLF",
+        "title": "TEGID 2 GOLFIMÄNGU",
         "cost": 100
       },
       {
         "type": "doodad",
-        "title": "GO TO BALL GAME",
+        "title": "LÄKSID JALGPALLI VAATAMA",
         "cost": 50
       },
       {
         "type": "doodad",
-        "title": "BUY NEW WRIST WATCH",
+        "title": "OSTSID UUE KÄEKELLA",
         "cost": 150
       },
       {
         "type": "doodad",
-        "title": "BUY NEW BOWLING BALL",
+        "title": "OSTSID UUE BOWLINGUPALLI",
         "cost": 80
       },
       {
         "type": "doodad",
-        "title": "GO OUT TO DINNER",
+        "title": "LÄKSID VÄLJA ÕHTUST SÖÖMA",
         "cost": 80
       },
       {
         "type": "doodad",
-        "title": "PLAY YOUR LUCKY LOTTERY NUMBERS",
+        "title": "MÄNGISID LOTEERID OMA LEMMIKNUMBRITE PEALE",
         "cost": 100
       },
       {
         "type": "doodad",
-        "title": "FURNITURE SALE",
+        "title": "UUS MÖÖBEL",
         "cost": 300
       },
       {
         "type": "doodad",
-        "title": "COULDN'T RESIST NEW PAINTING BY LOCAL ARTIST",
+        "title": "EI SUUTNUD VASTU PANNA KOHALIKULE KUNSTITEOSELE",
         "cost": 200
       },
       {
         "type": "doodad",
-        "title": "CAR'S AIR CONDITIONING DIES",
+        "title": "AUTO ÕHKJAHUTUS LÄKS KATKI",
         "cost": 700
       },
       {
         "type": "doodad",
-        "title": "CAR NEEDS NEW TIRES",
+        "title": "AUTO VAJAB UUSI REHVE",
         "cost": 300
       },
       {
         "type": "doodad",
-        "title": "MUST HAVE NEW SUNGLASSES",
+        "title": "UUED PÄIKESEPRILLID",
         "cost": 80
       },
       {
         "type": "doodad",
-        "title": "YOUR ANNIVERSARY",
+        "title": "PULMAAASTAPÄEV",
         "cost": 200
       },
       {
         "type": "doodad",
-        "title": "FAMILY VACATION",
+        "title": "PEREPUHKUS",
         "cost": 2000
       },
       {
         "type": "doodad",
-        "title": "BUY NEW FISHING ROD",
+        "title": "OSTSID UUE ÕNGE",
         "cost": 100
       },
       {
         "type": "doodad",
-        "title": "GO TO AIR SHOW",
+        "title": "LÄKSID LENNUKITE ETENDUSELE",
         "cost": 120
       },
       {
         "type": "doodad",
-        "title": "BUY NEW CLOTHES",
+        "title": "OSTSID UUSI RIIDEID",
         "cost": 250
       },
       {
         "type": "doodad",
-        "title": "RUMOR OF LAYOFF, GO BACK TO SCHOOL FOR ADDED SKILLS",
+        "title": "KARDETAKSE KOONDAMISI, MINE TAGASI KOOLI UUSI OSKUSI OMANDAMA",
         "cost": 220
       },
       {
         "type": "doodad",
-        "title": "HIGH SCHOOL REUNION",
+        "title": "KLASSI KOKKUTULEK",
         "cost": 250
       },
       {
         "type": "doodad",
-        "title": "GO TO A CONCERT",
+        "title": "LÄKSID KONTSERDILE",
         "cost": 180
       },
       {
         "type": "doodad",
-        "title": "BUY NEW GOLF BALLS",
+        "title": "OSTSID UUED GOLFIPALLID",
         "cost": 20
       },
       {
         "type": "doodad",
-        "title": "VISIT DENTIST",
+        "title": "KÄISID HAMBAARSTI JUURES",
         "cost": 100
       },
       {
         "type": "doodad",
-        "title": "BUY CAPPUCCINO MACHINE",
+        "title": "OSTSID KOHVIMASINA",
         "cost": 150
       },
       {
         "type": "doodad",
-        "title": "BUY A FOOD PROCESSOR",
+        "title": "OSTSID KÖÖGIKOMBAINI",
         "cost": 150
       },
       {
         "type": "doodad",
-        "title": "BUY A NEW TENNIS RACKET",
+        "title": "OSTSID UUE TENNISEREKETI",
         "cost": 200
       },
       {
         "type": "doodad",
-        "title": "SHOPPING!",
+        "title": "POODLEMA!",
         "cost": 350
       },
       {
         "type": "doodad",
-        "title": "PARK IN HANDICAPPED ZONE",
+        "title": "PARKISID KEELUALAS",
         "cost": 100
       },
       {
         "type": "doodad",
-        "title": "WATER HEATER LEAKS",
+        "title": "VEEBOILER HAKKAS LEKKIMA",
         "cost": 450
       },
       {
         "type": "doodad",
-        "title": "SON'S COLLEGE TUITION",
+        "title": "POJA ÜLIKOOLI ÕPINGUD",
         "cost": 1500,
         "child": "has"
       },
       {
         "type": "doodad",
-        "title": "BIRTHDAY PARTY",
+        "title": "SÜNNIPÄEVAPIDU",
         "cost": 100,
         "child": "has"
       },
       {
         "type": "doodad",
-        "title": "YOUR CHILD NEEDS BRACES",
+        "title": "SINU LAPSEL ON VAJA BREKETEID",
         "cost": 2000,
         "child": "has"
       },
       {
         "type": "doodad",
-        "title": "YOUR DAUGHTER'S WEDDING",
+        "title": "SINU TÜTRE PULMAD",
         "cost": 2000,
         "child": "has"
       },
       {
         "type": "doodad",
-        "title": "BUY TOYS FOR YOUR KIDS",
+        "title": "LASTELE ON MÄNGUASJU VAJA",
         "cost": 50,
         "child": "per"
       },
       {
         "type": "specialDoodad",
-        "title": "BUY BIG SCREEN TV",
+        "title": "OSTA SUUREMA EKRAANIGA TELEVIISORI",
         "cost": 4000,
         "payment": 120,
-        "copy": "(If you use a credit card, add $4000 to credit card liability and add a payment of $120 to your monthly expenses)"
+        "copy": "(Kui sa kasutad maksmiseks krediitkaarti, lisandub 4000€ sinu krediitkaardi võlale ja 120€ igakuistesse kulutustesse)"
       },
       {
         "type": "specialDoodad",
-        "title": "NEW BOAT",
+        "title": "UUS PAAT",
         "cost": 18000,
         "payment": 340,
-        "copy": "(Downpay $1000 and add a $17,000 boat loan as a new liability and add a new boat loan payment of $340 to expenses)"
+        "copy": "(Tee 1000€ sissemakse, millele lisandub 17 000€ võlga uue kohustusena ning laenu igakuised tagasimaksed 340€ väärtuses)"
       }
     ]
   }
