@@ -169,7 +169,7 @@
             "bold": "true",
             "align": "left",
             "vAlign": "top",
-            "text": "Financial Statement"
+            "text": "Sinu finantsaruanne"
         },
         "cashAmount": {
             "font": "GrantAvenue",
@@ -683,7 +683,7 @@
             "bold": "true",
             "align": "left",
             "vAlign": "top",
-            "text": "Financial Statement"
+            "text": "Sinu finantsaruanne"
         },
         "cashAmount_fasttrack": {
             "font": "GrantAvenue",

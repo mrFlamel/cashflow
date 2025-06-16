@@ -3,24 +3,24 @@
     "cards": [
       {
         "cost": 4000,
-        "copy1": "A leading bank offers this special Certificate of Deposit to its customers. Guaranteed interest and redeemable after any holding period.",
-        "title": "CERTIFICATE OF DEPOSIT",
-        "traderange": "Trading Range: $4,000 to $4,000",
+        "copy1": "Suur pank pakub oma klientidele seda spetsiaalset hoiusertifikaati. Garanteeritud intress ja lunastatav pärast mis tahes hoidmisperioodi.",
+        "title": "VÕLAKIRI",
+        "traderange": "Kauplemisvahemik: $4,000 to $4,000",
         "key": "CD",
         "type": "smalldeal_anystock",
         "cashflow": 20,
-        "rule": "Everyone may buy or sell as many as they want at this time.",
+        "rule": "Igaüks võib seekord müüa ja osta niipalju kui soovib.",
         "queue": "true"
       },
       {
         "cost": 5000,
-        "copy1": "A leading bank offers this special Certificate of Deposit to its customers. Guaranteed interest and redeemable after any holding period.",
-        "title": "CERTIFICATE OF DEPOSIT",
-        "traderange": "Trading Range: $5,000 to $5,000",
+        "copy1": "Suur pank pakub oma klientidele seda spetsiaalset hoiusertifikaati. Garanteeritud intress ja lunastatav pärast mis tahes hoidmisperioodi.",
+        "title": "VÕLAKIRI",
+        "traderange": "Kauplemisvahemik: $5,000 to $5,000",
         "key": "CD",
         "type": "smalldeal_anystock",
         "cashflow": 20,
-        "rule": "Everyone may buy or sell as many as they want at this time.",
+        "rule": "Igaüks võib seekord müüa ja osta niipalju kui soovib.",
         "queue": "true"
       },
       {

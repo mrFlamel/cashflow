@@ -73,9 +73,9 @@
         },
         "repay": {
             "asset": "BankButton",
-            "x": "35",
+            "x": "20",
             "y": "278",
-            "width": "90",
+            "width": "125",
             "height": "30"
         },
         "rightArrow": {

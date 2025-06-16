@@ -44,7 +44,7 @@
       "copy": " rolled a "
     },
     "clickToChat": {
-      "copy": "Click here to chat"
+      "copy": "Vajuta sõnumite saatmiseks siia"
     },
     "x": {
       "copy": "x"
@@ -95,7 +95,7 @@
       "copy": "QUIT"
     },
     "chatTitle": {
-      "copy": "CHAT LOG"
+      "copy": "VESTLUSKAST"
     },
     "pay": {
       "copy": "PAY"
@@ -263,10 +263,10 @@
       "copy5": "Sell Cost * Amount Owned - Mortgage"
     },
     "endCard": {
-      "title": "FINISH YOUR TURN",
-      "copy1": "Before you end your turn, review your financial statement. You may also use this time to repay liabilities or borrow money.",
-      "copy2": "Before you end your turn, you may review your financial statement.",
-      "button": "END"
+      "title": "LÕPETA OMA KÄIK",
+      "copy1": "Enne oma käigu lõppu, vaata üle oma finantsaruanne. Võid kasutada seda aega ka selleks, et maksta kohustusi tagasi või laenata raha.",
+      "copy2": "Enne oma käigu lõppu, võid veel üle vaadata oma finantsaruande.",
+      "button": "LÕPETA"
     },
     "payoffLoanCard": {
       "title": "PAY OFF LOAN",
@@ -579,7 +579,7 @@
       "dreambuy": "To win, buy your Dream!",
       "or": "-OR-",
       "cashflowwin": "To win, increase CASHFLOW Day Income!",
-      "goal": "Increase Passive Income to escape the Rat Race.",
+      "goal": "Suurenda passiivset tulu, et väljuda oravarattast.",
       "totalexpenses": "Kulutused kokku:",
       "incomegoal": "Income Goal: $",
       "cash": "Cash: $",
@@ -590,36 +590,36 @@
       "payday": "PALGAPÄEV: ",
       "income": "Tulud",
       "expenses": "Kulud",
-      "borrow": "Borrow",
-      "repay": "Repay"
+      "borrow": "Laena",
+      "repay": "Maksa tagasi"
     },
     "statementList": {
       "cashflow": "Cash Flow",
       "salary": " Salary:",
-      "taxes": " Taxes:",
-      "homemortgage": "Home Mortgage:",
-      "homepayment": "Home Mortgage Payment:",
-      "schoolloan": "School Loans:",
-      "schoolpayment": "School Loan Payment:",
-      "car": "Car Loans:",
-      "carpayment": "Car Loan Payment:",
-      "credit": "Credit Cards:",
-      "creditpayment": "Credit Card Payment:",
+      "taxes": " Maksud:",
+      "homemortgage": "Kodulaen:",
+      "homepayment": "Kodulaenu maksed:",
+      "schoolloan": "Õppelaen:",
+      "schoolpayment": "Õppelaenu maksed:",
+      "car": "Autolaen:",
+      "carpayment": "Autolaenu maksed:",
+      "credit": "Krediitkaart:",
+      "creditpayment": "Krediitkaardi maksed:",
       "retail": "Retail Debt:",
       "retailpayment": "Retail Payment:",
-      "boat": "Boat Debt:",
-      "boatpayment": "Boat Payment:",
-      "loan": "Loan:",
-      "loanpayment": "Loan Payment:",
-      "otherexpenses": "Other Expenses:",
+      "boat": "Paadi võlg:",
+      "boatpayment": "Paadi võla tagasimaksed:",
+      "loan": "Laen:",
+      "loanpayment": "Laenu maksed:",
+      "otherexpenses": "Muud kulutused:",
       "childexpenses": "Child Expenses (",
-      "interests": "Interest/Dividends",
-      "stocks": "Stocks/Funds/CDs",
-      "costshare": "Cost/Share",
+      "interests": "Intress/Dividendid",
+      "stocks": "Aktsiad/Fondid/Võlakirjad",
+      "costshare": "Väärtus",
       "shareof": " share of ",
       "sharesof": " shares of ",
-      "realestate": "Real Estate/Business",
-      "cost": "Cost",
+      "realestate": "Kinnisvara/Ärid",
+      "cost": "Väärtus",
       "liability": "Liability",
       "duplex": "DUPLEX",
       "units": " units"
