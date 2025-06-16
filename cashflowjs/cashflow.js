@@ -1,3 +1,62 @@
+
+//Retrieve language
+const urlParams = new URLSearchParams(window.location.search);
+var language = urlParams.get('lang');
+const supported_lang = ["en", "ee"]
+if (!supported_lang.includes(language)){
+    language = "en";
+}
+
+//UI translations
+const translations = {
+  "en": {
+    "title": "Play CASHFLOW® Classic Here.",
+    "loading": "Loading...",
+    "version": "Version: ",
+    "click-anywhere-to-continue": "Click Anywhere to Continue",
+    "create-new-room": "Create New Room",
+    "room": "Room",
+    "room-is": "Room: ",
+    "password": "Password",
+    "started": "STARTED",
+    "incorrect-password": "Incorrect Password",
+    "already-started": "Game Has Already Started",
+    "game-full": "Game is Full",
+    "loading-no": "no"
+  },
+  "ee": {
+    "title": "Mängi mängu CASHFLOW® Classic siin.",
+    "loading": "Laadin...",
+    "version": "Versioon: ",
+    "click-anywhere-to-continue": "Alustamiseks vajuta pildile",
+    "create-new-room": "Loo uus mängutuba",
+    "room": "Mängutuba",
+    "room-is": "Mängutuba: ",
+    "password": "Parool",
+    "started": "ALUSTATUD",
+    "incorrect-password": "Vale parool",
+    "already-started": "Mäng on juba alanud",
+    "game-full": "Mäng on täis",
+    "loading-no": "-"
+  },
+};
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  document
+    .querySelectorAll("[data-i18n-key]")
+    .forEach(translateElement);
+});
+function translateElement(element) {
+  const key = element.getAttribute("data-i18n-key");
+  const translation = translations[language][key];
+  element.innerText = translation;
+}
+
+
+
+
+
 /**
  * @constructor
  */
@@ -399,14 +458,14 @@ function getManifest(basePath) {
         "manifest": [
 
             // data
-            { "id": "vocabEnUS", "src": "assets/data/vocab_en_us.json", "type": "json" },
-            { "id": "careers", "src": "assets/data/careers.json", "type": "json" },
+            { "id": "vocabEnUS", "src": "assets/data/"+ language + "/vocabulary.json", "type": "json" },
+            { "id": "careers", "src": "assets/data/"+ language + "/careers.json", "type": "json" },
 
-            { "id": "smallDeal", "src": "assets/data/smalldeal.json", "type": "json" },
-            { "id": "bigDeal", "src": "assets/data/bigdeal.json", "type": "json" },
-            { "id": "doodads", "src": "assets/data/doodads.json", "type": "json" },
-            { "id": "market", "src": "assets/data/market.json", "type": "json" },
-            { "id": "fastTrack", "src": "assets/data/fasttrack.json", "type": "json" },
+            { "id": "smallDeal", "src": "assets/data/"+ language + "/smalldeal.json", "type": "json" },
+            { "id": "bigDeal", "src": "assets/data/"+ language + "/bigdeal.json", "type": "json" },
+            { "id": "doodads", "src": "assets/data/"+ language + "/doodads.json", "type": "json" },
+            { "id": "market", "src": "assets/data/"+ language + "/market.json", "type": "json" },
+            { "id": "fastTrack", "src": "assets/data/"+ language + "/fasttrack.json", "type": "json" },
 
             // templates
             { "id": "cardTemplate", "src": "assets/data/templates/card_template.json", "type": "json" },
@@ -11831,7 +11890,7 @@ var Lobby = (function () {
                                 //TODO: enable join button
                             }
                             m_this.joinRoomTween()
-                            m_headerName.innerText = "Room: " + buttons[index].roomName;
+                            m_headerName.innerText = translations[language]["room-is"] + buttons[index].roomName;
                             m_btnJoinRoom.disabled = false;
                             if (roomBlob.password) {
                                 m_inputPW.alpha = 1
@@ -12999,11 +13058,11 @@ var LobbyScreen = (function () {
 
         function _handleRoomJoinFailed(reason) {
             if (reason == "password") {
-                alert("Incorrect Password");
+                alert(translations[language]["incorrect-password"]);
             } else if (reason == "alreadyStarted") {
-                alert("Game Has Already Started");
+                alert(translations[language]["already-started"]);
             } else if (reason == "full") {
-                alert("Game is Full");
+                alert(translations[language]["game-full"]);
             }
         }
 
@@ -13068,21 +13127,21 @@ var LobbyScreen = (function () {
             m_btnNewRoom = document.createElement("li")
             var aLobby = document.createElement("a")
             m_btnNewRoom.appendChild(aLobby)
-            aLobby.innerText = "Create New Room"
+            aLobby.innerText = translations[language]["create-new-room"]
             m_btnNewRoom.classList.add("odd")
             m_ulLobby.appendChild(m_btnNewRoom)
 
             m_headerName = document.createElement("h2")
 
             m_headerName.align = "center";
-            m_headerName.innerText = "Room"
+            m_headerName.innerText = translations[language]["room"]
             m_divLobby.appendChild(m_headerName)
 
 
             m_inputPW = document.createElement("input")
             m_inputPW.hidden = true;
             // m_inputPW.maxLength = 10;
-            m_inputPW.placeholder = "Password"
+            m_inputPW.placeholder = translations[language]["password"]
             m_inputPW.id = "PasswordTextBox";
             m_inputPW.addEventListener("submit", _handlePWSubmit);
 
@@ -13183,7 +13242,7 @@ function LobbyListItem() {
         m_liLobby = document.createElement("li")
         m_aLobby = document.createElement("a")
         m_liLobby.appendChild(m_aLobby);
-        m_aLobby.innerText = "no";
+        m_aLobby.innerText = translations[language]["loading-no"];
 
         this.transform.addEventListener("click", onClicked);
     }
@@ -13225,7 +13284,7 @@ function LobbyListItem() {
         if (roomBlob && roomBlob.players && roomBlob.gameState) {
             m_validRoom = true;
             var numJoined = roomBlob.players.filter(function (player, i) { return player.isActive == true }).length
-            this.setText("[" + numJoined + "/" + roomBlob.maxPlayers + "] " + roomBlob.name + (roomBlob.gameState.gameStarted ? "  [STARTED]" : ""));
+            this.setText("[" + numJoined + "/" + roomBlob.maxPlayers + "] " + roomBlob.name + (roomBlob.gameState.gameStarted ? "  [" + translations[language]["started"] + "]" : ""));
         } else {
             m_validRoom = false;
             this.setText("Empty Room");
@@ -13565,7 +13624,7 @@ var TitleScreen = (function () {
 
             var txtContinue = TemplateParser.formatTextFromTemplate("splashScreen", "clickText", "black", false)
             txtContinue.font = "Bold 26px Helvetica"
-            txtContinue.text = "Click Anywhere to Continue"
+            txtContinue.text = translations[language]["click-anywhere-to-continue"]
 
             titleContainer.addChild(bgTab)
 
@@ -13592,7 +13651,7 @@ var TitleScreen = (function () {
             })
 
             var versionNumber = (function () {
-                var text = new createjs.Text("Version: " + Main.versionNumber.toString(), "17px Helvetica", Colors.WHITE);
+                var text = new createjs.Text(translations[language]["version"] + Main.versionNumber.toString(), "17px Helvetica", Colors.WHITE);
                 // text.textAlign = "right";
                 // text.x = this.stageWidth - 12;
                 // text.y = this.stageHeight - 700 - text.getMeasuredLineHeight();
