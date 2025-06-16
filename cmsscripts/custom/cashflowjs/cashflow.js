@@ -7774,7 +7774,7 @@ var SettingsHelper = (function () {
         if (!settings) {
             settings = {
                 userID: Math.round(Math.random() * 1000),
-                gameHandle: "Test"
+                gameHandle: "Name"
             };
 
             Cookies.set('rdid', settings);
