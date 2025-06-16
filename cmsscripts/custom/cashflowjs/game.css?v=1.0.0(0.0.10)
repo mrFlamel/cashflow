@@ -1,0 +1,354 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica", sans-serif;
+}
+
+body {
+	/* background-color: #222; */
+	background-color: #424;
+}
+
+h2 {
+	user-select: none;
+}
+
+.nameDisplay {
+	font-family: "Helvetica", sans-serif;
+	font-style: bold;
+}
+
+.top-banner-ads {
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+
+.btm-banner-ads {
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+
+.everything-container {
+	/* width: 100%; */
+	width: 100vw;
+	/* margin-left: auto; */
+	/* margin-right: auto; */
+}
+
+.game-container {
+	/* width: 100%; */
+	width: 1024px;
+	height: 768px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.game-stage {
+	/* width: 100%; */
+	/* height: 100%; */
+	/* visibility: hidden; */
+	background-repeat: no-repeat; 
+	background-position: center; 
+	padding: 0; 
+	margin: 0; 
+	border: 0; 
+	
+	/* background-color: purple; */
+	background-color: #303030;
+	
+	/* background-size:100%; */
+}
+/* 
+.over {
+	background: rgba(230, 6, 6, .5);
+	float: right;
+	height: 460px;
+	margin-top: -500px;
+	margin-right:159px;
+	overflow: visible;
+	position: relative;
+	width: 560px;
+	color:#FFFFFF;
+	z-index: 1000;
+	padding:20px
+}
+.over span {
+	position: relative;
+	top: 15px;
+}
+.this {
+	width:560px;
+	height:460px;
+	color:#FFFFFF;
+	padding:20px;
+	background-image: url("http://www.tshirtvortex.net/wp-content/uploads/dramaticchipmunk.jpg");
+} */
+
+.loading-container {
+	height: 100%;
+	position: relative;
+	top: -100.5%;
+	/* background-image: url("http://www.tshirtvortex.net/wp-content/uploads/dramaticchipmunk.jpg"); */
+}
+
+.loading-bar {
+	/* margin-top:45%; */
+	/* margin-bottom:45%; */
+	/* margin: 5% 0; */
+	height: 10%;
+	/* margin-left:auto; */
+	/* margin-right:auto; */
+	background-color: #4169e155;
+}
+
+.loading-label {
+	font-family: "Helvetica", sans-serif;
+	font-style: bold;
+	text-align: center; vertical-align: middle; line-height: 768px;
+	margin-left: auto;
+	margin-right: auto;
+
+	color: white;
+	font-size: 4em;
+}
+
+text {
+	overflow: scroll;
+}
+
+fieldset {
+	border: none;
+}
+
+button.empty {
+	background-attachment: none;
+	border: none;
+}
+
+#Lobby {
+	position: relative;
+	overflow-x: hidden;
+}
+
+#rooms {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 17em;
+	
+}
+
+#Lobby li {
+	margin: 0 0 0 0;
+}
+
+#Lobby li.odd {
+	background-color: rgba(0, 0, 0, 0.10);
+}
+
+#Lobby li.even {
+	background-color: rgba(0,0,0,0);
+}
+
+#Lobby li.selected {
+	/* background-color: #0004; */
+	background-color: #ffb11199;
+}
+
+/* #Lobby li:hover {
+	background-color: #0004;
+} */
+
+#Lobby a {
+	font-family: Helvetica, sans-serif;	
+	display: block;
+	width: 37em;
+	padding: 0.4em 0.8em;
+}
+
+.button {
+	width: 50px;
+	height: 50px;
+}
+
+.list {
+	width: 306px;
+	height: 177px;
+	overflow: auto;
+	font-family: "Helvetica", sans-serif;
+	font-size: 12px;
+	vertical-align: middle;
+	line-height: 22px;
+	user-select: none;
+}
+
+.item {
+	height: 23px;
+	visibility: inherit;
+}
+
+.top-header {
+	font-weight: bold;
+	border-bottom: #000000 1px solid;
+}
+
+.header {
+	font-weight: bold;
+	border-top: #000000 1px solid;
+	border-bottom: #000000 1px solid;
+}
+
+.default {
+	border-bottom: #00000080 1px solid;
+}
+
+.liability {
+	font-weight: bold;
+	border-bottom: #00000080 1px solid;
+}
+
+.column {
+	float: left;
+	height: 22px;
+}
+
+.right {
+	width: 25%;
+	text-align: center;
+}
+
+.center-right {
+	width: 8%;
+}
+
+.left {
+	width: 6%;
+}
+
+.center-left {
+	width: 59%;
+}
+
+.group {
+	width: 100%;
+	visibility: inherit;
+}
+
+.list.fastTrack {
+	width: 606px;
+	height: 350.5px;
+}
+
+.column.fastTrack {
+	float: left;
+	height: 22px;
+}
+
+.right.fastTrack {
+	width: 25%;
+	text-align: center;
+}
+
+.center-right.fastTrack {
+	width: 8%;
+}
+
+.left.fastTrack {
+	width: 6%;
+}
+
+.center-left.fastTrack {
+	width: 59%
+}
+
+#buySharesAmount {
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	width: 62px;
+	height: 31.3px;
+	user-select: text;
+	overflow: hidden;
+	word-wrap: none;
+	vertical-align: middle;
+	line-height: 31.3px;
+}
+
+#buySharesAmount:focus {
+	outline: none;
+}
+
+#borrowAmount {
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	width: 62px;
+	height: 31.3px;
+	user-select: text;
+	overflow: hidden;
+	word-wrap: none;
+	vertical-align: top;
+	line-height: 31.3px;
+}
+
+#borrowAmount:focus {
+	outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.lobby {
+	width: 620px;
+	height: 315px;
+	overflow-y: scroll;
+}
+
+.chatlog {
+	width: 317px;
+	height: 231px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.chatlog-entry {
+	display: block;
+}
+
+#PasswordTextBox{
+	background:none;
+	width: 120px;
+	height: 20px;
+	font-size: 18px;
+}
+
+input {
+	font-family: Helvetica, sans-serif;
+	background: none;
+	padding: 0%;
+	margin: 0%;
+	
+}
+
+#textLog{
+	overflow-y: scroll;
+	word-wrap: break-word;
+	width: 300px;
+}
+
+#inputChat{
+	height: 30px;
+	font-family: Helvetica;
+	font-size: 15px;
+	width: 300px;
+}
