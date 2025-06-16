@@ -68,10 +68,10 @@
       "copy": "--empty--"
     },
     "yes": {
-      "copy": "YES"
+      "copy": "JAH"
     },
     "no": {
-      "copy": "NO"
+      "copy": "EI"
     },
     "sell": {
       "copy": "SELL"
@@ -104,7 +104,7 @@
       "copy": "DONE"
     },
     "join": {
-      "copy": "JOIN"
+      "copy": "LIITU"
     },
     "leftgame": {
       "copy": "Left Game"
@@ -212,12 +212,12 @@
       "copy2": "(if you have a child)"
     },
     "dealCard": {
-      "title": "DEAL OPPORTUNITY",
-      "copy1": "Which deal type do you want?",
-      "small": "Small deals cost $5,000 or less.",
-      "big": "Big deals cost $6,000 or more.",
-      "copy2": "SMALL",
-      "copy3": "BIG"
+      "title": "TEHINGU VÕIMALUS",
+      "copy1": "Millist tüüpi tehinguid sa soovid?",
+      "small": "Väiksed tehingud maksavad 5000€ ja vähem.",
+      "big": "Suured tehingud maksavad 6000€ ja rohkem.",
+      "copy2": "VÄIKE",
+      "copy3": "SUUR"
     },
     "investmentCard": {
       "copy1": "This investment has already been purchased and is no longer available."
@@ -318,7 +318,7 @@
       "title": "EVERYONE IN THE GAME HAS GONE BANKRUPT. GAME OVER."
     },
     "quitCard": {
-      "title": "ARE YOU SURE YOU WANT TO QUIT?"
+      "title": "OLED SA KINDEL, ET SOOVID LAHKUDA?"
     },
     "timerCard": {
       "title": "DO YOU NEED MORE TIME?"

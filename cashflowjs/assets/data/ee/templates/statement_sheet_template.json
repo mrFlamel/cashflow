@@ -489,7 +489,7 @@
             "bold": "false",
             "align": "left",
             "vAlign": "top",
-            "text": "Income"
+            "text": "Tulud"
         },
         "totalIncomeHeaderTitle": {
             "font": "GrantAvenue",
@@ -987,7 +987,7 @@
             "bold": "false",
             "align": "left",
             "vAlign": "top",
-            "text": "Income"
+            "text": "Tulud"
         },
         "totalIncomeHeaderTitle_fasttrack": {
             "font": "GrantAvenue",

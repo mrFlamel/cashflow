@@ -27,7 +27,9 @@ const translations = {
     "name": "Name",
     "money_format": ".\n", // Meant for these languages that don't like "$10" but "10€"
     "currency": "", // Same thing here
-    "total-expenses": "Total Expenses: $"
+    "total-expenses": "Total Expenses: $",
+    "yes": "YES",
+    "no": "NO"
   },
   "ee": {
     "title": "Mängi mängu CASHFLOW® Classic siin.",
@@ -47,7 +49,9 @@ const translations = {
     "name": "Nimi",
     "money_format": "€.\n",
     "currency": "€",
-    "total-expenses": "Kulutused kokku: "
+    "total-expenses": "Kulutused kokku: ",
+    "yes": "JAH",
+    "no": "EI"
   },
 };
 
@@ -11706,13 +11710,13 @@ var HeaderWidget = (function () {
             m_this.tintSprite(exitBG, myColor);
 
 
-            exitButton1 = makeButton(1, "YES");
+            exitButton1 = makeButton(1, translations[language]["yes"]);
             // exitButton1.color =Colors.getPlayerColor(Main.gameSession.playerData.index)
             exitButton1.on("click", function () {
 
                 Main.logic.exitGame();
             })
-            var exitButton2 = makeButton(2, "NO");
+            var exitButton2 = makeButton(2, translations[language]["no"]);
             // exitButton2.color = Colors.getPlayerColor(Main.gameSession.playerData.index)
             exitButton2.on("click", function () {
                 //TODO: Play tween

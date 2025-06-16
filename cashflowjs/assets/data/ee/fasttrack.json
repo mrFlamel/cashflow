@@ -14,16 +14,16 @@
       },
       {
         "id": 22,
-        "title": "7 WONDERS OF THE WORLD",
-        "copy1": "Go by plane, boat, bicycle, camel, canoe & limo to the 7 Wonders of the World. First class luxury all the way!",
+        "title": "7 MAAILMAIME",
+        "copy1": "Külasta lennuki, paadi, jalgratta, kaameli, kanuu ja limusiiniga 7 maailmaimet. Kogu tee 1. klassi luksuses!",
         "type": "dream",
         "icon": "7_wonders_of_the_world",
         "cost": 200000
       },
       {
         "id": 20,
-        "title": "RESEARCH CENTER FOR CANCER AND AIDS",
-        "copy1": "Your money brings together top researchers & doctors in one place, dedicated to eliminating these two diseases.",
+        "title": "VÄHI JA AIDSI UURIMISKESKUS",
+        "copy1": "Sinu raha koondab tippteadlased ja arstid ühte kohta, kes pühenduvad nende kahe haiguse kõrvaldamisele.",
         "type": "dream",
         "icon": "research_center_for_cancer_and_aids",
         "cost": 225000
@@ -40,8 +40,8 @@
       },
       {
         "id": 18,
-        "title": "DINNER WITH THE PRESIDENT",
-        "copy1": "Buy a table for 10 friends to dine with the President at a gala ball for visiting dignitaries from around the world.",
+        "title": "ÕHTUSÖÖK PRESIDENDIGA",
+        "copy1": "Broneerige laud 10-le sõbrale, et õhtustada koos presidendiga pidulikul ballil, mis on mõeldud külalistele kogu maailmast.",
         "type": "dream",
         "icon": "dinner_with_the_president",
         "cost": 100000
@@ -58,8 +58,8 @@
       },
       {
         "id": 16,
-        "title": "HELI-SKI THE SWISS ALPS",
-        "copy1": "A winter of helicopter skiing by day and playing at the glamorous hot spots at night. A medieval castle is your accommodation.",
+        "title": "MÄEST ÜLES HELIKOPTERIGA, ALLA SUUSKADEGA. ŠVEITSI ALPIDES.",
+        "copy1": "Talvine päev suusatades ja öösel mängides glamuursetes paikades. Sinu majutuskoht on keskaegne loss.",
         "type": "dream",
         "icon": "heli_ski_the_swiss_alps",
         "cost": 150000
@@ -75,8 +75,8 @@
       },
       {
         "id": 14,
-        "title": "GIFT OF FAITH",
-        "copy1": "Your religious organization is growing by leaps and bounds. New buildings are needed.",
+        "title": "USU VÄGI",
+        "copy1": "Sinu kogudus kasvab hüppeliselt. Juba uusi hooneid vaja.",
         "type": "dream",
         "icon": "gift_of_faith",
         "cost": 175000
@@ -93,8 +93,8 @@
       },
       {
         "id": 12,
-        "title": "RUN FOR MAYOR",
-        "copy1": "Your financial expertise spurs masses of people to beg you to lead the city. You run and, of course, win. This is the start of your Presidential race.",
+        "title": "HAKKA PRESIDENDIKS",
+        "copy1": "Sinu finantsteadmised õhutavad paljusid inimesi paluma sind riiki juhtima. Sa kandideerid ja loomulikult võidad. See on sinu presidentuuri algus.",
         "type": "dream",
         "icon": "run_for_mayor",
         "cost": 125000
@@ -111,16 +111,16 @@
       },
       {
         "id": 10,
-        "title": "PARK NAMED AFTER YOU",
-        "copy1": "Tear down abandoned warehouse and build a new recreational park. Donate police sub-station for park safety.",
+        "title": "SINU NIMELINE PARK",
+        "copy1": "Lammutad mahajäetud lao ja rajad uue pargi. Annetad pargi ohutuse tagamiseks politseile läheduses hoone.",
         "type": "dream",
         "icon": "park_named_after_you",
         "cost": 225000
       },
       {
         "id": 8,
-        "title": "PRIVATE FISHING CABIN ON A MONTANA LAKE",
-        "copy1": "Fish from the dock of this remote cabin. Enjoy 6 months of solitude. Use of float plane included.",
+        "title": "PRIVAATNE MAJAKE KALAPÜÜGIKS MONTANA JÄRVE ÄÄRES",
+        "copy1": "Kalasta selle eraldatud kajuti paadisillalt. Naudi 6 kuud üksindust. Lisaks saad ujuvlennukit kasutada.",
         "type": "dream",
         "icon": "private_fishing_cabin_on_a_montana_lake",
         "cost": 100000

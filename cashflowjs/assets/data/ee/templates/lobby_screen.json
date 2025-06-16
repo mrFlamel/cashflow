@@ -100,7 +100,7 @@
             "wordWrap": "false",
             "bold": "false",
             "align": "center",
-            "text": "Select a Game"
+            "text": "Vali mäng"
         },
         "refreshText": {
             "font": "Helvetica",
@@ -130,7 +130,7 @@
             "wordWrap": "false",
             "bold": "false",
             "align": "center",
-            "text": "Select a Game"
+            "text": "Vali mäng"
         }
     }
 }

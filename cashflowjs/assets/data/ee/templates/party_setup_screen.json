@@ -410,7 +410,7 @@
             "bold": "false",
             "align": "left",
             "vAlign": "top",
-            "text": "Name:"
+            "text": "Nimi: "
         },
         "gameNameInputText": {
             "font": "Helvetica",
@@ -442,7 +442,7 @@
             "bold": "false",
             "align": "left",
             "vAlign": "top",
-            "text": "Password:"
+            "text": "Parool: "
         },
         "__id0_": {
             "font": "Helvetica",
@@ -503,7 +503,7 @@
             "bold": "false",
             "align": "left",
             "vAlign": "top",
-            "text": "Name:"
+            "text": "Nimi: "
         },
         "gameNameInputText_localHost": {
             "font": "Helvetica",
@@ -535,7 +535,7 @@
             "bold": "false",
             "align": "left",
             "vAlign": "top",
-            "text": "Password:"
+            "text": "Parool: "
         },
         "__id0__localHost": {
             "font": "Helvetica",
@@ -581,7 +581,7 @@
             "bold": "false",
             "align": "left",
             "vAlign": "top",
-            "text": "Name:"
+            "text": "Nimi: "
         },
         "gameNameInputText_onlinePartyLobby": {
             "font": "Helvetica",
@@ -613,7 +613,7 @@
             "bold": "false",
             "align": "left",
             "vAlign": "top",
-            "text": "Password:"
+            "text": "Parool: "
         },
         "__id0__onlinePartyLobby": {
             "font": "Helvetica",
@@ -659,7 +659,7 @@
             "bold": "false",
             "align": "left",
             "vAlign": "top",
-            "text": "Name:"
+            "text": "Nimi: "
         },
         "gameNameInputText_onlinePartySetup": {
             "font": "Helvetica",
@@ -691,7 +691,7 @@
             "bold": "false",
             "align": "left",
             "vAlign": "top",
-            "text": "Password:"
+            "text": "Parool: "
         }
     }
 }
