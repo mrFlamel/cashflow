@@ -2,7 +2,7 @@
 //Retrieve language
 const urlParams = new URLSearchParams(window.location.search);
 var language = urlParams.get('lang');
-const supported_lang = ["en", "ee"]
+const supported_lang = ["en", "et"]
 if (!supported_lang.includes(language)){
     language = "en";
 }
@@ -12,7 +12,7 @@ const translations = {
   "en": {
     "title": "Play CASHFLOW® Classic Here.",
     "loading": "Loading...",
-    "version": "Version: ",
+    "version": "Version",
     "click-anywhere-to-continue": "Click Anywhere to Continue",
     "create-new-room": "Create New Room",
     "room": "Room",
@@ -27,14 +27,18 @@ const translations = {
     "name": "Name",
     "money_format": ".\n", // Meant for these languages that don't like "$10" but "10€"
     "currency": "", // Same thing here
+    "currency2": "$",
+    "currency2-": "$-",
     "total-expenses": "Total Expenses: $",
     "yes": "YES",
-    "no": "NO"
+    "no": "NO",
+    "passiveIncome": "Passive Income: $",
+    "numSeparator": ","
   },
-  "ee": {
+  "et": {
     "title": "Mängi mängu CASHFLOW® Classic siin.",
     "loading": "Laadin...",
-    "version": "Versioon: ",
+    "version": "Versioon",
     "click-anywhere-to-continue": "Alustamiseks vajuta pildile",
     "create-new-room": "Loo uus mängutuba",
     "room": "Mängutuba",
@@ -49,9 +53,13 @@ const translations = {
     "name": "Nimi",
     "money_format": "€.\n",
     "currency": "€",
+    "currency2": "",
+    "currency2-": "-",
     "total-expenses": "Kulutused kokku: ",
     "yes": "JAH",
-    "no": "EI"
+    "no": "EI",
+    "passiveIncome": "Passiivne tulu: ",
+    "numSeparator": " "
   },
 };
 
@@ -1055,7 +1063,7 @@ var ListItem = (function() {
 		function text(left, right, isMoney) {
 			m_this.leftText = left;
 			m_this.rightText = isMoney
-				? "$" + right.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+				? translations[language]["currency2"] + right.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + translations[language]["currency"]
 				: right;
 			return this;
 		}
@@ -2442,7 +2450,7 @@ var StatementElement = (function () {
 			var cashflowText = formatAndAttachText("cashflowText_fasttrack");
 			var cash = (function () {
 				var text = formatAndAttachText("fasttrackCash_fasttrack");
-				text.text = m_vocabWidget.cash + MathHelper.formatNumber(m_playerData.cash);
+				text.text = m_vocabWidget.cash + MathHelper.formatNumber(m_playerData.cash) + translations[language]["currency"];
 				return text;
 			})();
 
@@ -2648,7 +2656,7 @@ var StatementElement = (function () {
 
 			var passiveIncomeBarText = formatAndAttachText("passiveIncomeBar");
 			passiveIncomeBarText.text =
-				"Passive Income: $" + m_playerData.passiveIncome.toString();
+				translations[language]["passiveIncome"] + m_playerData.passiveIncome.toString() + translations[language]["currency"];
 
 			var cashText = formatAndAttachText("cashHeaderTitle");
 			var cashAmountText = formatAndAttachText("cashAmount");
@@ -2664,10 +2672,10 @@ var StatementElement = (function () {
 			var liabilitiesHeaderText = formatAndAttachText("liabilitiesHeaderTitle");
 			var totalExpensesBarText = formatAndAttachText("totalExpensesBar");
 
-			cashAmountText.text = "$" + MathHelper.formatNumber(m_playerData.cash);
-			paydayAmountText.text = "$" + MathHelper.formatNumber(m_playerData.payday);
-			incomeAmountText.text = "$" + MathHelper.formatNumber(m_playerData.totalIncome);
-			expensesAmountText.text = "$-" + MathHelper.formatNumber(m_playerData.totalExpenses);
+			cashAmountText.text = translations[language]["currency2"] + MathHelper.formatNumber(m_playerData.cash) + translations[language]["currency"];
+			paydayAmountText.text = translations[language]["currency2"] + MathHelper.formatNumber(m_playerData.payday) + translations[language]["currency"];
+			incomeAmountText.text = translations[language]["currency2"] + MathHelper.formatNumber(m_playerData.totalIncome) + translations[language]["currency"];
+			expensesAmountText.text = translations[language]["currency2-"] + MathHelper.formatNumber(m_playerData.totalExpenses) + translations[language]["currency"];
 			totalExpensesBarText.text =
 				translations[language]["total-expenses"] + MathHelper.formatNumber(m_playerData.totalExpenses) + translations[language]["currency"];
 
@@ -2715,8 +2723,8 @@ var StatementElement = (function () {
 					type: m_item,
 					properties: {
 						type: ListItem.DEFAULT,
-						leftText: m_playerData.careerTitle + m_vocab.salary,
-						rightText: m_playerData.salary, //m_playerData.income.salary, //TODO: convert
+						leftText: m_playerData.careerGenitive + m_vocab.salary,
+						rightText: MathHelper.formatNumber(m_playerData.salary), //m_playerData.income.salary, //TODO: convert
 						isMoney: true,
 						tag: "salary"
 					}
@@ -7283,6 +7291,7 @@ function Career() {
 
     this.fromFirebase = function (o) {
         this.careerTitle = o.careerTitle;
+        this.careerGenitive = o.careerGenitive
         this.childPerExpense = o.childPerExpense;
         this.savings = o.savings;
         this.salary = o.salary;
@@ -7299,6 +7308,7 @@ function Career() {
 
     this.fromData = function (o) {
         this.careerTitle = o.careerTitle;
+        this.careerGenitive = o.careerGenitive
         this.childPerExpense = o.childPerExpense;
         this.savings = o.savings;
         this.salary = o.salary;
@@ -7385,6 +7395,8 @@ function PlayerBlob() {
 
     /** @type {string} */
     this.careerTitle = null;
+    /** @type {string} */
+    this.careerGenitive = null;
     /** @type {Number} */
     this.childPerExpense = null;
     /** @type {Number} */
@@ -7470,7 +7482,11 @@ function CardQueueItem(cardData) {
 
 PlayerBlob.createFromCareerData = function (o) {
     var player = new PlayerBlob();
-
+    if (language == "en"){
+        player.careerGenitive = o.title;
+    } else {
+        player.careerGenitive = o.titleGenitive;
+    }
     player.careerTitle = o.title;
     player.childPerExpense = o.childPerExpense;
     player.savings = o.savings;
@@ -9148,7 +9164,7 @@ var GameLogic = (function () {
             if (Main.gameSession) {
                 Main.gameSession.release()
                 Main.gameSession = null;
-            }
+            };
         }
 
 
@@ -9441,7 +9457,7 @@ var GameSession = (function () {
                 // add the player's key to the playerOrder list
                 .then(function () {
                    return roomRef.child("chatlog").push({
-                        name: "Version",
+                        name: translations[language]["version"],
                         message: Main.versionNumber,
                     })
                 })
@@ -9646,12 +9662,12 @@ var GameSession = (function () {
 
                 m_this.localPlayerRef.on("value", function (snap) {
                     m_this.playerData.fromFirebaseBlob(snap.val());
-                    if (m_this.playerData.isActive == false) {
+                    /*if (m_this.playerData.isActive == false) {
                         console.log("local player isActive lost");
                         m_this.localPlayerRef.off("value");
                         Main.logic.exitGame();
                         return;
-                    }
+                    }*/
                     console.log("onlocalplayer updated");
                     setTimeout(function () {
                         m_this.marco("onPlayerDataUpdated", m_this.playerData);
@@ -12125,6 +12141,11 @@ var PlayerData = (function () {
                 get: function () { return m_playerBlob.careerTitle; }
             },
 
+            careerGenitive: {
+                get: function () { return m_playerBlob.careerGenitive}
+
+            },
+
             cashflowRatio: { get: function () { return m_playerBlob.cashflowRatio; } },
 
             totalIncome: { get: function () { return m_playerBlob.salary + calcPassiveIncome(); } }
@@ -13667,7 +13688,7 @@ var TitleScreen = (function () {
             })
 
             var versionNumber = (function () {
-                var text = new createjs.Text(translations[language]["version"] + Main.versionNumber.toString(), "17px Helvetica", Colors.WHITE);
+                var text = new createjs.Text(translations[language]["version"] + ": " + Main.versionNumber.toString(), "17px Helvetica", Colors.WHITE);
                 // text.textAlign = "right";
                 // text.x = this.stageWidth - 12;
                 // text.y = this.stageHeight - 700 - text.getMeasuredLineHeight();
@@ -14308,7 +14329,7 @@ var MathHelper = (function () { //jshint ignore:line
         {
             s += snum.charAt(i);
             if( (digits - i) % 3 == 1 && i != (digits - 1))
-                s += ",";
+                s += translations[language]["numSeparator"];
         }
         return s;
     }

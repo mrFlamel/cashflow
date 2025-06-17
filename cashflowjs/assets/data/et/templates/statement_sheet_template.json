@@ -185,7 +185,7 @@
             "bold": "false",
             "align": "right",
             "vAlign": "top",
-            "text": "Cash:"
+            "text": "Raha:"
         },
         "totalExpensesAmount": {
             "font": "GrantAvenue",
@@ -281,7 +281,7 @@
             "bold": "false",
             "align": "left",
             "vAlign": "top",
-            "text": "Total Expenses"
+            "text": "Kulud kokku"
         },
         "toWin": {
             "font": "Helvetica Light",
@@ -361,7 +361,7 @@
             "bold": "false",
             "align": "left",
             "vAlign": "top",
-            "text": "Cash:"
+            "text": "Raha:"
         },
         "modeHeaderTitle": {
             "font": "Helvetica Light",
@@ -425,7 +425,7 @@
             "bold": "false",
             "align": "left",
             "vAlign": "top",
-            "text": "Total Expenses:"
+            "text": "Kulud kokku:"
         },
         "liabilitiesHeaderTitle": {
             "font": "GrantAvenue",
@@ -441,7 +441,7 @@
             "bold": "false",
             "align": "left",
             "vAlign": "top",
-            "text": "Liabilities"
+            "text": "Kohustused"
         },
         "assetHeaderTitle": {
             "font": "GrantAvenue",
@@ -457,7 +457,7 @@
             "bold": "false",
             "align": "left",
             "vAlign": "top",
-            "text": "Assets"
+            "text": "Varad"
         },
         "expensesHeaderTitle": {
             "font": "GrantAvenue",
@@ -473,7 +473,7 @@
             "bold": "false",
             "align": "left",
             "vAlign": "top",
-            "text": "Expenses"
+            "text": "Kulud"
         },
         "incomeHeaderTitle": {
             "font": "GrantAvenue",
@@ -505,7 +505,7 @@
             "bold": "false",
             "align": "left",
             "vAlign": "top",
-            "text": "Total Income:"
+            "text": "Tulud kokku:"
         },
         "passiveIncomeHeaderTitle": {
             "font": "GrantAvenue",
@@ -537,7 +537,7 @@
             "bold": "false",
             "align": "right",
             "vAlign": "top",
-            "text": "Cash: 99999"
+            "text": "Raha: 99999"
         },
         "cashflowHeaderTitle": {
             "font": "GrantAvenue",
@@ -699,7 +699,7 @@
             "bold": "false",
             "align": "right",
             "vAlign": "top",
-            "text": "Cash:"
+            "text": "Raha:"
         },
         "totalExpensesAmount_fasttrack": {
             "font": "GrantAvenue",
@@ -795,7 +795,7 @@
             "bold": "false",
             "align": "left",
             "vAlign": "top",
-            "text": "Total Expenses"
+            "text": "Kulud kokku"
         },
         "toWin_fasttrack": {
             "font": "Helvetica Light",
@@ -875,7 +875,7 @@
             "bold": "false",
             "align": "right",
             "vAlign": "top",
-            "text": "Cash: 99999"
+            "text": "Raha: 99999"
         },
         "repayButtonText_fasttrack": {
             "font": "Helvetica",
@@ -923,7 +923,7 @@
             "bold": "false",
             "align": "left",
             "vAlign": "top",
-            "text": "Total Expenses"
+            "text": "Kulud kokku"
         },
         "liabilitiesHeaderTitle_fasttrack": {
             "font": "GrantAvenue",
@@ -939,7 +939,7 @@
             "bold": "false",
             "align": "left",
             "vAlign": "top",
-            "text": "Liabilities"
+            "text": "Kohustused"
         },
         "assetHeaderTitle_fasttrack": {
             "font": "GrantAvenue",
@@ -955,7 +955,7 @@
             "bold": "false",
             "align": "left",
             "vAlign": "top",
-            "text": "Assets"
+            "text": "Varad"
         },
         "expensesHeaderTitle_fasttrack": {
             "font": "GrantAvenue",
@@ -971,7 +971,7 @@
             "bold": "false",
             "align": "left",
             "vAlign": "top",
-            "text": "Expenses"
+            "text": "Kulud"
         },
         "incomeHeaderTitle_fasttrack": {
             "font": "GrantAvenue",
@@ -1035,7 +1035,7 @@
             "bold": "false",
             "align": "left",
             "vAlign": "top",
-            "text": "Cash:"
+            "text": "Raha:"
         },
         "passiveIncomeBar_fasttrack": {
             "font": "GrantAvenue",
