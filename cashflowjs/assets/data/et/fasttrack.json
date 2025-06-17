@@ -137,8 +137,8 @@
       },
       {
         "id": 6,
-        "title": "CANNES FILM FESTIVAL",
-        "copy1": "Party with the stars! Tour France, plus one week in Cannes rubbing elbows with celebrities. You even land a starring role!",
+        "title": "CANNES'I FILMIFESTIVAL",
+        "copy1": "Pidu staaridega! Ringreis Prantsusmaale ja nädal Cannes'is kuulsustega koos olles. Lisaks saad isegi peaosa!",
         "type": "dream",
         "icon": "cannes_film_festival",
         "cost": 125000
@@ -171,8 +171,8 @@
       },
       {
         "id": 0,
-        "title": "STOCK MARKET FOR KIDS",
-        "copy1": "Fund a business and investment school for young capitalists, teaching them the basics of business. School includes a mini stock exchange run by the students.",
+        "title": "LASTE AKTSIATURG",
+        "copy1": "Rahastada noortele kapitalistidele mõeldud äri- ja investeerimiskooli, kus õpetatakse neile äri põhitõdesid. Koolis on ka õpilastele mõeldud minibörs.",
         "type": "dream",
         "icon": "stock_market_for_kids",
         "cost": 125000
@@ -189,8 +189,8 @@
       },
       {
         "id": 46,
-        "title": "ANCIENT ASIAN CITIES",
-        "copy1": "A private plane and guide take you and 5 friends to the most remote spots of Asia... where no tourists have gone before.",
+        "title": "IIDSED AASIA LINNAD",
+        "copy1": "Eralennuk ja giid viivad sind ja sinu 5 sõpra Aasia kõige kaugematesse paikadesse... kuhu ükski turist pole varem sattunud.",
         "type": "dream",
         "icon": "ancient_asian_cities",
         "cost": 150000
@@ -223,8 +223,8 @@
       },
       {
         "id": 42,
-        "title": "BUY A FOREST",
-        "copy1": "Stop the loss of ancient trees. Donate 1,000 acres of forest and create a nature walk for all to enjoy.",
+        "title": "METSA OSTMINE",
+        "copy1": "Peatad iidsete puude langetamise. Annetad 1000 aakrit metsa ja lood kõigile nauditava loodusraja.",
         "type": "dream",
         "icon": "buy_a_forest",
         "cost": 250000

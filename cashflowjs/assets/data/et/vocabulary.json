@@ -32,7 +32,7 @@
       "copy": "$"
     },
     "roll": {
-      "copy": "ROLL"
+      "copy": "VEERETA"
     },
     "requestTime": {
       "copy": "'s has requested more time."
@@ -50,7 +50,7 @@
       "copy": "x"
     },
     "amount": {
-      "copy": "Amount: $"
+      "copy": "Kogus (€): "
     },
     "player": {
       "copy": "Player "
@@ -62,7 +62,7 @@
       "copy": " Purchased a deal for $"
     },
     "buy": {
-      "copy": "BUY"
+      "copy": "OSTA"
     },
     "empty": {
       "copy": "--empty--"
@@ -77,7 +77,7 @@
       "copy": "SELL"
     },
     "pass": {
-      "copy": "PASS"
+      "copy": "JÄTKA"
     },
     "borrow": {
       "copy": "BORROW"
@@ -89,7 +89,7 @@
       "copy": "+"
     },
     "cancel": {
-      "copy": "CANCEL"
+      "copy": "TÜHISTA"
     },
     "quit": {
       "copy": "QUIT"
@@ -98,7 +98,7 @@
       "copy": "VESTLUSKAST"
     },
     "pay": {
-      "copy": "PAY"
+      "copy": "MAKSA"
     },
     "done": {
       "copy": "DONE"
@@ -122,7 +122,7 @@
       "copy": "BACK"
     },
     "cost": {
-      "copy": "Cost: $"
+      "copy": "Hind: "
     },
     "boatLaon": {
       "copy": " took a boat loan for $17,000."
@@ -134,10 +134,10 @@
       "copy": "Sell amount: $"
     },
     "cashflow": {
-      "copy": "Cash flow: $"
+      "copy": "Rahavoog: "
     },
     "downpay": {
-      "copy": "Down pay: $"
+      "copy": "Sissemakse: "
     },
     "return": {
       "copy": "Possible return: $"
@@ -146,7 +146,7 @@
       "copy": "Trade range:"
     },
     "shares": {
-      "copy": "Shares owned:"
+      "copy": "Omatud aktsiate arv:"
     },
     "loanamount": {
       "copy": "Loan amount: $"
@@ -203,9 +203,9 @@
       "copy3": "Child Expenses will be increased by $"
     },
     "downsizeCard": {
-      "title1": "DOWNSIZED!",
-      "copy1": "Pay $",
-      "copy2": "Pay a full set of your expenses and lose two turns and charity."
+      "title1": "VALLANDATUD!",
+      "copy1": "Maksa ",
+      "copy2": "Maksa ühe korra kõik oma kulud ja kaotad kaks käiku ning panuse heategevusse."
     },
     "doodadCard": {
       "copy1": "Pay $",
@@ -245,8 +245,8 @@
       "copy2": "For:"
     },
     "loanCard": {
-      "title": "TAKE OUT A LOAN",
-      "copy1": "Not enough funds.",
+      "title": "LAENA RAHA",
+      "copy1": "Pole piisavalt vahendeid.",
       "copy2": "Take a loan of $",
       "copy3": " with a Monthly Payment of $"
     },
@@ -269,7 +269,7 @@
       "button": "LÕPETA"
     },
     "payoffLoanCard": {
-      "title": "PAY OFF LOAN",
+      "title": "MAKSA LAEN TAGASI",
       "copy1": "Select a liability on your statement sheet to repay your debt.",
       "copy2": "Input an amount to repay your Loan.",
       "copy3": "Payments must be in multiples of $1,000",
@@ -279,8 +279,8 @@
       "copy7": "You do not have enough cash to pay off this loan."
     },
     "borrowCard": {
-      "title": "TAKE OUT A LOAN",
-      "copy1": "Loans must be in multiples of $1,000 at 10% interest per month."
+      "title": "LAENA RAHA",
+      "copy1": "Laen peab olema 1000€ kordne ning intressiga 10% kuus."
     },
     "bankruptCard": {
       "title": "YOU ARE BANKRUPT!",
@@ -294,7 +294,7 @@
       "title": "SELL AN ASSET"
     },
     "bankruptPayCard": {
-      "title": "PAY OFF LOAN",
+      "title": "MAKSA LAEN TAGASI",
       "copy1": "Input an amount to repay your Loan.",
       "copy2": "Payments must be in multiples of $1,000",
       "copy3": "Pay off your loan.",
@@ -450,7 +450,7 @@
       "copy": "A player has left your game."
     },
     "turn": {
-      "copy": "'s turn."
+      "copy": " käib."
     },
     "skipturndownsize": {
       "copy1": " 's turn has been skipped due to being downsized.",
@@ -554,15 +554,15 @@
       "open": "Open"
     },
     "startTurnCard": {
-      "copy1": "Before you start your turn, review your financial statement. You may also use this time to repay liabilities or borrow money.",
-      "copy2": "When you are ready, roll the die and take your turn.",
-      "copy3": "When you are ready, roll 1, 2 or 3 die and take your turn.",
-      "copy35": "You are able to roll multiple die because you paid for charity.",
-      "copy4": "When you are ready, roll 1 or 2 die and take your turn.",
-      "copy45": "You are able to roll multiple die because you paid for charity.",
+      "copy1": "Enne oma käigu alustamist vaata üle oma finantsaruande. Seda aega võid kasutada ka kohustuste tagasimaksmiseks või raha laenamiseks.",
+      "copy2": "Kui sa oled valmis, veereta täringut ja tee oma käik.",
+      "copy3": "Kui sa oled valmis, veereta 1, 2 või 3 täringut ja tee oma käik.",
+      "copy35": "Sa võid veeretada mitut täringut, sest sa tegid annetuse heategevuseks.",
+      "copy4": "Kui sa oled valmis, veereta 1 või 2 täringut ja tee oma käik.",
+      "copy45": "Sa võid veeretada mitut täringut, sest sa tegid annetuse heategevuseks.",
       "copy5": "DICE",
-      "copy6": "ROLL",
-      "copy7": "Before you start your turn, you may review your financial statement."
+      "copy6": "VEERETA",
+      "copy7": "Enne oma käigu alustamist võid üle vaadata oma finantsaruande."
     },
     "startGameCard": {
       "title": ", VALI OMA UNISTUS",

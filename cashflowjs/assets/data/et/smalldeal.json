@@ -82,7 +82,7 @@
       },
       {
         "cost": -2,
-        "copy1": "Firma jookseb rappa! Suured kahjud räpase narkoskandaali tõttu. Kõik aktsionärid kaotavad 1/2 oma aktsiatest.",
+        "copy1": "Firma jookseb rappa! Suured kahjud räpase narkoskandaali tõttu. Kahjude korvamiseks vähendatakse aktsiate arvu poole võrra. (Kõik aktsionärid kaotavad 1/2 oma aktsiatest.)",
         "title": "AKTSIA - OK4U DRUG CO.",
         "traderange": 0,
         "key": "OK4U",
@@ -93,123 +93,123 @@
       },
       {
         "cost": -1,
-        "copy1": "Business is up dramatically and the company is doing so well their shares have just split!",
+        "copy1": "Ettevõttel läheb nii hästi, et nende aktsiad just tükeldati väiksemateks osadeks!",
         "title": "AKTSIA - MYT4U ELECTRONICS CO.",
         "traderange": 0,
         "key": "MYT4U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Everyone who owns MYT4U shares doubles the number of shares they own. (Pay no money, your total cost does not change.) No dividends. No one may buy or sell at this time.",
+        "rule": "Kõik, kes omavad MYT4U aktsiaid, saavad kahekordistada neile kuuluvate aktsiate arvu. (Ei maksa raha, koguväärtus ei muutu.) Dividende pole. Praegu ei tohi keegi osta ega müüa.",
         "queue": "true"
       },
       {
         "cost": -2,
-        "copy1": "Company reorganizes! Massive losses due to over-expansion and recession. Stockholders lose 1/2 of their ownership rights.",
+        "copy1": "Ettevõtte korraldab äri ümber! Suured kahjud liiga kiire kasvamise ja majanduslanguse tõttu. Kahjude korvamiseks vähendatakse aktsiate arvu poole võrra. (Kõik aktsionärid kaotavad 1/2 oma aktsiatest.)",
         "title": "AKTSIA - MYT4U ELECTRONICS CO.",
         "traderange": 0,
         "key": "MYT4U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Everyone who owns MYT4U shares cuts shares owned to 1/2 previous value. (Pay no money, your total cost does not change.) No dividends. No one may buy or sell at this time.",
+        "rule": "Kõik, kes omavad MYT4U aktsiaid, vähendavad nende aktsiate arvu 1/2 võrra. (Ei maksa raha, koguväärtus ei muutu.) Dividende pole. Praegu ei tohi keegi osta ega müüa.",
         "queue": "true"
       },
       {
         "cost": 20,
-        "copy1": "Recent merger strengthened market share of the leading company with good outlook.",
+        "copy1": "Hiljutine ühinemine tugevdas suurima ettevõtte turuosa ja andis head väljavaated.",
         "title": "AKTSIA - ON2U ENTERTAINMENT CO.",
         "traderange": "Kauplemisvahemik: $10 to $40",
         "key": "ON2U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
         "cost": 5,
-        "copy1": "Movie buyer fired after third mega-flop! Shares sink. Chairman's bonus canceled.",
+        "copy1": "Filmide valija vallandati pärast kolmandat ebaõnnestumist! Aktsiad langevad. Tegevjuhi boonus tühistati.",
         "title": "AKTSIA - ON2U ENTERTAINMENT CO.",
         "traderange": "Kauplemisvahemik: $10 to $30",
         "key": "ON2U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
         "cost": 40,
-        "copy1": "Box office hit by children's division causes record share price.",
+        "copy1": "Lastefilmide osakonna filmi müügirekord põhjustas rekordilise aktsiahinna.",
         "title": "AKTSIA - ON2U ENTERTAINMENT CO.",
         "traderange": "Kauplemisvahemik: $10 to $30",
         "key": "ON2U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
         "cost": 10,
-        "copy1": "Newest theme park loses record amount. Share price hits all-time low.",
+        "copy1": "Uusim teemapark kaotab rekordilise summa. Aktsiahind langeb kõigi aegade madalaimale tasemele.",
         "title": "AKTSIA - ON2U ENTERTAINMENT CO.",
         "traderange": "Kauplemisvahemik: $10 to $30",
         "key": "ON2U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
         "cost": 20,
-        "copy1": "New director or movie acquisitions brings revived prospects for share price.",
+        "copy1": "Uute režissööride ja filmide omandamine elavdab aktsiahinna väljavaateid.",
         "title": "AKTSIA - ON2U ENTERTAINMENT CO.",
         "traderange": "Kauplemisvahemik: $10 to $30",
         "key": "ON2U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
         "cost": 30,
-        "copy1": "Strong demand for company's library of old movies on video leads to good share price.",
+        "copy1": "Ettevõtte vanade videofilmide suur nõudlus tõi kaasa hea aktsiahinna.",
         "title": "AKTSIA - ON2U ENTERTAINMENT CO.",
         "traderange": "Kauplemisvahemik: $10 to $30",
         "key": "ON2U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
         "cost": 10,
-        "copy1": "Box office flop by musical extravaganza in core division causes poor share price.",
+        "copy1": "Muusikalise ekstravagantsuse osakonna müügi läbikukkumine põhjustas madala aktsiahinna.",
         "title": "AKTSIA - ON2U ENTERTAINMENT CO.",
         "traderange": "Kauplemisvahemik: $10 to $30",
         "key": "ON2U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
         "cost": 30,
-        "copy1": "Box office smash hit in adult division causes strong share price.",
+        "copy1": "Täiskasvanute osakonna piletikassade hüppeline müük tõi kaasa tugeva aktsiahinna.",
         "title": "AKTSIA - ON2U ENTERTAINMENT CO.",
         "traderange": "Kauplemisvahemik: $10 to $30",
         "key": "ON2U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
         "cost": 50,
-        "copy1": "Booming market raises share price of this long time maker of medicines.",
+        "copy1": "Kasvav turg tõstab selle kauaaegse ravimitootja aktsiahinda.",
         "title": "AKTSIA - OK4U DRUG CO.",
         "traderange": "Kauplemisvahemik: $5 to $40",
         "key": "OK4U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
@@ -220,7 +220,7 @@
         "key": "OK4U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
@@ -231,7 +231,7 @@
         "key": "OK4U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
@@ -242,7 +242,7 @@
         "key": "OK4U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
@@ -253,7 +253,7 @@
         "key": "OK4U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
@@ -264,7 +264,7 @@
         "key": "OK4U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
@@ -275,7 +275,7 @@
         "key": "OK4U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
@@ -286,7 +286,7 @@
         "key": "OK4U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
@@ -297,7 +297,7 @@
         "key": "MYT4U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
@@ -308,7 +308,7 @@
         "key": "MYT4U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
@@ -319,7 +319,7 @@
         "key": "MYT4U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
@@ -330,7 +330,7 @@
         "key": "MYT4U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
@@ -341,7 +341,7 @@
         "key": "MYT4U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
@@ -352,7 +352,7 @@
         "key": "MYT4U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
@@ -363,7 +363,7 @@
         "key": "MYT4U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
@@ -374,7 +374,7 @@
         "key": "MYT4U",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
@@ -385,7 +385,7 @@
         "key": "GRO4US",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
@@ -396,7 +396,7 @@
         "key": "GRO4US",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
@@ -407,7 +407,7 @@
         "key": "GRO4US",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
@@ -418,7 +418,7 @@
         "key": "GRO4US",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {
@@ -429,7 +429,7 @@
         "key": "GRO4US",
         "type": "smalldeal_stock",
         "cashflow": 0,
-        "rule": "Only you may buy as many shares as you want at this price. Everyone may sell at this price.",
+        "rule": "Ainult sina võid osta selle hinnaga nii palju aktsiaid, kui soovid. Kõik võivad selle hinnaga müüa.",
         "queue": "true"
       },
       {

@@ -2847,7 +2847,7 @@ var StatementElement = (function () {
 										return m_vocab.loanpayment;
 								}
 							})(),
-							rightText: debt.expense,
+							rightText: MathHelper.formatNumber(debt.expense),
 							isMoney: true,
 							tag: debt.id
 						}
@@ -2874,7 +2874,7 @@ var StatementElement = (function () {
 										return m_vocab.loan;
 								}
 							})(),
-							rightText: debt.liability,
+							rightText: MathHelper.formatNumber(debt.liability),
 							isMoney: true,
 							tag: debt.id
 						}
@@ -4309,7 +4309,7 @@ var DownsizeCard = (function () {
             };
 
             config.cardInformation = {
-                text: Data.getVocab("downsizeCard", "copy1") + MathHelper.formatNumber(cardData.cost)
+                text: Data.getVocab("downsizeCard", "copy1") + MathHelper.formatNumber(cardData.cost) + translations[language]["currency"]
             };
 
             this.configure(config);
@@ -6040,11 +6040,11 @@ var PropertyBigDealCard = (function () {
             };
             config.cardInformation = {
                 text: Data.getVocab("cost", "copy") +
-                    MathHelper.formatNumber(cardData.cost) + "\n" +
+                    MathHelper.formatNumber(cardData.cost) + translations[language]["currency"] + "\n" +
                     Data.getVocab("cashflow", "copy") +
-                    MathHelper.formatNumber(cardData.cashflow) + "\n" +
+                    MathHelper.formatNumber(cardData.cashflow) + translations[language]["currency"] + "\n" +
                     Data.getVocab("downpay", "copy") +
-                    MathHelper.formatNumber(cardData.downpay)
+                    MathHelper.formatNumber(cardData.downpay) + translations[language]["currency"]
                 // color: "black"
             };
 
@@ -6110,11 +6110,11 @@ var PropertySmallDealCard = (function () {
             };
             config.cardInformation = {
                 text: Data.getVocab("cost", "copy") +
-                    MathHelper.formatNumber(cardData.cost) + "\n" +
+                    MathHelper.formatNumber(cardData.cost) + translations[language]["currency"] + "\n" +
                     Data.getVocab("cashflow", "copy") +
-                    MathHelper.formatNumber(cardData.cashflow) + "\n" +
+                    MathHelper.formatNumber(cardData.cashflow) + translations[language]["currency"] + "\n" +
                     Data.getVocab("downpay", "copy") +
-                    MathHelper.formatNumber(cardData.downpay)
+                    MathHelper.formatNumber(cardData.downpay) + translations[language]["currency"]
             };
 
             this.configure(config);
@@ -6600,8 +6600,8 @@ var StockBuyCard = (function () {
                 count = Main.gameSession.playerData.getStockAmount(cardData.key);
             }
             config.cardInformation = {
-                text: Data.getVocab("cost", "copy") + MathHelper.formatNumber(cardData.cost) + "\n" +
-                    Data.getVocab("cashflow", "copy") + MathHelper.formatNumber(cardData.cashflow) + "\n" +
+                text: Data.getVocab("cost", "copy") + MathHelper.formatNumber(cardData.cost) + translations[language]["currency"] + "\n" +
+                    Data.getVocab("cashflow", "copy") + MathHelper.formatNumber(cardData.cashflow) + translations[language]["currency"] + "\n" +
                     cardData.traderange + "\n" +
                     Data.getVocab("shares", "copy") + " " + MathHelper.formatNumber(count)
             };
@@ -6765,8 +6765,8 @@ var StockCard = (function () {
                 text: cardData.copy1
             };
             config.cardInformation = {
-                text: Data.getVocab("cost", "copy") + MathHelper.formatNumber(cardData.cost) + "\n" +
-                    Data.getVocab("cashflow", "copy") + MathHelper.formatNumber(cardData.cashflow) + "\n" +
+                text: Data.getVocab("cost", "copy") + MathHelper.formatNumber(cardData.cost) + translations[language]["currency"] + "\n" +
+                    Data.getVocab("cashflow", "copy") + MathHelper.formatNumber(cardData.cashflow) + translations[language]["currency"] + "\n" +
                     cardData.traderange + "\n" +
                     Data.getVocab("shares", "copy") + ' ' + MathHelper.formatNumber(count)
             };
@@ -6860,8 +6860,8 @@ var StockSellCard = (function () {
             Data.vocab().cost.copy
             config.cardInformation = {
                 text:
-                    Data.vocab().cost.copy + MathHelper.formatNumber(cardData.cost) + "\n" +
-                    Data.vocab().cashflow.copy + MathHelper.formatNumber(cardData.cashflow) + "\n" +
+                    Data.vocab().cost.copy + MathHelper.formatNumber(cardData.cost) + translations[language]["currency"] + "\n" +
+                    Data.vocab().cashflow.copy + MathHelper.formatNumber(cardData.cashflow) + translations[language]["currency"] + "\n" +
                     cardData.traderange + "\n" +
                     Data.vocab().shares.copy + " " + MathHelper.formatNumber(m_count)
             };
