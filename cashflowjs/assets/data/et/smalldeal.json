@@ -483,7 +483,7 @@
         "copy1": "Company bought transferred manager's 3/2 house. No current tenant. It has been on the market 6 months and it has just been reduced.",
         "title": "YOU FIND A GREAT DEAL!",
         "downpay": 2000,
-        "key": "3/2HOUSE",
+        "key": "3/2MAJA",
         "type": "smalldeal_property",
         "cashflow": 250,
         "mortgage": 43000,
@@ -494,7 +494,7 @@
         "copy1": "Older 3/2 house, repossessed by government agency. Ready to go with government financing and a tenant.",
         "title": "YOU FIND A GREAT DEAL!",
         "downpay": 2000,
-        "key": "3/2HOUSE",
+        "key": "3/2MAJA",
         "type": "smalldeal_property",
         "cashflow": 220,
         "mortgage": 33000,
@@ -502,113 +502,113 @@
       },
       {
         "cost": 40000,
-        "copy1": "Bank forclosure! 2/1 condo in desirable neighborhood close to jobs and stores. Make offer, favorable financing by bank.",
-        "title": "CONDO FOR SALE - 2BR/1BA",
+        "copy1": "Panga varade arestimine! 2/1 korter heas piirkonnas, töökohtade ja kaupluste läheduses. Saad teha pakkumise, soodne rahastus panga poolt.",
+        "title": "MÜÜA KORTER \n(2 magamistuba / 1 vannituba)",
         "downpay": 5000,
-        "key": "2/1CONDO",
+        "key": "2/1KORTER",
         "type": "smalldeal_property",
         "cashflow": 220,
         "mortgage": 35000,
-        "rule": "Use it for yourself or sell to another player. 53% ROI, may sell for $45,000 to $65,000."
+        "rule": "Kasuta seda ise või müü teisele mängijale. 53% ROI, võib minna müüki 45 000€ kuni 65 000€ eest."
       },
       {
         "cost": 55000,
-        "copy1": "Older 2/1 condo offered by young couple who want to move up to a 3/2 house due to growing family. Available soon.",
-        "title": "CONDO FOR SALE - 2BR/1BA",
+        "copy1": "Vanem 2/1 korter, mida pakub noorpaar, kes soovib pere kasvu tõttu kolida 3/2 majja. Korter varsti saadaval.",
+        "title": "MÜÜA KORTER \n(2 magamistuba / 1 vannituba)",
         "downpay": 5000,
-        "key": "2/1CONDO",
+        "key": "2/1KORTER",
         "type": "smalldeal_property",
         "cashflow": 160,
         "mortgage": 50000,
-        "rule": "Use it for yourself or sell to another player. 38% ROI, may sell for $45,000 to $65,000."
+        "rule": "Kasuta seda ise või müü teisele mängijale. 38% ROI, võib minna müüki 45 000€ kuni 65 000€ eest."
       },
       {
         "cost": 40000,
-        "copy1": "Parents selling 2/1 condo used by their child in college town. Lots of demand for rentals in this area.",
-        "title": "CONDO FOR SALE - 2BR/1BA",
+        "copy1": "Vanemad müüvad 2/1 korterit, mida kasutas nende laps ülikoolis käies. Selles piirkonnas on suur nõudlus üürikorterite järele.",
+        "title": "MÜÜA KORTER \n(2 magamistuba / 1 vannituba)",
         "downpay": 4000,
-        "key": "2/1CONDO",
+        "key": "2/1KORTER",
         "type": "smalldeal_property",
         "cashflow": 140,
         "mortgage": 36000,
-        "rule": "Use it for yourself or sell to another player. 42% ROI, may sell for $45,000 to $65,000."
+        "rule": "Kasuta seda ise või müü teisele mängijale. 42% ROI, võib minna müüki 45 000€ kuni 65 000€ eest."
       },
       {
         "cost": 50000,
-        "copy1": "Nice 2/1 condo available due to marriage of owner. Bad area. Needs work.",
-        "title": "CONDO FOR SALE - 2BR/1BA",
+        "copy1": "Omaniku abiellumise tõttu saadaval kena 2/1 korter. Halb piirkond. Korter vajab tööd.",
+        "title": "MÜÜA KORTER \n(2 magamistuba / 1 vannituba)",
         "downpay": 5000,
-        "key": "2/1CONDO",
+        "key": "2/1KORTER",
         "type": "smalldeal_property",
         "cashflow": 100,
         "mortgage": 45000,
-        "rule": "Use it for yourself or sell to another player. 24% ROI, may sell for $45,000 to $65,000."
+        "rule": "Kasuta seda ise või müü teisele mängijale. 24% ROI, võib minna müüki 45 000€ kuni 65 000€ eest."
       },
       {
         "cost": 60000,
-        "copy1": "Excellent 2/1 condo with many extras. For sale due to business success of owner. She's moving up, so can you.",
-        "title": "CONDO FOR SALE - 2BR/1BA",
+        "copy1": "Suurepärane 2/1 korter paljude lisadega. Müüa tänu omaniku äriedule. Tema liigub karjääri mõistes edasi, nagu sinagi saad.",
+        "title": "MÜÜA KORTER \n(2 magamistuba / 1 vannituba)",
         "downpay": 5000,
-        "key": "2/1CONDO",
+        "key": "2/1KORTER",
         "type": "smalldeal_property",
         "cashflow": -100,
         "mortgage": 55000,
-        "rule": "Use it for yourself or sell to another player. -24% ROI, may sell for $45,000 to $65,000."
+        "rule": "Kasuta seda ise või müü teisele mängijale. -24% ROI, võib minna müüki 45 000€ kuni 65 000€ eest."
       },
       {
         "cost": 50000,
-        "copy1": "Nice 3/2 house available in depressed market due to layoffs. Would make good investment poperty for right buyer.",
-        "title": "HOUSE FOR SALE - 3BR/2BA",
+        "copy1": "Kena 3/2 maja on majanduskriisis tehtud koondamiste tõttu saadaval. See on hea investeerimisvõimalus õigele ostjale.",
+        "title": "MÜÜA MAJA \n(3 magamistuba / 2 vannituba)",
         "downpay": 4000,
-        "key": "3/2HOUSE",
+        "key": "3/2MAJA",
         "type": "smalldeal_property",
         "cashflow": 200,
         "mortgage": 46000,
-        "rule": "Use it for yourself or sell to another player. 60% ROI, may sell for $65,000 to $135,000."
+        "rule": "Kasuta seda ise või müü teisele mängijale. 60% ROI, võib minna müüki 65 000€ kuni 135 000€ eest."
       },
       {
         "cost": 65000,
-        "copy1": "Nice 3/2 rental house suddenly available due to estate closing. Well maintained older property with existing tenant.",
-        "title": "HOUSE FOR SALE - 3BR/2BA",
+        "copy1": "Kena 3/2 üürimaja on ootamatult saadaval seoses kvartali omaniku pankrotiga. Vanem olemasoleva üürnikuga hästi hoitud kinnistu.",
+        "title": "MÜÜA MAJA \n(3 magamistuba / 2 vannituba)",
         "downpay": 5000,
-        "key": "3/2HOUSE",
+        "key": "3/2MAJA",
         "type": "smalldeal_property",
         "cashflow": 160,
         "mortgage": 60000,
-        "rule": "Use it for yourself or sell to another player. 38% ROI, may sell for $65,000 to $135,000."
+        "rule": "Kasuta seda ise või müü teisele mängijale. 38% ROI, võib minna müüki 65 000€ kuni 135 000€ eest."
       },
       {
         "cost": 50000,
         "copy1": "Low down payment to pick up this 3/2 house owner/seller unexpectedly moving out of town. Right person will do well.",
-        "title": "HOUSE FOR SALE - 3BR/2BA",
+        "title": "MÜÜA MAJA \n(3 magamistuba / 2 vannituba)",
         "downpay": 3000,
-        "key": "3/2HOUSE",
+        "key": "3/2MAJA",
         "type": "smalldeal_property",
         "cashflow": 100,
         "mortgage": 47000,
-        "rule": "Use it for yourself or sell to another player. 40% ROI, may sell for $65,000 to $135,000."
+        "rule": "Kasuta seda ise või müü teisele mängijale. 40% ROI, võib minna müüki 65 000€ kuni 135 000€ eest."
       },
       {
         "cost": 50000,
         "copy1": "Not lived in for 6 months, this bank-foreclosed house just reduced. Loan includes estimated repair costs.",
-        "title": "HOUSE FOR SALE - 3BR/2BA",
+        "title": "MÜÜA MAJA \n(3 magamistuba / 2 vannituba)",
         "downpay": 0,
-        "key": "3/2HOUSE",
+        "key": "3/2MAJA",
         "type": "smalldeal_property",
         "cashflow": 100,
         "mortgage": 50000,
-        "rule": "Use it for yourself or sell to another player. ???% ROI, may sell for $65,000 to $135,000."
+        "rule": "Kasuta seda ise või müü teisele mängijale. ???% ROI, võib minna müüki 65 000€ kuni 135 000€ eest."
       },
       {
         "cost": 50000,
         "copy1": "3/2 house in older area offered by Highway Department. Market has crashed. NO bids at last week's auction.",
-        "title": "HOUSE FOR SALE - 3BR/2BA",
+        "title": "MÜÜA MAJA \n(3 magamistuba / 2 vannituba)",
         "downpay": 0,
-        "key": "3/2HOUSE",
+        "key": "3/2MAJA",
         "type": "smalldeal_property",
         "cashflow": -100,
         "mortgage": 50000,
-        "rule": "Use it for yourself or sell to another player. ???% ROI, may sell for $65,000 to $135,000."
+        "rule": "Kasuta seda ise või müü teisele mängijale. ???% ROI, võib minna müüki 65 000€ kuni 135 000€ eest."
       }
     ]
   }
