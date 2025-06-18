@@ -74,13 +74,13 @@
       "copy": "EI"
     },
     "sell": {
-      "copy": "SELL"
+      "copy": "MÜÜ"
     },
     "pass": {
       "copy": "JÄTKA"
     },
     "borrow": {
-      "copy": "BORROW"
+      "copy": "LAENA"
     },
     "createNew": {
       "copy": "+ Create New Game"
@@ -110,7 +110,7 @@
       "copy": "Left Game"
     },
     "donate": {
-      "copy": "DONATE"
+      "copy": "ANNETA"
     },
     "credit": {
       "copy": "CREDIT"
@@ -149,7 +149,7 @@
       "copy": "Omatud aktsiate arv:"
     },
     "loanamount": {
-      "copy": "Loan amount: $"
+      "copy": "Laenu summa: "
     },
     "lobbyNotification": {
       "password": "Incorrect Password",
@@ -181,12 +181,12 @@
       "copy1": "Add passive income to your cash on hand!"
     },
     "charityCard": {
-      "title": "GIVE TO CHARITY?",
-      "copy1": "For $100,000 you may roll 1, 2, or 3 die on each turn.",
-      "copy2": "Donate $100,000",
-      "copy3": "Donate 10% of your total income to roll 1 or 2 die over your next 3 turns.",
-      "copy4": "Donate $",
-      "copy5": "You do not have 10% of your total income and are unable to donate to charity."
+      "title": "ANNETA HEATEGEVUSEKS?",
+      "copy1": "100 000€ eest võid veeretada järgmisel neljal käigul 1, 2 või 3 täringut.",
+      "copy2": "Anneta 100 000€",
+      "copy3": "Anneta 10% oma kogutulust, et veeretada oma järgmisel 3 korral ühte või kahte täringut.",
+      "copy4": "Anneta ",
+      "copy5": "Sul ei ole raha väärtuses 10% oma kogutulust, nii et sa ei saa annetada heategevuseks."
     },
     "charityChoiceCard": {
       "title": "CHARITY CHOICE!",
@@ -270,13 +270,13 @@
     },
     "payoffLoanCard": {
       "title": "MAKSA LAEN TAGASI",
-      "copy1": "Select a liability on your statement sheet to repay your debt.",
-      "copy2": "Input an amount to repay your Loan.",
-      "copy3": "Payments must be in multiples of $1,000",
-      "copy4": "You do not have enough cash to make a payment on this loan.",
-      "copy5": "Payments must be in multiples of $1000.",
-      "copy6": "Pay off your loan.",
-      "copy7": "You do not have enough cash to pay off this loan."
+      "copy1": "Vali kohustus oma finantsaruandest, et maksta võlga tagasi.",
+      "copy2": "Sisesta summa, kui palju soovid tagasi maksta.",
+      "copy3": "Tagasimaksed peavad olema 1000€ kordsed.",
+      "copy4": "Sul ei ole piisavalt raha, et teha tagasimakse sellele laenule.",
+      "copy5": "Tagasimaksed peavad olema 1000€ kordsed.",
+      "copy6": "Maksa oma laen tagasi.",
+      "copy7": "Sul ei ole piisavalt raha, et maksta seda laenu tagasi."
     },
     "borrowCard": {
       "title": "LAENA RAHA",
@@ -560,7 +560,8 @@
       "copy35": "Sa võid veeretada mitut täringut, sest sa tegid annetuse heategevuseks.",
       "copy4": "Kui sa oled valmis, veereta 1 või 2 täringut ja tee oma käik.",
       "copy45": "Sa võid veeretada mitut täringut, sest sa tegid annetuse heategevuseks.",
-      "copy5": "DICE",
+      "copy5": "TÄRING",
+      "copy55": "TÄRINGUT",
       "copy6": "VEERETA",
       "copy7": "Enne oma käigu alustamist võid üle vaadata oma finantsaruande."
     },

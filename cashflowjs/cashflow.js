@@ -33,7 +33,8 @@ const translations = {
     "yes": "YES",
     "no": "NO",
     "passiveIncome": "Passive Income: $",
-    "numSeparator": ","
+    "numSeparator": ",",
+    "chat-placeholder": "Click here to chat"
   },
   "et": {
     "title": "Mängi mängu CASHFLOW® Classic siin.",
@@ -59,7 +60,8 @@ const translations = {
     "yes": "JAH",
     "no": "EI",
     "passiveIncome": "Passiivne tulu: ",
-    "numSeparator": " "
+    "numSeparator": " ",
+    "chat-placeholder": "Vestlemiseks vajuta siia"
   },
 };
 
@@ -3490,7 +3492,7 @@ var BankruptPayCard = (function () {
                 //do an other repay
                 if (m_cash >= m_cost) {
                     config.cardDescription = {
-                        text: Data.getVocab("loanamount", "copy") + MathHelper.formatNumber(m_cost)
+                        text: Data.getVocab("loanamount", "copy") + MathHelper.formatNumber(m_cost) + translations[language]["currency"]
                     };
                     config.cardInformation = {
                         text: Data.getVocab("payoffLoanCard", "copy6")
@@ -3502,7 +3504,7 @@ var BankruptPayCard = (function () {
                 }
                 else {
                     config.cardDescription = {
-                        text: Data.getVocab("loanamount", "copy") + MathHelper.formatNumber(m_cost)
+                        text: Data.getVocab("loanamount", "copy") + MathHelper.formatNumber(m_cost) + translations[language]["currency"]
                     };
                     config.cardInformation = {
                         text: Data.getVocab("payoffLoanCard", "copy7")
@@ -4007,7 +4009,7 @@ var CharityCard = (function () {
 
                 if (playerCash >= amountToDonate) {
                     config.cardInformation = {
-                        text: Data.getVocab("charityCard", "copy4") + MathHelper.formatNumber(amountToDonate)
+                        text: Data.getVocab("charityCard", "copy4") + MathHelper.formatNumber(amountToDonate) + translations[language]["currency"]
                     };
 
                     config.buyButton = {
@@ -5794,7 +5796,7 @@ var PayOffLoanCard = (function () {
                 //do an other repay
                 if (m_cash >= m_cost) {
                     config.cardDescription = {
-                        text: Data.getVocab("loanamount", "copy") + MathHelper.formatNumber(m_cost)
+                        text: Data.getVocab("loanamount", "copy") + MathHelper.formatNumber(m_cost) + translations[language]["currency"]
                     };
                     config.cardInformation = {
                         text: Data.getVocab("payoffLoanCard", "copy6")
@@ -5806,7 +5808,7 @@ var PayOffLoanCard = (function () {
                 }
                 else {
                     config.cardDescription = {
-                        text: Data.getVocab("loanamount", "copy") + MathHelper.formatNumber(m_cost)
+                        text: Data.getVocab("loanamount", "copy") + MathHelper.formatNumber(m_cost) + translations[language]["currency"]
                     };
                     config.cardInformation = {
                         text: Data.getVocab("payoffLoanCard", "copy7")
@@ -6410,11 +6412,11 @@ var StartTurnCard = (function () {
 					};
 					config.sellButton = {
 						color: color,
-						text: "2 " + Data.getVocab("startTurnCard", "copy5")
+						text: "2 " + Data.getVocab("startTurnCard", "copy55")
 					};
 					config.passButton = {
 						color: color,
-						text: "3 " + Data.getVocab("startTurnCard", "copy5")
+						text: "3 " + Data.getVocab("startTurnCard", "copy55")
 					};
 
 				} else {
@@ -6426,7 +6428,7 @@ var StartTurnCard = (function () {
 
 					config.sellButton = {
 						color: color,
-						text: "2 " + Data.getVocab("startTurnCard", "copy5")
+						text: "2 " + Data.getVocab("startTurnCard", "copy55")
 					};
 
 					config.cardDescription = {
@@ -8786,7 +8788,7 @@ var FooterWidget = (function () {
                 // attr.value = "button"
                 // inputChat.attributes.setNamedItem(attr);
 
-                inputChat.placeholder = "Click here to chat"
+                inputChat.placeholder = translations[language]["chat-placeholder"]
                 inputChat.id = "inputChat"
                 inputChat.maxLength = 64 * 4;
 
@@ -11781,7 +11783,7 @@ var HeaderWidget = (function () {
                 width: m_template["exitButton" + i + "Text"]["width"],
                 height: m_template["exitButton" + i + "Text"]["height"],
                 x: m_template["exitButton" + i + "Text"]["x"],
-                y: m_template["exitButton" + i + "Text"]["y"],
+                y: m_template["exitButton" + i + "Text"]["y"]
             })
             var text = TemplateParser.formatTextFromTemplate("gameScreen", "exitButton" + i + "Text", myColor, false)
             text.text = textDisplay
@@ -12564,7 +12566,9 @@ var TemplateParser = (function () {
             }
         })()
         text.y = subtemplate.y;
-        text.lineWidth = subtemplate.width;
+        if (!(text.text=="[b1]" || text.text=="[b2]" || text.text=="[b3]")){ // A bit dumb fix, but ensures that buttons text gets never ever wrapped (cause some languages have a bit long words)
+            text.lineWidth = subtemplate.width;
+        }
         text.maxWidth = subtemplate.width;
         text.multiline = subtemplate.multiline;
         text.wordWrap = subtemplate.wordWrap;

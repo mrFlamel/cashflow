@@ -231,8 +231,8 @@
       },
       {
         "id": 40,
-        "title": "AFRICAN PHOTO SAFARI",
-        "copy1": "Take 6 friends on a wild safari photographing the most exotic animals in the world. Enjoy 5-star luxury in your tent.",
+        "title": "SAFARI AAFRIKAS",
+        "copy1": "Vii oma 6 sõpra metsikule safarile, kus saab pildistada maailma kõige eksootilisemaid loomi. Nautige oma telgis viietärnilist luksust.",
         "type": "dream",
         "icon": "african_photo_safari",
         "cost": 100000
@@ -249,16 +249,16 @@
       },
       {
         "id": 38,
-        "title": "MINI-FARM IN THE CITY",
-        "copy1": "Create a hands-on farm eco-system for city kids to learn and care for animals and plants.",
+        "title": "MINIFARM LINNAS",
+        "copy1": "Looge praktiline talu ökosüsteem, et linnalapsed saaksid õppida loomi ja taimi tundma ning nende eest hoolitsema.",
         "type": "dream",
         "icon": "mini_farm_in_the_city",
         "cost": 150000
       },
       {
         "id": 36,
-        "title": "CRUISE THE MEDITERRANEAN",
-        "copy1": "Visit small harbors in Italy, France, and Greece for a month with 12 friends on your private yacht.",
+        "title": "VAHEMERE KRUIIS",
+        "copy1": "Külasta oma privaatjahil 12 sõbraga kuu aega väikeseid sadamaid Itaalias, Prantsusmaal ja Kreekas.",
         "type": "dream",
         "icon": "cruise_the_mediterranean",
         "cost": 100000
@@ -275,8 +275,8 @@
       },
       {
         "id": 34,
-        "title": "CAPITALISTS' PEACE CORPS",
-        "copy1": "Set up entrepreneurial business schools in 3rd world nations. Instructors are business people donating their knowledge & time.",
+        "title": "KAPITALISTIDE RAHUKORPUS",
+        "copy1": "Looge kolmanda maailma riikides ettevõtlus- ja ärikoolid. Juhendajad on äriinimesed, kes annetavad oma teadmisi ja aega.",
         "type": "dream",
         "icon": "capitalists_peace_corps",
         "cost": 200000
@@ -294,8 +294,8 @@
       },
       {
         "id": 32,
-        "title": "SOUTH SEA ISLAND FANTASY",
-        "copy1": "Pampered in luxury for two full months. Relax, unwind in warm waters, deserted beaches, and romantic nights.",
+        "title": "FANTASTILISED OKEAANIA SAARED",
+        "copy1": "Hellitatud suures luksuses kaks kuud järjest. Lõõgastu, puhka soojades vetes, tühjadel randadel ja romantilistel öödel.",
         "type": "dream",
         "icon": "south_sea_island_fantasy",
         "cost": 100000
@@ -311,8 +311,8 @@
       },
       {
         "id": 30,
-        "title": "A KID'S LIBRARY",
-        "copy1": "Add a wing to your city's library devoted to young writers and artists. Art celebrities visit often to support your work.",
+        "title": "LASTE RAAMATUKOGU",
+        "copy1": "Loo oma linnaraamatukogus noortele kirjanikele ja kunstnikele pühendatud harukogu. Kuulsused käivad sageli laste tööd toetamas.",
         "type": "dream",
         "icon": "a_kids_library",
         "cost": 175000
