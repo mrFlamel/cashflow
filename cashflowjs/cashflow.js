@@ -26,9 +26,9 @@ const translations = {
     "ready": "Ready",
     "name": "Name",
     "money_format": ".\n", // Meant for these languages that don't like "$10" but "10€"
-    "currency": "", // Same thing here
-    "currency2": "$",
-    "currency2-": "$-",
+    "currency": "", // Currency at the back
+    "currency2": "$", //Currency at the front
+    "currency2-": "$-", //Negative currency at the front
     "total-expenses": "Total Expenses: $",
     "yes": "YES",
     "no": "NO",
@@ -7482,11 +7482,7 @@ function CardQueueItem(cardData) {
 
 PlayerBlob.createFromCareerData = function (o) {
     var player = new PlayerBlob();
-    if (language == "en"){
-        player.careerGenitive = o.title;
-    } else {
-        player.careerGenitive = o.titleGenitive;
-    }
+    player.careerGenitive = o.titleGenitive;
     player.careerTitle = o.title;
     player.childPerExpense = o.childPerExpense;
     player.savings = o.savings;
