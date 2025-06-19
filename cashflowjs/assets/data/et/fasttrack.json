@@ -5,8 +5,8 @@
         "reward": 500000,
         "cost": 25000,
         "id": 23,
-        "copy1": "Buy 250,000 shares at 10 cents/share. If you roll a 6 on one die, shares go to $2/share - get $500,000 cash from bank. Roll less than 6, get $0.",
-        "title": "SOFTWARE CO. IPO",
+        "copy1": "Osta 250 000 aktsiat hinnaga 10 senti/aktsia. Kui veeretad ühe täringuga number kuue, hüppavad aktsiad hinnale 2 eurot aktsia kohta – saate pangast 500 000 eurot sularaha. Kui veeretad vähem kui 6, saad 0 eurot.",
+        "title": "OÜ TARKVARA AKTSIATE IPO",
         "rollmin": 6,
         "type": "investment",
         "stock": "true",
@@ -31,11 +31,11 @@
       {
         "cost": 200000,
         "id": 19,
-        "copy1": "+$8,000/mo Cash flow 48% Cash-on-cash return",
-        "title": "T-SHIRT STORES",
+        "copy1": "+8000€/kuus rahavoogu, kasum aastas 48% investeeringust",
+        "title": "T-SÄRKIDE POED",
         "cashflow": 8000,
         "type": "investment",
-        "copy2": "(5 OUTLETS)",
+        "copy2": "(5 ASUKOHTA)",
         "icon": "t_shirt_stores"
       },
       {
@@ -67,8 +67,8 @@
       {
         "cost": 150000,
         "id": 15,
-        "title": "AUTO REPAIR SHOP",
-        "copy1": "+$6,000/mo Cash flow 48% Cash-on-cash return",
+        "title": "AUTOREMONDITÖÖKODA",
+        "copy1": "+6000€/kuus rahavoogu, kasum aastas 48% investeeringust",
         "cashflow": 6000,
         "type": "investment",
         "icon": "auto_repair_shop"
@@ -84,11 +84,11 @@
       {
         "cost": 250000,
         "id": 13,
-        "copy1": "+$10,000/mo Cash flow 48% Cash-on-cash return",
-        "title": "BEAUTY SALONS",
+        "copy1": "+10 000€/kuus rahavoogu, kasum aastas 48% investeeringust",
+        "title": "ILUSALONGID",
         "cashflow": 10000,
         "type": "investment",
-        "copy2": "(3 SHOPS)",
+        "copy2": "(3 POODI)",
         "icon": "beauty_salons"
       },
       {
@@ -102,11 +102,11 @@
       {
         "cost": 300000,
         "id": 11,
-        "copy1": "+$10,000/mo Cash flow 40% Cash-on-cash return",
-        "title": "CHICKEN FRANCHISE",
+        "copy1": "+10 000€/kuus rahavoogu, kasum aastas 40% investeeringust",
+        "title": "KANATOITUDE FRANTSIIS",
         "cashflow": 10000,
         "type": "investment",
-        "copy2": "(2 OUTLETS)",
+        "copy2": "(2 ASUKOHTA)",
         "icon": "chicken_franchise"
       },
       {
@@ -180,11 +180,11 @@
       {
         "cost": 120000,
         "id": 47,
-        "title": "QUICK FOOD MARTS",
-        "copy1": "+$5,000/mo Cash flow 50% Cash-on-cash return",
+        "title": "JAEMÜÜGIKETT",
+        "copy1": "+5000€/kuus rahavoogu, kasum aastas 50% investeeringust",
         "cashflow": 5000,
         "type": "investment",
-        "copy2": "(3 STORES)",
+        "copy2": "(3 POODI)",
         "icon": "quick_food_marts"
       },
       {
@@ -198,8 +198,8 @@
       {
         "cost": 300000,
         "id": 45,
-        "title": "BURGER FRANCHISE",
-        "copy1": "+$9,500/mo Cash flow 38% Cash-on-cash return",
+        "title": "BURGERI FRANTSIIS",
+        "copy1": "+9500€/kuus rahavoogu, kasum aastas 38% investeeringust",
         "cashflow": 9500,
         "type": "investment",
         "icon": "burger_franchise"
@@ -215,8 +215,8 @@
       {
         "cost": 300000,
         "id": 43,
-        "title": "FAMILY RESTAURANT CHAIN",
-        "copy1": "+$14,000/mo Cash flow 56% Cash-on-cash return",
+        "title": "PERERESTORANIDE KETT",
+        "copy1": "+14 000/kuus rahavoogu, kasum aastas 56% investeeringust",
         "cashflow": 14000,
         "type": "investment",
         "icon": "family_restaurant_chain"

@@ -7,7 +7,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "2/1CONDO",
+        "key": "2/1KORTER",
         "cost": 65000,
         "queue": "true"
       },
@@ -17,7 +17,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "2/1CONDO",
+        "key": "2/1KORTER",
         "cost": 55000,
         "queue": "true"
       },
@@ -27,7 +27,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "2/1CONDO",
+        "key": "2/1KORTER",
         "cost": 55000,
         "queue": "true"
       },
@@ -37,7 +37,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "2/1CONDO",
+        "key": "2/1KORTER",
         "cost": 45000,
         "queue": "true"
       },
@@ -47,7 +47,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "3/2HOUSE",
+        "key": "3/2MAJA",
         "cost": 135000,
         "queue": "true"
       },
@@ -57,7 +57,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "3/2HOUSE",
+        "key": "3/2MAJA",
         "cost": 135000,
         "queue": "true"
       },
@@ -67,7 +67,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "3/2HOUSE",
+        "key": "3/2MAJA",
         "cost": 110000,
         "queue": "true"
       },
@@ -77,7 +77,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "3/2HOUSE",
+        "key": "3/2MAJA",
         "cost": 100000,
         "queue": "true"
       },
@@ -87,7 +87,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "3/2HOUSE",
+        "key": "3/2MAJA",
         "cost": 100000,
         "queue": "true"
       },
@@ -97,7 +97,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "3/2HOUSE",
+        "key": "3/2MAJA",
         "cost": 90000,
         "queue": "true"
       },
@@ -107,7 +107,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "3/2HOUSE",
+        "key": "3/2MAJA",
         "cost": 65000,
         "queue": "true"
       },
@@ -117,7 +117,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "PLEX",
+        "key": "ELAMU",
         "cost": 40000,
         "queue": "true"
       },
@@ -127,7 +127,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "PLEX",
+        "key": "ELAMU",
         "cost": 40000,
         "queue": "true"
       },
@@ -137,7 +137,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "PLEX",
+        "key": "ELAMU",
         "cost": 35000,
         "queue": "true"
       },
@@ -147,7 +147,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "PLEX",
+        "key": "ELAMU",
         "cost": 35000,
         "queue": "true"
       },
@@ -157,7 +157,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "PLEX",
+        "key": "ELAMU",
         "cost": 35000,
         "queue": "true"
       },
@@ -167,7 +167,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "PLEX",
+        "key": "ELAMU",
         "cost": 30000,
         "queue": "true"
       },
@@ -177,7 +177,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "PLEX",
+        "key": "ELAMU",
         "cost": 30000,
         "queue": "true"
       },
@@ -187,7 +187,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "PLEX",
+        "key": "ELAMU",
         "cost": 30000,
         "queue": "true"
       },
@@ -197,7 +197,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "PLEX",
+        "key": "ELAMU",
         "cost": 25000,
         "queue": "true"
       },
@@ -207,7 +207,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "PLEX",
+        "key": "ELAMU",
         "cost": 25000,
         "queue": "true"
       },
@@ -217,7 +217,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "APTHOUSE",
+        "key": "KORTERMAJA",
         "cost": 45000,
         "queue": "true"
       },
@@ -227,7 +227,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "APTHOUSE",
+        "key": "KORTERMAJA",
         "cost": 40000,
         "queue": "true"
       },
@@ -237,7 +237,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "APTHOUSE",
+        "key": "KORTERMAJA",
         "cost": 30000,
         "queue": "true"
       },
@@ -247,7 +247,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Kõik võivad müüa selle hinnaga.",
         "type": "market_sell",
-        "key": "APTHOUSE",
+        "key": "KORTERMAJA",
         "cost": 25000,
         "queue": "true"
       },
@@ -277,7 +277,7 @@
         "copy2": "Sa rahastasid oma majad muutuva intressimääraga hüpoteekidega. Nüüd pead oma 3/2 maja(d) pangale tagasi andma. Seega kaotad nendelt kinnisvaralt oma rahavoo.",
         "rule": "Kõik sulle kuuluvad 3/2 üürimajad on nüüd arestitud.",
         "type": "market_lose",
-        "key": "3/2HOUSE",
+        "key": "3/2MAJA",
         "cost": 0
       },
       {
@@ -286,7 +286,7 @@
         "copy2": "Kui sulle kuulub 3/2 üürimaju, võid need müüa 50 000 euro algsest hinnast kõrgema hinnaga.",
         "rule": "Kui sa müüd, siis tasud iga majaga seotud hüpoteegi ja loobud rahavoost, mida sa praegu nendelt kinnisvaradelt saad.",
         "type": "market_selladd",
-        "key": "3/2HOUSE",
+        "key": "3/2MAJA",
         "cost": 50000
       },
       {
@@ -343,7 +343,7 @@
         "copy2": "Kui sul on mõni kaheksapereelamu, siis maksa uute torude eest 2000 eurot. (Pangalaen tavatingimustel saadaval.)",
         "rule": "Kui sul on rohkem kui üks kaheksapereelamu, siis pead maksma ainult ühe remondi eest.",
         "type": "market_fee",
-        "key": "8PLEX",
+        "key": "8PEREELAMU",
         "cost": 2000
       },
       {
@@ -352,7 +352,7 @@
         "copy2": "Pakub sularahas 5000€.",
         "rule": "Kõigile iga mündi eest 5000€ pakkumine.",
         "type": "market_sell",
-        "key": "coin",
+        "key": "münt",
         "cost": 5000,
         "queue": "true"
       },
@@ -362,7 +362,7 @@
         "copy2": "",
         "rule": "Selle hinnaga võivad müüa kõik, kellel on mõni unts Krugerrands kuldmünte.",
         "type": "market_sell",
-        "key": "gold",
+        "key": "kuld",
         "cost": 600,
         "queue": "true"
       },
@@ -372,7 +372,7 @@
         "copy2": "Kui sa müüd, siis see tähendab, et jääd ilma rahavoost, mida praegu sellelt ettevõttelt saad.",
         "rule": "Igaüks, kellel on vidinate firma, võib selle hinnaga müüa.",
         "type": "market_sell",
-        "key": "widget",
+        "key": "vidinad",
         "cost": 50000,
         "queue": "true"
       },
@@ -382,7 +382,7 @@
         "copy2": "Kui sa müüd, siis see tähendab, et jääd ilma rahavoost, mida praegu sellelt ettevõttelt saad.",
         "rule": "Igaüks, kellel on tarkvarafirma, võib selle hinnaga müüa.",
         "type": "market_sell",
-        "key": "software",
+        "key": "tarkvara",
         "cost": 100000,
         "queue": "true"
       },
@@ -422,7 +422,7 @@
         "copy2": "Kui sa müüd, siis see tähendab, et jääd ilma rahavoost, mida praegu sellelt asukohalt saad.",
         "rule": "Cash offer of $150,000 to everyone who owns such a property.",
         "type": "market_sell",
-        "key": "10ACRES",
+        "key": "10AAKRIT",
         "cost": 150000,
         "queue": "true"
       },
@@ -432,7 +432,7 @@
         "copy2": "Kui sa müüd, siis see tähendab, et jääd ilma rahavoost, mida praegu sellelt asukohalt saad.",
         "rule": "Cash offer of $200,000 to everyone who owns 20 acres of residential land.",
         "type": "market_sell",
-        "key": "20ACRES",
+        "key": "20AAKRIT",
         "cost": 200000,
         "queue": "true"
       },
@@ -442,7 +442,7 @@
         "copy2": "Kui sa müüd tema tingimustel, väheneb sinu rahavoog 500 euro võrra kuus, kuni sulle makstakse 100 000 eurot.",
         "rule": "",
         "type": "market_brother",
-        "key": "3/2HOUSE",
+        "key": "3/2MAJA",
         "cost": 500
       }
     ]

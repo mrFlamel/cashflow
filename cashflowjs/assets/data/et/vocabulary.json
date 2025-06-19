@@ -199,7 +199,7 @@
       "title1": "LAPSELIMIIT TÄIS",
       "copy1": "Ühe mängija kohta on lubatud kuni kolm last.",
       "title2": "UUS LAPS!",
-      "copy2": "Palju õnne! Teie ülalpeetavate hulka on lisandunud üks laps.",
+      "copy2": "Palju õnne! Sinu ülalpeetavate hulka on lisandunud üks laps.",
       "copy3": "Lastega seotud kulutused kasvavad "
     },
     "downsizeCard": {
@@ -237,18 +237,18 @@
       "copy2": "Reverse split 1 for 2"
     },
     "stockBuyCard": {
-      "copy1": "Buy shares: ",
-      "copy2": "For:"
+      "copy1": "Kui palju: ",
+      "copy2": "Hind:"
     },
     "stockSellCard": {
-      "copy1": "Sell shares: ",
-      "copy2": "For:"
+      "copy1": "Kui palju: ",
+      "copy2": "Hind:"
     },
     "loanCard": {
       "title": "LAENA RAHA",
       "copy1": "Pole piisavalt vahendeid.",
-      "copy2": "Take a loan of $",
-      "copy3": " with a Monthly Payment of $"
+      "copy2": "Võta laenu ",
+      "copy3": "€ ning maksa iga kuu tagasi "
     },
     "marketCard": {
       "copy1": "Selle tehingu sõlmimiseks vali oma finantsaruandest vara.",
@@ -339,8 +339,8 @@
       "copy3": "Saad 100 korda suurema igaoäevase passiivse sissetuleku. Mängu võitmiseks pead ostma oma unistuse või suurendama oma päevast sissetulekut 50 000 euro võrra."
     },
     "skipTurnCard": {
-      "title": "TURN SKIPPED!",
-      "copy1": " turn has been skipped."
+      "title": "VAHELE JÄETUD!",
+      "copy1": " jääb praegu vahele."
     },
     "dreamopportunity": {
       "copy": " had a dream opportunity!"
@@ -615,11 +615,11 @@
       "otherexpenses": "Muud kulutused:",
       "childexpenses": "Lastega seotud kulutused (",
       "interests": "Intress/Dividendid",
-      "stocks": "Aktsiad/Fondid/Võlakirjad",
+      "stocks": "Aktsiad/Fondid/Hoiused",
       "costshare": "Väärtus",
       "shareof": " share of ",
       "sharesof": " shares of ",
-      "realestate": "Kinnisvara/Ärid",
+      "realestate": "Kinnisvara/Ärid/Muu",
       "cost": "Väärtus",
       "liability": "Võlgnevus",
       "duplex": "DUPLEX",

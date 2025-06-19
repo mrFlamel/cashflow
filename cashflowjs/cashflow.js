@@ -40,6 +40,16 @@ const translations = {
     "shares-of": " Shares of ",
     "share-of-end": "",
     "shares-of-end": "",
+    "3-2house": "3/2HOUSE",
+    "2-1condo": "2/1CONDO",
+    "plex": "PLEX",
+    "8plex": "8PLEX",
+    "apthouse": "APTHOUSE",
+    "gold": "gold",
+    "coin": "coin",
+    "widget": "widget",
+    "software": "software"
+
   },
   "et": {
     "title": "Mängi mängu CASHFLOW® Classic siin.",
@@ -72,6 +82,15 @@ const translations = {
     "shares-of": " ",
     "share-of-end": " osak",
     "shares-of-end": " osakut",
+    "3-2house": "3/2MAJA",
+    "2-1condo": "2/1KORTER",
+    "plex": "ELAMU",
+    "8plex": "8PEREELAMU",
+    "apthouse": "KORTERMAJA",
+    "gold": "kuld",
+    "coin": "münt",
+    "widget": "vidinad",
+    "software": "tarkvara"
   },
 };
 
@@ -2923,7 +2942,7 @@ var StatementElement = (function () {
 						type: m_item,
 						properties: {
 							leftText: property.key,
-							rightText: property.cashflow,
+							rightText: MathHelper.formatNumber(property.cashflow),
 							isMoney: true
 						}
 					});
@@ -2933,7 +2952,7 @@ var StatementElement = (function () {
 						type: m_item,
 						properties: {
 							leftText: property.key,
-							rightText: property.mortgage,
+							rightText: MathHelper.formatNumber(property.mortgage),
 							isMoney: true
 						}
 					});
@@ -2943,7 +2962,7 @@ var StatementElement = (function () {
 						type: m_item,
 						properties: {
 							leftText: property.key,
-							rightText: property.cost,
+							rightText: MathHelper.formatNumber(property.cost),
 							tag: property.key,
 							index: index,
 							isMoney: true
@@ -5293,7 +5312,7 @@ var LoanCard = (function () {
                 text: Data.getVocab("loanCard", "copy1")
             };
             config.cardInformation = {
-                text: Data.getVocab("loanCard", "copy2") + MathHelper.formatNumber(cardData.loan) + Data.vocab().loanCard.copy3 + MathHelper.formatNumber(cardData.loan*0.1)
+                text: Data.getVocab("loanCard", "copy2") + MathHelper.formatNumber(cardData.loan) + Data.vocab().loanCard.copy3 + MathHelper.formatNumber(cardData.loan*0.1) + translations[language]["currency"]
             };
 
             
@@ -5558,7 +5577,7 @@ var MarketSellCard = (function () {
 
             var property = Main.gameSession.getCurrentPlayerBlob().properties[cardData.propertyIndex];
             var amount = 1;
-            if(cardData.key == "PLEX" || cardData.key == "APTHOUSE"){
+            if(cardData.key == translations[language]["plex"] || cardData.key == translations[language]["apthouse"]){
                 amount = property.units;
             }
 
@@ -5567,12 +5586,12 @@ var MarketSellCard = (function () {
                 color: color
             };
 
-            if(cardData.key == "coin"){
+            if(cardData.key == translations[language]["coin"]){
                 config.cardInformation = {
                     text: Data.getVocab("sellamount", "copy") + MathHelper.formatNumber(cardData.cost * 8)
                 };
             }
-            else if(cardData.key == "gold"){
+            else if(cardData.key == translations[language]["gold"]){
                 config.cardInformation = {
                     text: Data.getVocab("sellamount", "copy") + MathHelper.formatNumber(cardData.cost * 10)
                 };
@@ -6604,7 +6623,7 @@ var StockBuyCard = (function () {
                 text: Data.getVocab("stockBuyCard", "copy2"),
             };
             config.stockCostAmount = {
-                text: Data.getVocab("dollar", "copy") + cardData.cost
+                text: translations[language]["currency2"] + cardData.cost + translations[language]["currency"]
             };
 
             var count = 0;
@@ -6672,7 +6691,7 @@ var StockBuyCard = (function () {
             } else {
                 m_this.textboxAmount = 99999;
             }
-            m_this.stockCostAmount.text = Data.getVocab("dollar", "copy") + MathHelper.formatNumber((m_this.textboxAmount) * parseInt(m_cost));
+            m_this.stockCostAmount.text = translations[language]["currency2"] + MathHelper.formatNumber((m_this.textboxAmount) * parseInt(m_cost)) + translations[language]["currency"];
 
         }
         this.onDownClicked = function (event) {
@@ -6683,7 +6702,7 @@ var StockBuyCard = (function () {
             } else {
                 m_this.textboxAmount = 1;
             }
-            m_this.stockCostAmount.text = Data.getVocab("dollar", "copy") + MathHelper.formatNumber((m_this.textboxAmount) * parseInt(m_cost));
+            m_this.stockCostAmount.text = translations[language]["currency2"] + MathHelper.formatNumber((m_this.textboxAmount) * parseInt(m_cost)) + translations[language]["currency"];
         }
 
         Object.defineProperties(this, {
@@ -6889,7 +6908,7 @@ var StockSellCard = (function () {
                 text: Data.getVocab("stockSellCard", "copy2")
             };
             config.stockCostAmount = {
-                text: Data.getVocab("dollar", "copy") + MathHelper.formatNumber(cardData.cost * m_count)
+                text: translations[language]["currency2"] + MathHelper.formatNumber(cardData.cost * m_count) + translations[language]["currency"]
             };
             config.buySharesAmount = {
                 text: m_count
@@ -11041,7 +11060,7 @@ var GameSession = (function () {
             var nextCard = null;
 
             if (m_this.cardData.type == "market_sell") {
-                if (cardData.key == "PLEX" || cardData.key == "APTHOUSE" || cardData.key == "coin") {
+                if (cardData.key == translations[language]["plex"] || cardData.key == translations[language]["apthouse"] || cardData.key == translations[language]["coin"]) {
                     amount = property.units;
                 }
                 newCash += ((cardData.cost * amount) - property.mortgage) + m_this.playerData.cash;
@@ -11057,7 +11076,7 @@ var GameSession = (function () {
             }
 
             if (cardData.type == "market_brother") {
-                if (property.key == "3/2HOUSE" && property.quantity > 0) {
+                if (property.key == translations[language]["3-2house"] && property.quantity > 0) {
                     m_this.playerData.removePropertyByIndex(cardData.propertyIndex);
                     newCash = m_this.playerData.cash;
                     nextCard = EndCard;
@@ -12250,17 +12269,17 @@ var PlayerData = (function () {
             var canUse = false;
             this.properties.forEach(function (property) {
                 if (key == "400" || key == "250") {
-                    if ((property.key == "widget" || property.key == "software") && property.quantity > 0) {
+                    if ((property.key == translations[language]["widget"] || property.key == translations[language]["software"]) && property.quantity > 0) {
                         canUse = true;
                     }
                 }
-                else if (key == "8PLEX") {
-                    if (property.ley == "PLEX" && property.units == 8 && property.quantity > 0) {
+                else if (key == translations[language]["8plex"]) {
+                    if (property.key == translations[language]["plex"] && property.units == 8 && property.quantity > 0) {
                         canUse = true;
                     }
                 }
                 else if (key == "rental") {
-                    if ((property.key == "3/2HOUSE" || property.key == "PLEX" || property.key == "APTHOUSE" || property.key == "2/1CONDO") && property.quantity > 0) {
+                    if ((property.key == translations[language]["3-2house"] || property.key == translations[language]["plex"] || property.key == translations[language]["apthouse"] || property.key == translations[language]["2-1condo"]) && property.quantity > 0) {
                         canUse = true;
                     }
                 }
@@ -12396,7 +12415,7 @@ var PlayerData = (function () {
                 }
                 else if (cardData.type == "market_fee") {
                     if (cardData.key == "rental") {
-                        if (property.key == "3/2HOUSE" || property.key == "PLEX" || property.key == "APTHOUSE" || property.key == "2/1CONDO") {
+                        if (property.key == translations[language]["3-2house"] || property.key == translations[language]["plex"] || property.key == translations[language]["apthouse"] || property.key == translations[language]["2-1condo"]) {
                             if (this.cash >= cardData.cost) {
                                 //is this correct ^
                                 //set the player cash += -cardData.cost;
@@ -12411,8 +12430,8 @@ var PlayerData = (function () {
                         }
                     }
                 }
-                else if (cardData.key == "8PLEX") {
-                    if (property.key == "PLEX" && property.units == 8) {
+                else if (cardData.key == translations[language]["8plex"]) {
+                    if (property.key == translations[language]["plex"] && property.units == 8) {
                         if (this.cash >= cardData.cost) {
                             //does this work again ^
                             //set the player cash += -cardData.cost;
