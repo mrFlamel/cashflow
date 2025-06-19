@@ -367,10 +367,10 @@
         "queue": "true"
       },
       {
-        "title": "WIDGET COMPANY BUYER",
-        "copy1": "Engineer/Inventor who owns machinery company offers $50,000 cash for inventive method of making widgets.",
-        "copy2": "If you sell, you give up the cash flow you currently receive from this company.",
-        "rule": "Anyone who owns a widget company may sell at this price.",
+        "title": "OSTJA VIDINATE FIRMALE",
+        "copy1": "Masinafirmat omav insener/leiutaja pakub 50 000 eurot sularaha leidliku vidinate valmistamise meetodi eest.",
+        "copy2": "Kui sa müüd, siis see tähendab, et jääd ilma rahavoost, mida praegu sellelt ettevõttelt saad.",
+        "rule": "Igaüks, kellel on vidinate firma, võib selle hinnaga müüa.",
         "type": "market_sell",
         "key": "widget",
         "cost": 50000,
@@ -378,18 +378,18 @@
       },
       {
         "title": "SOFTWARE COMPANY",
-        "copy1": "Large integrated software company offers $100,000 cash for inventive software program and related company.",
-        "copy2": "If you sell, you give up the cash flow you currently receive from this company.",
-        "rule": "Anyone who owns a software company may sell at this price.",
+        "copy1": "Suur tarkvaraettevõte pakub 100 000 eurot sularaha leidliku tarkvaraprogrammi ja selle loonud ettevõtte eest.",
+        "copy2": "Kui sa müüd, siis see tähendab, et jääd ilma rahavoost, mida praegu sellelt ettevõttelt saad.",
+        "rule": "Igaüks, kellel on tarkvarafirma, võib selle hinnaga müüa.",
         "type": "market_sell",
         "key": "software",
         "cost": 100000,
         "queue": "true"
       },
       {
-        "title": "DEMAND FOR BED & BREAKFAST",
-        "copy1": "Couple burned out from their corporate jobs are ready for a change. Have lots of cash. Looking for a profitable Bed & Breakfast. They will pay $250,000 today.",
-        "copy2": "If you sell, pay off the related mortgage and give up cash flow you currently receive on this property.",
+        "title": "NÕUDLUS MAJUTUSKOHALE",
+        "copy1": "Palgatööst läbipõlenud paar on muutusteks valmis. Neil on palju sularaha. Soovivad osta tulusat majutuskohta. Maksavad kohe 250 000 eurot.",
+        "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Everyone with a Bed & Breakfast that is making money may sell at this price.",
         "type": "market_sell",
         "key": "BED",
@@ -397,9 +397,9 @@
         "queue": "true"
       },
       {
-        "title": "CAR WASH BUYER",
-        "copy1": "Red hot buyer looking for a car wash bargain. Buyer has $250,000 cash ready to spend. That's his limit.",
-        "copy2": "If you sell, pay off the related mortgage and give up cash flow you currently receive on this property.",
+        "title": "OSTJA AUTOPESULALE",
+        "copy1": "Elevil ostja otsib soodsalt autopesulat. Ostjal on kulutamiseks valmis 250 000 eurot sularaha. See on tema piir.",
+        "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt asukohalt saad.",
         "rule": "Everyone who owns a car wash may sell at this price.",
         "type": "market_sell",
         "key": "CARWASH",
@@ -407,9 +407,9 @@
         "queue": "true"
       },
       {
-        "title": "SHOPPING MALL WANTED",
-        "copy1": "Major retailer is moving to your town. Looking for small shopping mall to purchase.",
-        "copy2": "If you sell, you give up the cash flow you currently receive from this company.",
+        "title": "OSTJA OSTUKESKUSELE",
+        "copy1": "Suur jaemüüja kolib sinu linna. Otsib väikest ostukeskust, mida osta.",
+        "copy2": "Kui sa müüd, siis see tähendab, et jääd ilma rahavoost, mida praegu sellelt firmalt saad.",
         "rule": "They are ready to pay $100,000 to everyone who owns a small shopping mall.",
         "type": "market_sell",
         "key": "MALL",
@@ -417,9 +417,9 @@
         "queue": "true"
       },
       {
-        "title": "BUILDER WANTS LAND",
-        "copy1": "City planners require builder to put in 10 acre park or they will not approve new subdivision. Builder needs 10 acres with stream.",
-        "copy2": "If you sell, you give up the cash flow you currently receive from this company.",
+        "title": "EHITAJA VAJAB MAAD",
+        "copy1": "Linnaplaneerijad nõuavad, et ehitaja rajaks 10 aakri suuruse pargi, vastasel juhul ei kiida nad uut linnaosa planeeringut heaks. Ehitaja vajab 10 aakrit maad koos ojaga.",
+        "copy2": "Kui sa müüd, siis see tähendab, et jääd ilma rahavoost, mida praegu sellelt asukohalt saad.",
         "rule": "Cash offer of $150,000 to everyone who owns such a property.",
         "type": "market_sell",
         "key": "10ACRES",
@@ -427,9 +427,9 @@
         "queue": "true"
       },
       {
-        "title": "BUYER FOR 20 ACRES",
-        "copy1": "Builder wants a 20-acre parcel of land. He will re-zone it from residential to commercial.",
-        "copy2": "If you sell, you give up the cash flow you currently receive from this company.",
+        "title": "OSTJA 20 AAKRILE MAALE",
+        "copy1": "Ehitaja soovib 20 aakri suurust maatükki. Ta muudab selle elamurajoonist ärirajooniks.",
+        "copy2": "Kui sa müüd, siis see tähendab, et jääd ilma rahavoost, mida praegu sellelt asukohalt saad.",
         "rule": "Cash offer of $200,000 to everyone who owns 20 acres of residential land.",
         "type": "market_sell",
         "key": "20ACRES",
@@ -437,9 +437,9 @@
         "queue": "true"
       },
       {
-        "title": "HOUSE BUYER - 3BR/2BA",
-        "copy1": "Your brother-in-law lost his job and wants to buy your 3/2 rental house. He promises to pay you $100,000 four years from now, but has no income or savings. He can pay a small monthly amount, but no down payment...",
-        "copy2": "If you sell at his terms, your cash flow goes down by $500 per month, until you collect the $100,000.",
+        "title": "OSTJA MAJALE \n(3 magamistuba / 2 vannituba)",
+        "copy1": "Sinu õemees kaotas töö ja soovib osta sinu 3/2 üürimaja. Ta lubab nelja aasta pärast maksta tagasi 100 000 eurot, kuid tal pole sissetulekut ega sääste. Ta võib maksta väikese summa iga kuu, kuid mitte nõutud sissemakset...",
+        "copy2": "Kui sa müüd tema tingimustel, väheneb sinu rahavoog 500 euro võrra kuus, kuni sulle makstakse 100 000 eurot.",
         "rule": "",
         "type": "market_brother",
         "key": "3/2HOUSE",

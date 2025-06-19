@@ -34,7 +34,12 @@ const translations = {
     "no": "NO",
     "passiveIncome": "Passive Income: $",
     "numSeparator": ",",
-    "chat-placeholder": "Click here to chat"
+    "chat-placeholder": "Click here to chat",
+    "baby-second-part": "", // In some languages, we have to split baby cost text
+    "share-of": " Share of ",
+    "shares-of": " Shares of ",
+    "share-of-end": "",
+    "shares-of-end": "",
   },
   "et": {
     "title": "Mängi mängu CASHFLOW® Classic siin.",
@@ -61,7 +66,12 @@ const translations = {
     "no": "EI",
     "passiveIncome": "Passiivne tulu: ",
     "numSeparator": " ",
-    "chat-placeholder": "Vestlemiseks vajuta siia"
+    "chat-placeholder": "Vestlemiseks vajuta siia",
+    "baby-second-part": " võrra",
+    "share-of": " ",
+    "shares-of": " ",
+    "share-of-end": " osak",
+    "shares-of-end": " osakut",
   },
 };
 
@@ -2394,7 +2404,7 @@ var StatementElement = (function () {
 					properties: {
 						// type: "asdlkfjoadsifjoaidsjf",
 						leftText: investment.title,
-						rightText: investment.cashflow,
+						rightText: MathHelper.formatNumber(investment.cashflow),
 						isMoney: true,
 						// tag: investment.title,
 						index: i,
@@ -2460,7 +2470,7 @@ var StatementElement = (function () {
 				var text = formatAndAttachText("cashflowHeaderTitle_fasttrack");
 				text.text =
 					m_vocabWidget.cfincome +
-					MathHelper.formatNumber(m_playerData.passiveIncome);
+					MathHelper.formatNumber(m_playerData.passiveIncome) + translations[language]["currency"];
 				return text;
 			})();
 
@@ -2468,14 +2478,14 @@ var StatementElement = (function () {
 				var text = formatAndAttachText("totalExpensesBar_fasttrack");
 				text.text =
 					m_vocabWidget.incomegoal +
-					MathHelper.formatNumber(m_playerData.winPassiveIncome);
+					MathHelper.formatNumber(m_playerData.winPassiveIncome) + translations[language]["currency"];
 				return text;
 			}.call(this);
 
 			var passiveIncome = function () {
 				var text = formatAndAttachText("passiveIncomeBar_fasttrack");
 				text.text =
-					text.text + "\n" + MathHelper.formatNumber(m_playerData.passiveIncome);
+					text.text + "\n" + MathHelper.formatNumber(m_playerData.passiveIncome) + translations[language]["currency"];
 				return text;
 			}.call(this);
 
@@ -2793,8 +2803,8 @@ var StatementElement = (function () {
 							//TODO: get the vocab
 							leftText:
 								stock.quantity.toString() +
-								(stock.quantity === 1 ? " Share of " : " Shares of ") +
-								stock.key,
+								(stock.quantity === 1 ? translations[language]["share-of"] : translations[language]["shares-of"]) +
+								stock.key + (stock.quantity === 1 ? translations[language]["share-of-end"] : translations[language]["shares-of-end"]),
 							rightText: stock.cashflow,
 							tag: stock.key,
 							isMoney: true
@@ -2808,8 +2818,8 @@ var StatementElement = (function () {
 						//TODO: get the vocab
 						leftText:
 							stock.quantity.toString() +
-							(stock.quantity === 1 ? " Share of " : " Shares of ") +
-							stock.key,
+							(stock.quantity === 1 ? translations[language]["share-of"] : translations[language]["shares-of"]) +
+							stock.key + (stock.quantity === 1 ? translations[language]["share-of-end"] : translations[language]["shares-of-end"]),
 						rightText: stock.cost.toString(),
 						tag: stock.key,
 						index: index,
@@ -3184,7 +3194,7 @@ var BabyCard = (function () {
                 };
 
                 config.cardInformation = {
-                    text: Data.getVocab("babyCard", "copy3") + MathHelper.formatNumber(Main.gameSession.getCurrentPlayerBlob().childPerExpense)
+                    text: Data.getVocab("babyCard", "copy3") + MathHelper.formatNumber(Main.gameSession.getCurrentPlayerBlob().childPerExpense) + translations[language]["currency"] + translations[language]["baby-second-part"]
                 };
             }
 

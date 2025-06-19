@@ -1,7 +1,7 @@
 {
   "vocab": {
     "ok": {
-      "copy": "OK"
+      "copy": "OLGU"
     },
     "collect": {
       "copy": "COLLECT"
@@ -92,7 +92,7 @@
       "copy": "TÜHISTA"
     },
     "quit": {
-      "copy": "QUIT"
+      "copy": "LAHKU"
     },
     "chatTitle": {
       "copy": "VESTLUSKAST"
@@ -101,7 +101,7 @@
       "copy": "MAKSA"
     },
     "done": {
-      "copy": "DONE"
+      "copy": "VALMIS"
     },
     "join": {
       "copy": "LIITU"
@@ -173,7 +173,7 @@
     "dreamCard": {
       "copy1": "Achieve Your Dream!",
       "copy2": "Not Enough cash to achieve your dream.",
-      "copy3": "This is another player's dream. The cost of their dream has increased by 100%.",
+      "copy3": "See on teise mängija unistus. Nende unistuse maksumus on kasvanud 100% võrra.",
       "copy4": "This is not your dream."
     },
     "cashflowDayCard": {
@@ -196,11 +196,11 @@
       "copy4": " more charity rolls left."
     },
     "babyCard": {
-      "title1": "CHILD LIMIT REACHED",
-      "copy1": "There is a limit of three children per player.",
-      "title2": "NEW BABY!",
-      "copy2": "Congratulations! One child has been added to your dependents.",
-      "copy3": "Child Expenses will be increased by $"
+      "title1": "LAPSELIMIIT TÄIS",
+      "copy1": "Ühe mängija kohta on lubatud kuni kolm last.",
+      "title2": "UUS LAPS!",
+      "copy2": "Palju õnne! Teie ülalpeetavate hulka on lisandunud üks laps.",
+      "copy3": "Lastega seotud kulutused kasvavad "
     },
     "downsizeCard": {
       "title1": "VALLANDATUD!",
@@ -223,14 +223,14 @@
       "copy1": "This investment has already been purchased and is no longer available."
     },
     "investmentRollCard": {
-      "copy1": "You rolled a ",
-      "copy2": "You gain $",
-      "copy3": "cash flow."
+      "copy1": "Sa veeretasid numbri ",
+      "copy2": "Sa saad ",
+      "copy3": "€ rahavoogu juurde."
     },
     "stockCard": {
-      "copy1": "You rolled a ",
-      "copy2": "You gain $",
-      "copy3": "cash flow."
+      "copy1": "Sa veeretasid numbri ",
+      "copy2": "Sa saad ",
+      "copy3": "€ rahavoogu juurde."
     },
     "stockSpecialCard": {
       "copy1": "Split 2 for 1",
@@ -251,8 +251,8 @@
       "copy3": " with a Monthly Payment of $"
     },
     "marketCard": {
-      "copy1": "Select an Asset on your Statement Sheet to take this deal.",
-      "copy2": "You have no assets that match this market card."
+      "copy1": "Selle tehingu sõlmimiseks vali oma finantsaruandest vara.",
+      "copy2": "Sul pole ühtegi sellele turukaardile vastavaid varasid."
     },
     "marketSellCard": {
       "title": "SELL - ",
@@ -324,19 +324,19 @@
       "title": "DO YOU NEED MORE TIME?"
     },
     "winDreamCard": {
-      "title": " WON THE GAME!",
-      "copy1": " won the game by achieving their dream!"
+      "title": " ON MÄNGU VÕITNUD!",
+      "copy1": " võitis mängu saavutades oma unistuse!"
     },
     "winPassiveCard": {
-      "title": " WON THE GAME!",
-      "copy1": " won the game by raising their passive income over $50,000!"
+      "title": " ON MÄNGU VÕITNUD!",
+      "copy1": " võitis mängu suurendades oma igapäevast passiivset tulu 50 000€ võrra!"
     },
     "enterFastTrackCard": {
-      "title": "CONGRATULATIONS!",
-      "title2": "YOU ARE OUT OF THE RAT RACE!",
-      "copy1": " has built up their passive income to be greater than their total expenses.",
-      "copy2": "They have entered the fast track.",
-      "copy3": "Receive 100x your passive income. Purchase your dream or increase your CASHFLOW Day Income by $50,000 to win the game."
+      "title": "ÕNNITLUSED!",
+      "title2": "OLED ORAVARATTAST VÄLJA SAANUD!",
+      "copy1": " on suutnud suurendada enda passivset tulu igakuistest kulutustest suuremaks.",
+      "copy2": "Nüüd on ta sisenenud kiirteele.",
+      "copy3": "Saad 100 korda suurema igaoäevase passiivse sissetuleku. Mängu võitmiseks pead ostma oma unistuse või suurendama oma päevast sissetulekut 50 000 euro võrra."
     },
     "skipTurnCard": {
       "title": "TURN SKIPPED!",
@@ -475,7 +475,7 @@
       "downsized": "Downsize: ",
       "takingturn": "Käib praegu",
       "goal": "Goal",
-      "passive": "Passive Income",
+      "passive": "Passiivne tulu",
       "gameover": "Game Over",
       "wingame": "Won Game",
       "fasttrack": "Fast Track",
@@ -577,15 +577,15 @@
       "button": "VALI"
     },
     "statementWidget": {
-      "dreambuy": "To win, buy your Dream!",
-      "or": "-OR-",
-      "cashflowwin": "To win, increase CASHFLOW Day Income!",
+      "dreambuy": "Võitmiseks osta oma unistus!",
+      "or": "-VÕI-",
+      "cashflowwin": "Võitmiseks suurenda oma päevast sissetulekut!",
       "goal": "Suurenda passiivset tulu, et väljuda oravarattast.",
       "totalexpenses": "Kulutused kokku:",
-      "incomegoal": "Income Goal: $",
+      "incomegoal": "Tulude eesmärk: ",
       "cash": "Raha: ",
-      "cfincome": "CASHFLOW Day Income: $",
-      "cfincomerecord": "CASHFLOW Day Income Record",
+      "cfincome": "Igapäevane sissetulek: ",
+      "cfincomerecord": "Igapäevaste sissetulekute nimekiri",
       "totalincome": "Tulud kokku:",
       "cashnosign": "Raha:",
       "payday": "PALGAPÄEV: ",
