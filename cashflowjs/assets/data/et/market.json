@@ -295,7 +295,7 @@
         "copy2": "Sa nõustusid müüma, kui asutaja müüb firma maha, nagu ta just seda tegi. Uutel omanikel on oma finantseering.",
         "rule": "Mõjutatud on iga usaldusühing. Kui teil on usaldusühing, saate raha enda investeeringu eest, kuid kaotate rahavoo.",
         "type": "market_sellmultiply",
-        "key": "PARTNER",
+        "key": "USALDUSÜHING",
         "cost": 3,
         "queue": "true"
       },
@@ -305,7 +305,7 @@
         "copy2": "Sa nõustusid müüma, kui asutaja müüb firma maha, nagu ta just seda tegi. Uutel omanikel on oma finantseering.",
         "rule": "Mõjutatud on iga usaldusühing. Kui teil on usaldusühing, saate raha enda investeeringu eest, kuid kaotate rahavoo.",
         "type": "market_sellmultiply",
-        "key": "PARTNER",
+        "key": "USALDUSÜHING",
         "cost": 2,
         "queue": "true"
       },
@@ -315,7 +315,7 @@
         "copy2": "Sa nõustusid müüma, kui asutaja müüb firma maha, nagu ta just seda tegi. Uutel omanikel on oma finantseering.",
         "rule": "Mõjutatud on iga usaldusühing. Kui teil on usaldusühing, saate raha enda investeeringu eest, kuid kaotate rahavoo.",
         "type": "market_sellmultiply",
-        "key": "PARTNER",
+        "key": "USALDUSÜHING",
         "cost": 2,
         "queue": "true"
       },
@@ -392,7 +392,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt kinnisvaralt saad.",
         "rule": "Everyone with a Bed & Breakfast that is making money may sell at this price.",
         "type": "market_sell",
-        "key": "BED",
+        "key": "MAJUTUS",
         "cost": 250000,
         "queue": "true"
       },
@@ -402,7 +402,7 @@
         "copy2": "Kui sa müüd, siis tasud sellega seotud hüpoteegi ja loobud rahavoost, mida sa praegu sellelt asukohalt saad.",
         "rule": "Everyone who owns a car wash may sell at this price.",
         "type": "market_sell",
-        "key": "CARWASH",
+        "key": "AUTOPESULA",
         "cost": 250000,
         "queue": "true"
       },
@@ -412,7 +412,7 @@
         "copy2": "Kui sa müüd, siis see tähendab, et jääd ilma rahavoost, mida praegu sellelt firmalt saad.",
         "rule": "They are ready to pay $100,000 to everyone who owns a small shopping mall.",
         "type": "market_sell",
-        "key": "MALL",
+        "key": "KAUBAMAJA",
         "cost": 100000,
         "queue": "true"
       },

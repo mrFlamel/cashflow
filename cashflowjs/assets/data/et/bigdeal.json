@@ -6,7 +6,7 @@
         "copy1": "Ühe omanikuga võileivapood kahekordistab asukohtade arvu. Omanik vajab tegevuslaenu saamiseks täiendavat omakapitali.",
         "rule": "Kasuta seda ise või müü teisele mängijale. 60% ROI, omanik võib teid välja osta 60 000 kuni 90 000 euro eest.",
         "type": "bigdeal_property",
-        "key": "PARTNER",
+        "key": "USALDUSÜHING",
         "cost": 30000,
         "downpay": 30000,
         "cashflow": 1500,
@@ -17,7 +17,7 @@
         "copy1": "Automüüja soovib laieneda tegevust 2-3 aastat vanade autode liisimisele. Vajab kapitali, kuna autotootja finantsosakond ei ole huvitatud.",
         "rule": "Kasuta seda ise või müü teisele mängijale. 40% ROI, omanik võib teid välja osta 60 000 kuni 90 000 euro eest.",
         "type": "bigdeal_property",
-        "key": "PARTNER",
+        "key": "USALDUSÜHING",
         "cost": 30000,
         "downpay": 30000,
         "cashflow": 1000,
@@ -28,7 +28,7 @@
         "copy1": "Edukas arst soovib laiendada kontoriruumi ja kliinikut. Vajab partnerit ehituskulude omakapitali osa rahastamiseks.",
         "rule": "Kasuta seda ise või müü teisele mängijale. 48% ROI, omanik võib teid välja osta 50 000 kuni 75 000 euro eest.",
         "type": "bigdeal_property",
-        "key": "PARTNER",
+        "key": "USALDUSÜHING",
         "cost": 25000,
         "downpay": 25000,
         "cashflow": 1000,
@@ -39,7 +39,7 @@
         "copy1": "Edukas pitsakett soovib hakata külmutatud pitsasid toidupoodidele tootma. Omanik vajab varustuse jaoks kapitali.",
         "rule": "Kasuta seda ise või müü teisele mängijale. 48% ROI, omanik võib teid välja osta 40 000 kuni 60 000 euro eest.",
         "type": "bigdeal_property",
-        "key": "PARTNER",
+        "key": "USALDUSÜHING",
         "cost": 20000,
         "downpay": 20000,
         "cashflow": 800,
@@ -50,7 +50,7 @@
         "copy1": "Edukas telefoniautomaatide äri on saadaval omaniku surma tõttu. Pärijad elavad välismaal. Kõik asukohad kindlustatud pikaajalise lepinguga.",
         "rule": "Kasuta seda ise või müü teisele mängijale. 81% ROI. Ostjaid ei ole hetkel oodata.",
         "type": "bigdeal_property",
-        "key": "PHONE",
+        "key": "TELEFON",
         "cost": 200000,
         "downpay": 40000,
         "cashflow": 2700,
@@ -61,7 +61,7 @@
         "copy1": "Tiheda liiklusega maanteel asuva eduka eduka pesumaja eraisiku pankrotivara müük. Omanik läinud, lepinguline puhastus.",
         "rule": "Kasuta seda ise või müü teisele mängijale. 100% ROI. Ostjaid ei ole hetkel oodata.",
         "type": "bigdeal_property",
-        "key": "LAUNDRY",
+        "key": "PESUMAJA",
         "cost": 150000,
         "downpay": 30000,
         "cashflow": 2500,
@@ -72,7 +72,7 @@
         "copy1": "Edukas 4 pesukohaga müntidel töötav automaatpesula tiheda ristmiku lähedal. Müüja kolib teise riiki vanadekodusse.",
         "rule": "Kasuta seda ise või müü teisele mängijale. 86% ROI. Ostjaid ei ole hetkel oodata.",
         "type": "bigdeal_property",
-        "key": "CARWASH",
+        "key": "AUTOPESULA",
         "cost": 125000,
         "downpay": 25000,
         "cashflow": 1800,
@@ -83,7 +83,7 @@
         "copy1": "30 video/pinballi masinat pikaajalise lepinguga kohtades müügiks võlgadesse uppuva omaniku poolt. Omanik on meeleheitel.",
         "rule": "Kasuta seda ise või müü teisele mängijale. 96% ROI. Ostjaid ei ole hetkel oodata.",
         "type": "bigdeal_property",
-        "key": "ARCADE",
+        "key": "ARKAAD",
         "cost": 100000,
         "downpay": 20000,
         "cashflow": 1600,
@@ -94,7 +94,7 @@
         "copy1": "Tervisliku pitsaettevõtte frantsiis. Toitev kiirtoit on hetkel moes. Kutsekooli kõrval. Tiheda liiklusega.",
         "rule": "Kasuta seda ise või müü teisele mängijale. 60% ROI, võib minna hiljem müüki 520 000 kuni 800 000 euro eest.",
         "type": "bigdeal_property",
-        "key": "PIZZA",
+        "key": "PITSA",
         "cost": 500000,
         "downpay": 100000,
         "cashflow": 5000,
@@ -105,7 +105,7 @@
         "copy1": "Müüa pere autopesula. Peretülid. Soovivad kiiremas korras ära müüa. Suurepärane asukoht kiire kasvuga piirkonnas.",
         "rule": "Kasuta seda ise või müü teisele mängijale. 36% ROI, võib minna hiljem müüki 12-25 kordse aastase rahavoo väärtuses.",
         "type": "bigdeal_property",
-        "key": "CARWASH",
+        "key": "AUTOPESULA",
         "cost": 350000,
         "downpay": 50000,
         "cashflow": 1500,
@@ -116,26 +116,26 @@
         "copy1": "Omanik läheb pensionile, soovib KOHE lahkuda. Suurepärane klientuur kuurordi kogukonnas. 5 magamistuba / 3 vannituba.",
         "rule": "Kasuta seda ise või müü teisele mängijale. 40% ROI, võib minna hiljem müüki 100 000 kuni 300 000 euro eest.",
         "type": "bigdeal_property",
-        "key": "BED",
+        "key": "MAJUTUS",
         "cost": 150000,
         "downpay": 30000,
         "cashflow": 1000,
         "mortgage": 120000
       },
       {
-        "title": "SMALL SHOPPING MALL FOR SALE",
-        "copy1": "Bank has taken back mall from bankrupt owner. Mall is currently 50% occupied. Just listed today.",
+        "title": "MÜÜA VÄIKE KAUBANDUSKESKUS",
+        "copy1": "Pank on pankrotistunud omanikult tagasi võtnud kaubanduskeskuse, mis on hetkel 50% ulatuses täidetud. Just täna tuli müüki.",
         "rule": "Use this yourself or sell to another player. 19% ROI, may sell for $35,000 to $150,000.",
         "type": "bigdeal_property",
-        "key": "MALL",
+        "key": "KAUBAMAJA",
         "cost": 50000,
         "downpay": 50000,
         "cashflow": 800,
         "mortgage": 0
       },
       {
-        "title": "20 ACRES FOR SALE",
-        "copy1": "20 acres of vacant land, currently zoned residential. Possibility of good appreciation if re-zoned commercial.",
+        "title": "MÜÜA 20 AAKRIT MAAD",
+        "copy1": "20 aakrit vaba maad, paberite järgi elamurajoon. Väärtuse kasv oleks tõenäoline, kui see maa ärirajooniks ümber vormistada.",
         "rule": "Use this yourself or sell to another player. 0% ROI, may sell for ???.",
         "type": "bigdeal_property",
         "key": "20AAKRIT",
@@ -156,8 +156,8 @@
         "mortgage": 50000
       },
       {
-        "title": "HOUSE FOR SALE - 3BR/2BA",
-        "copy1": "Transferred skilled tradesman kept this 3/2 house in excellent condition, so it commands top dollar rentals in older neighborhood.",
+        "title": "MÜÜA MAJA \n(3 magamistuba / 2 vannituba)",
+        "copy1": "Teise asukohta saadetud osav kaupmees hoidis selle 3/2 maja suurepärases seisukorras, nii et selle päralt on vanemas naabruses parimad üürihinnad.",
         "rule": "Use this yourself or sell to another player. 40% ROI, may sell for $65,000 to $135,000.",
         "type": "bigdeal_property",
         "key": "3/2MAJA",
@@ -167,8 +167,8 @@
         "mortgage": 55000
       },
       {
-        "title": "HOUSE FOR SALE - 3BR/2BA",
-        "copy1": "3/2 house on golf course offers potential capital gain plus current cash flow. Good rentals and nice financing.",
+        "title": "MÜÜA MAJA \n(3 magamistuba / 2 vannituba)",
+        "copy1": "3/2 maja golfiväljaku lähedal pakub potentsiaalset kasumit väärtuse kasvult + rahavoogu. Korralikud üürid ja head finantseeringu tingimused.",
         "rule": "Use this yourself or sell to another player. 51% ROI, may sell for $65,000 to $135,000.",
         "type": "bigdeal_property",
         "key": "3/2MAJA",
@@ -178,8 +178,8 @@
         "mortgage": 68000
       },
       {
-        "title": "HOUSE FOR SALE - 3BR/2BA",
-        "copy1": "Downsized manager must sell this 3/2 house, cannot afford payments on new salary. Area in transition.",
+        "title": "MÜÜA MAJA \n(3 magamistuba / 2 vannituba)",
+        "copy1": "Vallandatud juhtivtöötaja peab selle 3/2 maja ära müüma, ei saa endale lubada laenumakseid uue palga eest. Maja asub kesklinna lähedal.",
         "rule": "Use this yourself or sell to another player. 40% ROI, may sell for $65,000 to $135,000.",
         "type": "bigdeal_property",
         "key": "3/2MAJA",
@@ -189,8 +189,8 @@
         "mortgage": 61000
       },
       {
-        "title": "HOUSE FOR SALE - 3BR/2BA",
-        "copy1": "Good investment potential in this 3/2 house if you can be patient. Positive cash flow even though rents are weak.",
+        "title": "MÜÜA MAJA \n(3 magamistuba / 2 vannituba)",
+        "copy1": "Selles 3/2 majas on hea investeerimispotentsiaal, kui oled kannatlik. Positiivne rahavoog, isegi kui üürid on nõrgad.",
         "rule": "Use this yourself or sell to another player. 45% ROI, may sell for $65,000 to $135,000.",
         "type": "bigdeal_property",
         "key": "3/2MAJA",
@@ -200,8 +200,8 @@
         "mortgage": 57000
       },
       {
-        "title": "HOUSE FOR SALE - 3BR/2BA",
-        "copy1": "Businessman liquidating this 3/2 house, needs cash to save his business. Currently occupied by happy tenant.",
+        "title": "MÜÜA MAJA \n(3 magamistuba / 2 vannituba)",
+        "copy1": "Ärimees peab tegema selle 3/2 maja rahaks, tal on vaja oma ettevõtte päästmiseks raha. Hetkel elab majas korralik üürnik.",
         "rule": "Use this yourself or sell to another player. 26% ROI, may sell for $65,000 to $135,000.",
         "type": "bigdeal_property",
         "key": "3/2MAJA",
@@ -211,8 +211,8 @@
         "mortgage": 58000
       },
       {
-        "title": "HOUSE FOR SALE - 3BR/2BA",
-        "copy1": "Nice 3/2 house with in ground pool and full appliances available in upper middle class area. Good schools.",
+        "title": "MÜÜA MAJA \n(3 magamistuba / 2 vannituba)",
+        "copy1": "Kena 3/2 maja koos välibasseiniga ja sisustusega, saadaval rikkama keskklassiga linnaosas. Lähiümbruses head koolid.",
         "rule": "Use this yourself or sell to another player. -6% ROI, may sell for $65,000 to $150,000.",
         "type": "bigdeal_property",
         "key": "3/2MAJA",
@@ -222,8 +222,8 @@
         "mortgage": 105000
       },
       {
-        "title": "HOUSE FOR SALE - 3BR/2BA",
-        "copy1": "Split level 3/2 house on out of way golf course offered by heirs of owner. Golf membership included.",
+        "title": "MÜÜA MAJA \n(3 magamistuba / 2 vannituba)",
+        "copy1": "Mitmetasandiline 3/2 maja, mille maadel asub golfiväljak, mida peavad maja omaniku pärijad. Majaga kaasas golfiklubi liikmelisus.",
         "rule": "Use this yourself or sell to another player. -12% ROI, may sell for $65,000 to $150,000.",
         "type": "bigdeal_property",
         "key": "3/2MAJA",
@@ -233,8 +233,8 @@
         "mortgage": 105000
       },
       {
-        "title": "APARTMENT HOUSE FOR SALE",
-        "copy1": "2 buildings totaling 24 units for sale. Owner managed with on-site assistant. Retirement prompts sale.",
+        "title": "MÜÜA 2 KORTERMAJA",
+        "copy1": "2 hoonet, kokku 24 korterit. Omanikul oli kohapeal assistent. Tänu pensioniikka jõudmisele oli sunnitud müüma.",
         "rule": "Use this yourself or sell to another player. 54% ROI, may sell for $600,000 to $960,000.",
         "type": "bigdeal_property",
         "key": "KORTERMAJA",
@@ -245,8 +245,8 @@
         "mortgage": 500000
       },
       {
-        "title": "APARTMENT HOUSE FOR SALE",
-        "copy1": "12 unit apartment house offered by out-of-state heirs of handyman/owner. Long waiting list for apartments in this building.",
+        "title": "MÜÜA KORTERMAJA",
+        "copy1": "12 korteriga kortermaja, mida pakuvad remondimehe/omaniku välismaal elavad pärijad. Selle hoone korteritele on pikk ootenimekiri.",
         "rule": "Use this yourself or sell to another player. 58% ROI, may sell for $300,000 to $480,000.",
         "type": "bigdeal_property",
         "key": "KORTERMAJA",
@@ -257,8 +257,8 @@
         "mortgage": 300000
       },
       {
-        "title": "APARTMENT HOUSE FOR SALE",
-        "copy1": "24 unit older building near community college available from retiring owner/builder. Fully rented, nice cash flow.",
+        "title": "MÜÜA KORTERMAJA",
+        "copy1": "24 korteriga vanem hoone maakonna kutsekooli lähedal on saadaval pensionile jäänud omaniku/ehitaja poolt. Täielikult välja renditud, kena rahavoog.",
         "rule": "Use this yourself or sell to another player. 67% ROI, may sell for $600,000 to $960,000.",
         "type": "bigdeal_property",
         "key": "KORTERMAJA",
@@ -269,8 +269,8 @@
         "mortgage": 500000
       },
       {
-        "title": "APARTMENT COMPLEX FOR SALE",
-        "copy1": "60 unit complex available from pension fund that foreclosed on builder/owner. On-site management in place.",
+        "title": "MÜÜA KORTERMAJADE KOMPLEKS",
+        "copy1": "60 korteriga kompleks, mida müüb pensionifond, kes sai selle laenuhäiretega ehitajalt/omanikult. Kohapealne haldamine paigas.",
         "rule": "Use this yourself or sell to another player. 66% ROI, may sell for $1,500,000 to $2,000,000.",
         "type": "bigdeal_property",
         "key": "KORTERMAJA",
@@ -281,8 +281,8 @@
         "mortgage": 1000000
       },
       {
-        "title": "DUPLEX FOR SALE",
-        "copy1": "Duplex owner must sell to pay hospital bills. Two tenants in place, all records, good investment opportunity.",
+        "title": "MÜÜA KAHEPEREELAMU",
+        "copy1": "Kahepereelamu omanik peab müüma, et maksta haigla arveid. Kaks üürnikku, kõik korras, hea investeerimisvõimalus.",
         "rule": "Use this yourself or sell to another player. 40% ROI, may sell for $50,000 to $80,000.",
         "type": "bigdeal_property",
         "key": "ELAMU",
@@ -293,7 +293,7 @@
         "mortgage": 48000
       },
       {
-        "title": "DUPLEX FOR SALE",
+        "title": "MÜÜA KAHEPEREELAMU",
         "copy1": "Tenants in place at this investment duplex! Owner has income tax problems, needs to sell quickly.",
         "rule": "Use this yourself or sell to another player. 48% ROI, may sell for $50,000 to $80,000.",
         "type": "bigdeal_property",
@@ -305,7 +305,7 @@
         "mortgage": 37000
       },
       {
-        "title": "DUPLEX FOR SALE",
+        "title": "MÜÜA KAHEPEREELAMU",
         "copy1": "Well maintained duplex in desirable area available due to transfer of owner. Excellent investment opportunity for right buyer.",
         "rule": "Use this yourself or sell to another player. 60% ROI, may sell for $50,000 to $80,000.",
         "type": "bigdeal_property",
@@ -317,7 +317,7 @@
         "mortgage": 54000
       },
       {
-        "title": "DUPLEX FOR SALE",
+        "title": "MÜÜA KAHEPEREELAMU",
         "copy1": "Owner moving out of this duplex due to growing family. Tenant remains, well maintained, excellent landscaping.",
         "rule": "Use this yourself or sell to another player. 36% ROI, may sell for $50,000 to $70,000.",
         "type": "bigdeal_property",
@@ -329,7 +329,7 @@
         "mortgage": 42000
       },
       {
-        "title": "DUPLEX FOR SALE",
+        "title": "MÜÜA KAHEPEREELAMU",
         "copy1": "This duplex is the best in the neighborhood! Proud owner retiring to another state to be near her grandchildren.",
         "rule": "Use this yourself or sell to another player. 24% ROI, may sell for $50,000 to $80,000.",
         "type": "bigdeal_property",
@@ -341,7 +341,7 @@
         "mortgage": 63000
       },
       {
-        "title": "4-PLEX FOR SALE",
+        "title": "MÜÜA NELJAPEREELAMU",
         "copy1": "4-plex for sale by owner, moving to another state. Full records, fully rented, low occupant turnover in good neighborhood.",
         "rule": "Use this yourself or sell to another player. 75% ROI, may sell for $100,000 to $140,000.",
         "type": "bigdeal_property",
@@ -353,7 +353,7 @@
         "mortgage": 108000
       },
       {
-        "title": "4-PLEX FOR SALE",
+        "title": "MÜÜA NELJAPEREELAMU",
         "copy1": "4-plex in recovering neighborhood. Fully rented, repairs kept up. Needs your down payment and patience.",
         "rule": "Use this yourself or sell to another player. 48% ROI, may sell for $100,000 to $140,000.",
         "type": "bigdeal_property",
@@ -365,7 +365,7 @@
         "mortgage": 80000
       },
       {
-        "title": "4-PLEX FOR SALE",
+        "title": "MÜÜA NELJAPEREELAMU",
         "copy1": "4-plex available – forced sale. Out-of-state, financially distressed owner years behind on taxes. Some records available.",
         "rule": "Use this yourself or sell to another player. 56% ROI, may sell for $100,000 to $140,000.",
         "type": "bigdeal_property",
@@ -377,7 +377,7 @@
         "mortgage": 64000
       },
       {
-        "title": "4-PLEX FOR SALE",
+        "title": "MÜÜA NELJAPEREELAMU",
         "copy1": "Nice, well maintained 4-plex in good neighborhood. Stable tenants, positive cash flow, few problems. Full records.",
         "rule": "Use this yourself or sell to another player. 48% ROI, may sell for $100,000 to $140,000.",
         "type": "bigdeal_property",
@@ -389,7 +389,7 @@
         "mortgage": 110000
       },
       {
-        "title": "4-PLEX FOR SALE",
+        "title": "MÜÜA NELJAPEREELAMU",
         "copy1": "Older 4-plex next to new highway for sale. Owner/occupant moving to quieter area. Priced for quick sale.",
         "rule": "Use this yourself or sell to another player. 40% ROI, may sell for $100,000 to $140,000.",
         "type": "bigdeal_property",
@@ -401,7 +401,7 @@
         "mortgage": 75000
       },
       {
-        "title": "4-PLEX FOR SALE",
+        "title": "MÜÜA NELJAPEREELAMU",
         "copy1": "'Project' 4-plex for sale in rehabilitating neighborhood. Owner being forced out by income tax liens.",
         "rule": "Use this yourself or sell to another player. 24% ROI, may sell for $100,000 to $140,000.",
         "type": "bigdeal_property",
@@ -413,7 +413,7 @@
         "mortgage": 60000
       },
       {
-        "title": "8-PLEX FOR SALE",
+        "title": "MÜÜA KAHEKSAPEREELAMU",
         "copy1": "Reinvesting owner offers 8-plex for sale at reasonable price. Financing already in place. All it needs is your down payment.",
         "rule": "Use this yourself or sell to another player. 51% ROI, may sell for $200,000 to $280,000.",
         "type": "bigdeal_property",
@@ -425,7 +425,7 @@
         "mortgage": 180000
       },
       {
-        "title": "8-PLEX FOR SALE",
+        "title": "MÜÜA KAHEKSAPEREELAMU",
         "copy1": "Professional person urgently needs cash to save partnership. 8-plex sale to raise capital. Good opportunity for the right person.",
         "rule": "Use this yourself or sell to another player. 64% ROI, may sell for $200,000 to $280,000.",
         "type": "bigdeal_property",
@@ -437,7 +437,7 @@
         "mortgage": 128000
       },
       {
-        "title": "8-PLEX FOR SALE",
+        "title": "MÜÜA KAHEKSAPEREELAMU",
         "copy1": "Owner's legal troubles lead to forced sale of this 8-plex. No qualifying on this loan, as mortgage holder is cooperating.",
         "rule": "Use this yourself or sell to another player. 48% ROI, may sell for $200,000 to $280,000.",
         "type": "bigdeal_property",
@@ -449,7 +449,7 @@
         "mortgage": 160000
       },
       {
-        "title": "8-PLEX FOR SALE",
+        "title": "MÜÜA KAHEKSAPEREELAMU",
         "copy1": "Retiring investor/owner offers his 8-plex at current appraisal value. Professional lawn service and management. Full records.",
         "rule": "Use this yourself or sell to another player. 29% ROI, may sell for $200,000 to $280,000.",
         "type": "bigdeal_property",
