@@ -7,95 +7,17 @@ if (!supported_lang.includes(language)){
     language = "en";
 }
 
-//UI translations
-const translations = {
+//UI translations that are needed before ui.json is loaded
+var translations = {
   "en": {
     "title": "Play CASHFLOW® Classic Here.",
-    "loading": "Loading...",
-    "version": "Version",
-    "click-anywhere-to-continue": "Click Anywhere to Continue",
-    "create-new-room": "Create New Room",
-    "room": "Room",
-    "room-is": "Room: ",
-    "password": "Password",
-    "started": "STARTED",
-    "incorrect-password": "Incorrect Password",
-    "already-started": "Game Has Already Started",
-    "game-full": "Game is Full",
-    "loading-no": "no",
-    "ready": "Ready",
-    "name": "Name",
-    "money_format": ".\n", // Meant for these languages that don't like "$10" but "10€"
-    "currency": "", // Currency at the back
-    "currency2": "$", //Currency at the front
-    "currency2-": "$-", //Negative currency at the front
-    "total-expenses": "Total Expenses: $",
-    "yes": "YES",
-    "no": "NO",
-    "passiveIncome": "Passive Income: $",
-    "numSeparator": ",",
-    "chat-placeholder": "Click here to chat",
-    "baby-second-part": "", // In some languages, we have to split baby cost text
-    "share-of": " Share of ",
-    "shares-of": " Shares of ",
-    "share-of-end": "",
-    "shares-of-end": "",
-    "3-2house": "3/2HOUSE",
-    "2-1condo": "2/1CONDO",
-    "plex": "PLEX",
-    "8plex": "8PLEX",
-    "apthouse": "APTHOUSE",
-    "gold": "gold",
-    "coin": "coin",
-    "widget": "widget",
-    "software": "software",
-    "empty-room": "Empty Room"
-
+    "loading": "Loading..."
   },
   "et": {
     "title": "Mängi mängu CASHFLOW® Classic siin.",
-    "loading": "Laadin...",
-    "version": "Versioon",
-    "click-anywhere-to-continue": "Alustamiseks vajuta pildile",
-    "create-new-room": "Loo uus mängutuba",
-    "room": "Mängutuba",
-    "room-is": "Mängutuba: ",
-    "password": "Parool",
-    "started": "ALUSTATUD",
-    "incorrect-password": "Vale parool",
-    "already-started": "Mäng on juba alanud",
-    "game-full": "Mäng on täis",
-    "loading-no": "-",
-    "ready": "Valmis",
-    "name": "Nimi",
-    "money_format": "€.\n",
-    "currency": "€",
-    "currency2": "",
-    "currency2-": "-",
-    "total-expenses": "Kulutused kokku: ",
-    "yes": "JAH",
-    "no": "EI",
-    "passiveIncome": "Passiivne tulu: ",
-    "numSeparator": " ",
-    "chat-placeholder": "Vestlemiseks vajuta siia",
-    "baby-second-part": " võrra",
-    "share-of": " ",
-    "shares-of": " ",
-    "share-of-end": " osak",
-    "shares-of-end": " osakut",
-    "3-2house": "3/2MAJA",
-    "2-1condo": "2/1KORTER",
-    "plex": "ELAMU",
-    "8plex": "8PEREELAMU",
-    "apthouse": "KORTERMAJA",
-    "gold": "kuld",
-    "coin": "münt",
-    "widget": "vidinad",
-    "software": "tarkvara",
-    "empty-room": "Tühi mängutuba"
+    "loading": "Laadin..."
   },
 };
-
 
 document.addEventListener("DOMContentLoaded", () => {
   document
@@ -513,9 +435,9 @@ function getManifest(basePath) {
         "manifest": [
 
             // data
+            { "id": "uiVocab", "src": "assets/data/"+ language + "/ui.json", "type": "json" },
             { "id": "vocabEnUS", "src": "assets/data/"+ language + "/vocabulary.json", "type": "json" },
             { "id": "careers", "src": "assets/data/"+ language + "/careers.json", "type": "json" },
-
             { "id": "smallDeal", "src": "assets/data/"+ language + "/smalldeal.json", "type": "json" },
             { "id": "bigDeal", "src": "assets/data/"+ language + "/bigdeal.json", "type": "json" },
             { "id": "doodads", "src": "assets/data/"+ language + "/doodads.json", "type": "json" },
@@ -8078,6 +8000,9 @@ var Main = (function () {
         });
 
         m_loadQueue.addEventListener("complete", function (e) {
+
+            translations[language] = Main.loadQueue.getResult("uiVocab");
+
             m_bg = (function () {
                 var bg = new createjs.Sprite(m_loadQueue.getResult("background"));
                 var m_template = m_loadQueue.getResult("splashScreen").template.splashBackground;
