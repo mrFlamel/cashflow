@@ -48,7 +48,8 @@ const translations = {
     "gold": "gold",
     "coin": "coin",
     "widget": "widget",
-    "software": "software"
+    "software": "software",
+    "empty-room": "Empty Room"
 
   },
   "et": {
@@ -90,7 +91,8 @@ const translations = {
     "gold": "kuld",
     "coin": "münt",
     "widget": "vidinad",
-    "software": "tarkvara"
+    "software": "tarkvara",
+    "empty-room": "Tühi mängutuba"
   },
 };
 
@@ -8086,39 +8088,43 @@ var Main = (function () {
                 return bg;
             }).call(this);
 
-            Main.playSound("diceRoll")
+            Main.playSound("diceRoll");
 
-            var config = {
-                apiKey: "AIzaSyDOqT0lKhsFIbNJAO1wI_n2j2wKEgjwoAs",
-                authDomain: "cashflow-a13fb.firebaseapp.com",
-                databaseURL: "https://cashflow-a13fb.firebaseio.com",
-                projectId: "cashflow-a13fb",
-                storageBucket: "cashflow-a13fb.appspot.com",
-                messagingSenderId: "1096267079473"
-            };
+            (async () => {
+                try {
+                    const response = await fetch('config.json');
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    var config = await response.json();
+                } catch (error) {
+                    console.error('Config file doesn\'t exist, assigning default value...');
+                    var config = {
+                        apiKey: "AIzaSyDOqT0lKhsFIbNJAO1wI_n2j2wKEgjwoAs",
+                        authDomain: "cashflow-a13fb.firebaseapp.com",
+                        databaseURL: "https://cashflow-a13fb.firebaseio.com",
+                        projectId: "cashflow-a13fb",
+                        storageBucket: "cashflow-a13fb.appspot.com",
+                        messagingSenderId: "1096267079473"
+                    };
+                }
+            
 
-            // var config = {
-            //     apiKey: "AIzaSyAc5X0zbUXJZ5pyWQY4_ii5jkd5iRfPHUg",
-            //     authDomain: "makemoneymove-dde1b.firebaseapp.com",
-            //     databaseURL: "https://makemoneymove-dde1b.firebaseio.com",
-            //     projectId: "makemoneymove-dde1b",
-            //     storageBucket: "makemoneymove-dde1b.appspot.com",
-            //     messagingSenderId: "653804666294"
-            // };
+                document.getElementById("preloader").remove();
 
-            document.getElementById("preloader").remove();
+                Main.firebaseApp = firebase.initializeApp(config);
+                console.log("firebase.SDK_VERSION", firebase.SDK_VERSION);
+                m_firebase = firebase;
 
-            Main.firebaseApp = firebase.initializeApp(config);
-            console.log("firebase.SDK_VERSION", firebase.SDK_VERSION);
-            m_firebase = firebase;
+                // Main.canvas.width = window.innerWidth;
+                // Main.canvas.height = window.innerHeight;
+                m_transform = m_stage.transform;
+                m_ui = document.getElementById("ui");
 
-            // Main.canvas.width = window.innerWidth;
-            // Main.canvas.height = window.innerHeight;
-            m_transform = m_stage.transform;
-            m_ui = document.getElementById("ui");
+                // Main.gameSession = m_stage.create(GameSession);
+                Main.logic = m_stage.create(GameLogic);
 
-            // Main.gameSession = m_stage.create(GameSession);
-            Main.logic = m_stage.create(GameLogic);
+            })();
         });
 
         m_loadQueue.setMaxConnections(10);
@@ -13353,7 +13359,7 @@ function LobbyListItem() {
             this.setText("[" + numJoined + "/" + roomBlob.maxPlayers + "] " + roomBlob.name + (roomBlob.gameState.gameStarted ? "  [" + translations[language]["started"] + "]" : ""));
         } else {
             m_validRoom = false;
-            this.setText("Empty Room");
+            this.setText(translations[language]["empty-room"]);
         }
     }
 
