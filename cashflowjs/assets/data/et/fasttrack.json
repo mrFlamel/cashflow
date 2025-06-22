@@ -49,8 +49,8 @@
       {
         "cost": 300000,
         "id": 17,
-        "copy1": "+$75,000/mo Cash flow if you roll 4 or higher on one die, or else $0 Cash flow",
-        "title": "RUSSIAN OIL DEAL",
+        "copy1": "Kui sa veeretad täringuga 4 või rohkem, saad +75 000€/kuus rahavoogu, vastasel juhul 0€",
+        "title": "VENE NAFTA TEHING",
         "rollmin": 4,
         "cashflow": 75000,
         "type": "investment",
@@ -128,8 +128,8 @@
       {
         "cost": 150000,
         "id": 7,
-        "copy1": "+$25,000/mo Cash flow if you roll 3 or higher on one die, or else $0 Cash flow",
-        "title": "BUY A GOLD MINE",
+        "copy1": "Kui sa veeretad täringuga 3 või rohkem, saad +25 000€/kuus rahavoogu, vastasel juhul 0€",
+        "title": "OSTA KULLAKAEVANDUS",
         "rollmin": 3,
         "cashflow": 25000,
         "type": "investment",
@@ -154,8 +154,8 @@
       },
       {
         "id": 3,
-        "title": "YACHT RACING",
-        "copy1": "You and your crew fly to Perth, Australia. Spend one week racing a 12-meter against the fastest boats in the world.",
+        "title": "PURJETAMISVÕISTLUS",
+        "copy1": "Lendad koos oma meeskonnaga Austraaliasse Perthi. Saad veeta nädal aega võisteldes meeskonnaga purjelaeval maailma kiireimate paatide vastu.",
         "type": "dream",
         "icon": "yacht_racing",
         "cost": 150000
@@ -163,8 +163,8 @@
       {
         "cost": 200000,
         "id": 2,
-        "title": "HEAT AND A/C SERVICE",
-        "copy1": "+$10,000/mo Cash flow 60% Cash-on-cash return",
+        "title": "KÜTTE- JA JAHUTUSSÜSTEEMIDE PAIGALDAMISFIRMA",
+        "copy1": "+10 000€/kuus rahavoogu, kasum aastas 60% investeeringust",
         "cashflow": 10000,
         "type": "investment",
         "icon": "heat_and_a_c_service"
@@ -198,7 +198,7 @@
       {
         "cost": 300000,
         "id": 45,
-        "title": "BURGERI FRANTSIIS",
+        "title": "BURGERIFRANTSIIS",
         "copy1": "+9500€/kuus rahavoogu, kasum aastas 38% investeeringust",
         "cashflow": 9500,
         "type": "investment",
@@ -206,8 +206,8 @@
       },
       {
         "id": 44,
-        "title": "PRO TEAM BOX SEATS",
-        "copy1": "License a 12 person private skybox booth with food and beverage service at your favorite team's stadium.",
+        "title": "VIP ISTMED STAADIONIL",
+        "copy1": "Rendi oma lemmikmeeskonna staadionil 12-kohaline privaatne VIP-hoone koos toidu- ja joogiteenusega.",
         "type": "dream",
         "icon": "pro_team_box_seats",
         "cost": 200000
@@ -240,8 +240,8 @@
       {
         "cost": 225000,
         "id": 39,
-        "copy1": "+$50,000/mo Cash flow if you roll 4 or higher on one die, or else 0% Cash flow.",
-        "title": "COOKWARE INFOMERCIAL",
+        "copy1": "Kui sa veeretad täringuga 4 või rohkem, saad +50 000€/kuus rahavoogu, vastasel juhul 0€",
+        "title": "TOIDUNÕUSID TUVUSTAV SAADE",
         "rollmin": 4,
         "cashflow": 50000,
         "type": "investment",
@@ -266,11 +266,11 @@
       {
         "cost": 100000,
         "id": 35,
-        "copy1": "+$3,000/mo Cash flow 36% Cash-on-cash return",
-        "title": "DRY CLEANER",
+        "copy1": "+3000€/kuus rahavoogu, kasum aastas 36% investeeringust",
+        "title": "KEEMILINE PUHASTUS",
         "cashflow": 3000,
         "type": "investment",
-        "copy2": "(2 STORES)",
+        "copy2": "(2 POODI)",
         "icon": "dry_cleaner"
       },
       {
@@ -285,8 +285,8 @@
         "reward": 500000,
         "cost": 50000,
         "id": 33,
-        "copy1": "Buy 500,000 shares at 10 cents/share. If you roll a 5 or 6 on one die, shares go to $1/share - get $500,000 cash from the bank. Roll less than 5, get $0.",
-        "title": "BIO-TECH CO. IPO",
+        "copy1": "Osta 500 000 aktsiat hinnaga 10 senti/aktsia. Kui veeretad täringuga 5 või 6, hüppavad aktsiad hinnale 1€/aktsia – saad pangast 500 000 eurot raha. Kui veeretad alla 5, saad 0 eurot.",
+        "title": "OÜ BIOTEHNOLOOGIA AKTSIATE IPO",
         "rollmin": 5,
         "type": "investment",
         "stock": "true",
@@ -303,8 +303,8 @@
       {
         "cost": 200000,
         "id": 31,
-        "title": "200 UNIT MINI STORAGE",
-        "copy1": "+$6,000/mo Cash flow 36% Cash-on-cash return",
+        "title": "200 RENDITAVAT MINILADU",
+        "copy1": "+6000€/kuus rahavoogu, kasum aastas 36% investeeringust",
         "cashflow": 6000,
         "type": "investment",
         "icon": "200_unit_mini_storage"
@@ -320,17 +320,17 @@
       {
         "cost": 225000,
         "id": 29,
-        "copy1": "+$7,000/mo Cash flow 37% Cash-on-cash return",
-        "title": "PIZZA FRANCHISE",
+        "copy1": "+7000€/kuus rahavoogu, kasum aastas 37% investeeringust",
+        "title": "PITSAFRANTSIIS",
         "cashflow": 7000,
         "type": "investment",
-        "copy2": "3 LOCATIONS",
+        "copy2": "3 ASUKOHTA",
         "icon": "pizza_franchise"
       },
       {
         "id": 28,
-        "title": "GOLF AROUND THE WORLD",
-        "copy1": "You take 3 friends on a first-class, 5-star resort tour to play the 50 best golf courses in the world.",
+        "title": "ÜMBER MAAILMA GOLFI MÄNGIMINE",
+        "copy1": "Vii oma 3 sõpra esmaklassilisele 5-tärni kuurordireisile, et mängida maailma 50 parimal golfiväljakul.",
         "type": "dream",
         "icon": "golf_around_the_world",
         "cost": 150000
@@ -338,24 +338,24 @@
       {
         "cost": 300000,
         "id": 27,
-        "title": "60 UNIT APARTMENT BUILDING",
-        "copy1": "+$8,000/mo Cash flow 32% Cash-on-cash return",
+        "title": "60 KORTERIGA KORTERMAJA",
+        "copy1": "+8000€/kuus rahavoogu, kasum aastas 32% investeeringust",
         "cashflow": 8000,
         "type": "investment",
         "icon": "60_unit_apartment_building"
       },
       {
         "id": 26,
-        "title": "BE A 'JET-SETTER'",
-        "copy1": "Have your own personal jet available for one year, to whisk you away whenever and wherever your heart desires.",
+        "title": "PRIVAATLENNUKIGA ÜMBER MAAILMA",
+        "copy1": "Pane terveks aastaks valmis oma isiklik lennuk, mis viib sind ükskõik millal ja ükskõik kuhu su süda ihkab.",
         "type": "dream",
         "icon": "be_a__jet_setter_",
         "cost": 250000
       },
       {
         "id": 24,
-        "title": "SAVE THE OCEAN MAMMALS",
-        "copy1": "Fund and be a crew member on a month-long research expedition to protect endangered sea animals.",
+        "title": "PÄÄSTA MEREIMETAJAD",
+        "copy1": "Rahasta ja ole meeskonnaliige kuuajasel uurimisekspeditsioonil, mille eesmärk on kaitsta ohustatud mereloomi.",
         "type": "dream",
         "icon": "save_the_ocean_mammals",
         "cost": 125000

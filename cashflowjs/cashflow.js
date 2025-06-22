@@ -11,11 +11,13 @@ if (!supported_lang.includes(language)){
 var translations = {
   "en": {
     "title": "Play CASHFLOW® Classic Here.",
-    "loading": "Loading..."
+    "loading": "Loading...",
+    "name": "Name"
   },
   "et": {
     "title": "Mängi mängu CASHFLOW® Classic siin.",
-    "loading": "Laadin..."
+    "loading": "Laadin...",
+    "name": "Nimi"
   },
 };
 
@@ -4195,7 +4197,7 @@ var DoodadCard = (function () {
                 color: color
             };
             config.cardDescription = {
-                text: Data.getVocab("doodadCard", "copy1") + MathHelper.formatNumber(cardData.cost)
+                text: Data.getVocab("doodadCard", "copy1") + MathHelper.formatNumber(cardData.cost) + translations[language]["currency"]
             };
 
             this.configure(config);
@@ -4348,9 +4350,9 @@ var DreamCard = (function () {
                             text: Data.getVocab("buy", "copy"),
                             color: color
                         }
-                        config.cardInformation.text = Data.getVocab("dreamCard", "copy1") + "\n" + Data.getVocab("cost", "copy") + MathHelper.formatNumber(cardData.cost);
+                        config.cardInformation.text = Data.getVocab("dreamCard", "copy1") + "\n" + Data.getVocab("cost", "copy") + MathHelper.formatNumber(cardData.cost) + translations[language]["currency"];
                     } else {
-                        config.cardInformation.text = Data.getVocab("dreamCard", "copy2") + "\n" + Data.getVocab("cost", "copy") + MathHelper.formatNumber(cardData.cost);
+                        config.cardInformation.text = Data.getVocab("dreamCard", "copy2") + "\n" + Data.getVocab("cost", "copy") + MathHelper.formatNumber(cardData.cost) + translations[language]["currency"];
                     }
                     config.passButton = {
                         text: Data.getVocab("pass", "copy"),
@@ -4901,12 +4903,12 @@ var InvestmentCard = (function () {
 
                         if (cardData.stock == "true") {
                             config.cardInformation.text =
-                                Data.getVocab("cost", "copy") + MathHelper.formatNumber(cardData.cost) + "\n" +
-                                Data.getVocab("return", "copy") + MathHelper.formatNumber(cardData.reward);
+                                Data.getVocab("cost", "copy") + MathHelper.formatNumber(cardData.cost) + translations[language]["currency"] + "\n" +
+                                Data.getVocab("return", "copy") + MathHelper.formatNumber(cardData.reward) + translations[language]["currency"];
                         } else {
                             config.cardInformation.text =
-                                Data.getVocab("cost", "copy") + MathHelper.formatNumber(cardData.cost) + "\n" +
-                                Data.getVocab("cashflow", "copy") + MathHelper.formatNumber(cardData.cashflow);
+                                Data.getVocab("cost", "copy") + MathHelper.formatNumber(cardData.cost) + translations[language]["currency"] + "\n" +
+                                Data.getVocab("cashflow", "copy") + MathHelper.formatNumber(cardData.cashflow) + translations[language]["currency"];
                         }
                     } else {
                         config.cardInformation.text = Data.getVocab("investmentCard", "copy1");
@@ -4914,23 +4916,23 @@ var InvestmentCard = (function () {
                 } else {
                     if (cardData.stock == "true") {
                         config.cardInformation.text =
-                            Data.getVocab("cost", "copy") + MathHelper.formatNumber(cardData.cost) + "\n" +
-                            Data.getVocab("return", "copy") + MathHelper.formatNumber(cardData.reward);
+                            Data.getVocab("cost", "copy") + MathHelper.formatNumber(cardData.cost) + translations[language]["currency"] + "\n" +
+                            Data.getVocab("return", "copy") + MathHelper.formatNumber(cardData.reward) + translations[language]["currency"];
                     } else {
                         config.cardInformation.text =
-                            Data.getVocab("cost", "copy") + MathHelper.formatNumber(cardData.cost) + "\n" +
-                            Data.getVocab("cashflow", "copy") + MathHelper.formatNumber(cardData.cashflow);
+                            Data.getVocab("cost", "copy") + MathHelper.formatNumber(cardData.cost) + translations[language]["currency"] + "\n" +
+                            Data.getVocab("cashflow", "copy") + MathHelper.formatNumber(cardData.cashflow) + translations[language]["currency"];
                     }
                 }
             } else {
                 if (cardData.stock == "true") {
                     config.cardInformation.text =
-                        Data.getVocab("cost", "copy") + MathHelper.formatNumber(cardData.cost) + "\n" +
-                        Data.getVocab("return", "copy") + MathHelper.formatNumber(cardData.reward);
+                        Data.getVocab("cost", "copy") + MathHelper.formatNumber(cardData.cost) + translations[language]["currency"] + "\n" +
+                        Data.getVocab("return", "copy") + MathHelper.formatNumber(cardData.reward) + translations[language]["currency"];
                 } else {
                     config.cardInformation.text =
-                        Data.getVocab("cost", "copy") + MathHelper.formatNumber(cardData.cost) + "\n" +
-                        Data.getVocab("cashflow", "copy") + MathHelper.formatNumber(cardData.cashflow);
+                        Data.getVocab("cost", "copy") + MathHelper.formatNumber(cardData.cost) + translations[language]["currency"] + "\n" +
+                        Data.getVocab("cashflow", "copy") + MathHelper.formatNumber(cardData.cashflow) + translations[language]["currency"];
                 }
             }
 
@@ -6215,7 +6217,7 @@ var SpecialDoodadCard = (function () {
                 color: color
             };
             config.cardDescription = {
-                text: Data.getVocab("doodadCard", "copy1") + MathHelper.formatNumber(cardData.cost),
+                text: Data.getVocab("doodadCard", "copy1") + MathHelper.formatNumber(cardData.cost) + translations[language]["currency"],
                 color: color
             };
             config.cardInformation = {
@@ -6581,7 +6583,7 @@ var StockBuyCard = (function () {
             var amount = a;
             if (amount < m_this.min) m_this.textboxAmount = m_this.min;
             else if (amount > m_this.max) m_this.textboxAmount = m_this.max;
-            m_this.stockCostAmount.text = Data.getVocab("dollar", "copy") + MathHelper.formatNumber((m_this.textboxAmount) * parseInt(m_cost));
+            m_this.stockCostAmount.text = translations[language]["currency2"] + MathHelper.formatNumber((m_this.textboxAmount) * parseInt(m_cost)) + translations[language]["currency"];
         }
 
         this.onBuyClicked = function (event) {
@@ -6646,7 +6648,7 @@ var StockBuyCard = (function () {
         })
 
         function onUpdateAmount() {
-            m_this.stockCostAmount.text = Data.getVocab("dollar", "copy") + MathHelper.formatNumber((m_this.textboxAmount) * parseInt(m_cost));
+            m_this.stockCostAmount.text = translations[language]["currency2"] + MathHelper.formatNumber((m_this.textboxAmount) * parseInt(m_cost)) + translations[language]["currency"];
         }
     }
     return StockBuyCard;
@@ -6861,7 +6863,7 @@ var StockSellCard = (function () {
             var amount = a;
             if (amount < m_this.min) m_this.textboxAmount = m_this.min;
             else if (amount > m_count) m_this.textboxAmount = m_count;
-            m_this.stockCostAmount.text = Data.getVocab("dollar", "copy") + MathHelper.formatNumber((m_this.textboxAmount) * parseInt(m_cost));
+            m_this.stockCostAmount.text = translations[language]["currency2"] + MathHelper.formatNumber((m_this.textboxAmount) * parseInt(m_cost)) + translations[language]["currency"];
         }
 
         this.onSellClicked = function (event) {
@@ -6892,7 +6894,7 @@ var StockSellCard = (function () {
             } else {
                 m_this.textboxAmount = m_count;
             }
-            m_this.stockCostAmount.text = Data.getVocab("dollar", "copy") + MathHelper.formatNumber((m_this.textboxAmount) * parseInt(m_cost));
+            m_this.stockCostAmount.text = translations[language]["currency2"] + MathHelper.formatNumber((m_this.textboxAmount) * parseInt(m_cost)) + translations[language]["currency"];
         }
         this.onDownClicked = function (event) {
             Main.playSound("openToHumanv1")
@@ -6902,7 +6904,7 @@ var StockSellCard = (function () {
             } else {
                 m_this.textboxAmount = 1;
             }
-            m_this.stockCostAmount.text = Data.getVocab("dollar", "copy") + MathHelper.formatNumber((m_this.textboxAmount) * parseInt(m_cost));
+            m_this.stockCostAmount.text = translations[language]["currency2"] + MathHelper.formatNumber((m_this.textboxAmount) * parseInt(m_cost)) + translations[language]["currency"];
 
         }
 
@@ -6923,7 +6925,7 @@ var StockSellCard = (function () {
         })
 
         function onUpdateAmount() {
-            m_this.stockCostAmount.text = Data.getVocab("dollar", "copy") + MathHelper.formatNumber((m_this.textboxAmount) * parseInt(m_cost));
+            m_this.stockCostAmount.text = translations[language]["currency2"] + MathHelper.formatNumber((m_this.textboxAmount) * parseInt(m_cost)) + translations[language]["currency"];
         }
     }
     return StockSellCard;

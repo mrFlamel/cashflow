@@ -171,8 +171,8 @@
       "copy2": "Lose all of your cash!"
     },
     "dreamCard": {
-      "copy1": "Achieve Your Dream!",
-      "copy2": "Not Enough cash to achieve your dream.",
+      "copy1": "Saavuta oma unistus!",
+      "copy2": "Sul pole enda unistuse saavutamiseks piisavalt raha.",
       "copy3": "See on teise mängija unistus. Nende unistuse maksumus on kasvanud 100% võrra.",
       "copy4": "This is not your dream."
     },
@@ -208,8 +208,8 @@
       "copy2": "Maksa ühe korra kõik oma kulud ja kaotad kaks käiku ning panuse heategevusse."
     },
     "doodadCard": {
-      "copy1": "Pay $",
-      "copy2": "(if you have a child)"
+      "copy1": "Maksa ",
+      "copy2": "(kui sul on lapsi)"
     },
     "dealCard": {
       "title": "TEHINGU VÕIMALUS",
