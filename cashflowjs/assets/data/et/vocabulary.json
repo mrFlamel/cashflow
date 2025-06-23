@@ -16,7 +16,7 @@
       "copy3": " Total loan amount $"
     },
     "sharedOpp": {
-      "copy": "SHARED OPPORTUNITY"
+      "copy": "JAGATUD VÕIMALUS"
     },
     "lobbyconnectionlost": {
       "copy1": "Sorry, your connection appears to have been lost.",
@@ -113,13 +113,13 @@
       "copy": "ANNETA"
     },
     "credit": {
-      "copy": "CREDIT"
+      "copy": "LAENA"
     },
     "loan": {
-      "copy": "LOAN"
+      "copy": "LAENA"
     },
     "back": {
-      "copy": "BACK"
+      "copy": "TAGASI"
     },
     "cost": {
       "copy": "Hind: "
@@ -131,7 +131,7 @@
       "copy": " took a credit card loan for $4,000."
     },
     "sellamount": {
-      "copy": "Sell amount: $"
+      "copy": "Müügi väärtus: "
     },
     "cashflow": {
       "copy": "Rahavoog: "
@@ -164,11 +164,11 @@
       "copy1": "Add PAYDAY to your cash on hand!"
     },
     "losecashCard": {
-      "tax": "AUDIT!",
-      "lawsuit": "LAWSUIT!!",
-      "divorce": "DIVORCE!",
-      "copy1": "Lose half of your cash!",
-      "copy2": "Lose all of your cash!"
+      "tax": "MAKSUAUDIT!",
+      "lawsuit": "KOHTUASI!!",
+      "divorce": "LAHUTUS!",
+      "copy1": "Kaotad pool oma rahast!",
+      "copy2": "Kaotad kogu oma raha!"
     },
     "dreamCard": {
       "copy1": "Saavuta oma unistus!",
@@ -220,7 +220,7 @@
       "copy3": "SUUR"
     },
     "investmentCard": {
-      "copy1": "This investment has already been purchased and is no longer available."
+      "copy1": "See investeering on juba ostetud ja pole enam saadaval."
     },
     "investmentRollCard": {
       "copy1": "Sa veeretasid numbri ",
@@ -233,8 +233,8 @@
       "copy3": "€ rahavoogu juurde."
     },
     "stockSpecialCard": {
-      "copy1": "Split 2 for 1",
-      "copy2": "Reverse split 1 for 2"
+      "copy1": "Tükeldamine - 2 aktsiat 1 eest",
+      "copy2": "Liitmine - 1 aktsia 2 eest"
     },
     "stockBuyCard": {
       "copy1": "Kui palju: ",

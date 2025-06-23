@@ -3617,7 +3617,7 @@ var BankruptSellCard = (function () {
                 color: color
             };
             config.cardDescription = {
-                text: Data.getVocab("sellamount", "copy") + MathHelper.formatNumber(Main.gameSession.getCurrentPlayerBlob().properties[cardData.propertyIndex].downpay * 0.5)
+                text: Data.getVocab("sellamount", "copy") + MathHelper.formatNumber(Main.gameSession.getCurrentPlayerBlob().properties[cardData.propertyIndex].downpay * 0.5) + translations[language]["currency"]
             };
 
             this.configure(config);
@@ -4158,7 +4158,7 @@ var DoodadCard = (function () {
 
             var config = new CardConfig();
 
-            if(cardData.hasChild === 'has'){
+            if(cardData.child === 'has'){
                 config.cardInformation = {
                     text: Data.getVocab("doodadCard", "copy2")
                 };
@@ -5514,17 +5514,17 @@ var MarketSellCard = (function () {
 
             if(cardData.key == translations[language]["coin"]){
                 config.cardInformation = {
-                    text: Data.getVocab("sellamount", "copy") + MathHelper.formatNumber(cardData.cost * 8)
+                    text: Data.getVocab("sellamount", "copy") + MathHelper.formatNumber(cardData.cost * 8) + translations[language]["currency"]
                 };
             }
             else if(cardData.key == translations[language]["gold"]){
                 config.cardInformation = {
-                    text: Data.getVocab("sellamount", "copy") + MathHelper.formatNumber(cardData.cost * 10)
+                    text: Data.getVocab("sellamount", "copy") + MathHelper.formatNumber(cardData.cost * 10) + translations[language]["currency"]
                 };
             }
             else if(cardData.type == "market_selladd"){
                 config.cardInformation = {
-                    text: Data.getVocab("sellamount", "copy") + MathHelper.formatNumber((cardData.cost + property.cost) - property.mortgage)
+                    text: Data.getVocab("sellamount", "copy") + MathHelper.formatNumber((cardData.cost + property.cost) - property.mortgage) + translations[language]["currency"]
                 };
                 config.cardDescription = {
                     text: Data.getVocab("marketSellCard", "copy1") + "\n" +
@@ -5534,7 +5534,7 @@ var MarketSellCard = (function () {
             }
             else if(cardData.type == "market_sell"){
                 config.cardInformation = {
-                    text: Data.getVocab("sellamount", "copy") + MathHelper.formatNumber((cardData.cost * amount) - property.mortgage)
+                    text: Data.getVocab("sellamount", "copy") + MathHelper.formatNumber((cardData.cost * amount) - property.mortgage) + translations[language]["currency"]
                 };
                 config.cardDescription = {
                     text: Data.getVocab("marketSellCard", "copy5") + "\n" +
