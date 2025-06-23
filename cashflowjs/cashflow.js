@@ -5529,7 +5529,7 @@ var MarketSellCard = (function () {
                 config.cardDescription = {
                     text: Data.getVocab("marketSellCard", "copy1") + "\n" +
                         MathHelper.formatNumber(cardData.cost) + Data.getVocab("marketSellCard", "copy2") + MathHelper.formatNumber(property.cost) + Data.getVocab("marketSellCard", "copy3") + MathHelper.formatNumber(property.mortgage)
-                        + Data.getVocab("marketSellCard", "copy4") + MathHelper.formatNumber((cardData.cost + property.cost) - property.mortgage)
+                        + Data.getVocab("marketSellCard", "copy4") + MathHelper.formatNumber((cardData.cost + property.cost) - property.mortgage) + translations[language]["currency"]
                 };
             }
             else if(cardData.type == "market_sell"){

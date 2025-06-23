@@ -255,12 +255,12 @@
       "copy2": "Sul pole ühtegi sellele turukaardile vastavaid varasid."
     },
     "marketSellCard": {
-      "title": "SELL - ",
-      "copy1": "Sell Cost + Original Cost - Mortgage",
+      "title": "MÜÜ - ",
+      "copy1": "Müügihind + Algne hind - Hüpoteek",
       "copy2": " + ",
       "copy3": " - ",
-      "copy4": " = $",
-      "copy5": "Sell Cost * Amount Owned - Mortgage"
+      "copy4": " = ",
+      "copy5": "Müügihind * Ühikute arv - Hüpoteek"
     },
     "endCard": {
       "title": "LÕPETA OMA KÄIK",
