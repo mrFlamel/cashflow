@@ -2750,7 +2750,7 @@ var StatementElement = (function () {
 								stock.quantity.toString() +
 								(stock.quantity === 1 ? translations[language]["share-of"] : translations[language]["shares-of"]) +
 								stock.key + (stock.quantity === 1 ? translations[language]["share-of-end"] : translations[language]["shares-of-end"]),
-							rightText: stock.cashflow,
+							rightText: MathHelper.formatNumber(stock.cashflow),
 							tag: stock.key,
 							isMoney: true
 						}
@@ -2765,7 +2765,7 @@ var StatementElement = (function () {
 							stock.quantity.toString() +
 							(stock.quantity === 1 ? translations[language]["share-of"] : translations[language]["shares-of"]) +
 							stock.key + (stock.quantity === 1 ? translations[language]["share-of-end"] : translations[language]["shares-of-end"]),
-						rightText: stock.cost.toString(),
+						rightText: MathHelper.formatNumber(stock.cost),
 						tag: stock.key,
 						index: index,
 						isMoney: true
@@ -5539,7 +5539,7 @@ var MarketSellCard = (function () {
                 config.cardDescription = {
                     text: Data.getVocab("marketSellCard", "copy5") + "\n" +
                         MathHelper.formatNumber(cardData.cost) + " * " + MathHelper.formatNumber(amount) + " - " + MathHelper.formatNumber(property.mortgage)
-                        + Data.getVocab("marketSellCard", "copy4") + MathHelper.formatNumber((cardData.cost * amount) - property.mortgage) +  + translations[language]["currency"]
+                        + Data.getVocab("marketSellCard", "copy4") + MathHelper.formatNumber((cardData.cost * amount) - property.mortgage) + translations[language]["currency"]
                 };
             }
             else if(cardData.type == "market_brother"){

@@ -249,7 +249,7 @@
             "bold": "false",
             "align": "center",
             "vAlign": "top",
-            "text": "Võitmiseks suurenda oma päevast sissetulekut!"
+            "text": "Võitmiseks suurenda oma igakuist sissetulekut!"
         },
         "goalText": {
             "font": "GrantAvenue",
@@ -763,7 +763,7 @@
             "bold": "false",
             "align": "center",
             "vAlign": "top",
-            "text": "Võitmiseks suurenda oma päevast tulu!"
+            "text": "Võitmiseks suurenda oma igakuist tulu!"
         },
         "goalText_fasttrack": {
             "font": "GrantAvenue",

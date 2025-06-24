@@ -140,7 +140,7 @@
       "copy": "Sissemakse: "
     },
     "return": {
-      "copy": "Possible return: $"
+      "copy": "Võimalik kasum: "
     },
     "range": {
       "copy": "Trade range:"
