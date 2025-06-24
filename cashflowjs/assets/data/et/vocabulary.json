@@ -283,15 +283,15 @@
       "copy1": "Laen peab olema 1000€ kordne ning intressiga 10% kuus."
     },
     "bankruptCard": {
-      "title": "YOU ARE BANKRUPT!",
-      "copy1": "Your Cash Flow is negative: $",
-      "copy2": "To exit bankruptcy you need positive Cash Flow.",
-      "copy3": "1. Sell assets for 1/2 the down payment.",
-      "copy4": "2. Pay off debt.",
-      "copy5": "3. Pay down your loan amount."
+      "title": "OLED PANKROTIS!",
+      "copy1": "Sinu rahavoog on negatiivne: ",
+      "copy2": "Pankrotist väljumiseks on sul vaja positiivset rahavoogu.",
+      "copy3": "1. Müü varasid poole sissemakse väärtusega.",
+      "copy4": "2. Maksa mõni võlg tagasi.",
+      "copy5": "3. Vähenda oma võlgasid."
     },
     "bankruptSellCard": {
-      "title": "SELL AN ASSET"
+      "title": "MÜÜ VARA"
     },
     "bankruptPayCard": {
       "title": "MAKSA LAEN TAGASI",
@@ -301,27 +301,27 @@
       "copy4": "You do not have enough cash to pay off this loan."
     },
     "bankruptHalveCard": {
-      "title": "YOU ARE BANKRUPT!",
-      "copy1": "You have no assets to sell and you do not have a positive cash flow.",
-      "copy2": "1/2 your car loans, credit cards, and retail debt have been wiped out along with 1/2 of their payments."
+      "title": "OLED PANKROTIS!",
+      "copy1": "Sul ei ole varasid, mida müüa, ja sul ei ole positiivset rahavoogu.",
+      "copy2": "Pool sinu autolaenust, krediitkaartide võlast ja tarbimisvõlast on kustutatud koos poolega nende maksetest."
     },
     "bankruptLoseCard": {
-      "title": "YOU LOSE!",
-      "copy1": "Your monthly cash flow is negative. You are officially out of the game."
+      "title": "SA KAOTASID!",
+      "copy1": "Sinu igakuine rahavoog on negatiivne. Oled ametlikult mängust väljas."
     },
     "bankruptCompleteCard": {
-      "title": "NO LONGER BANKRUPT!",
-      "copy1": "Your cash flow is greater than your expenses and you are no longer bankrupt.",
-      "copy2": "Be careful not to let your expenses exceed your cash flow."
+      "title": "POLE ENAM PANKROTIS!",
+      "copy1": "Sinu tulud on suuremad kui kulutused ja sa ei ole enam pankrotis.",
+      "copy2": "Oled ettevaatlik, et sinu kulutused ei ületaks sinu tulusid."
     },
     "everyoneBankruptCard": {
-      "title": "EVERYONE IN THE GAME HAS GONE BANKRUPT. GAME OVER."
+      "title": "KÕIK MÄNGUS ON PANKROTI LÄINUD. MÄNG LÄBI."
     },
     "quitCard": {
       "title": "OLED SA KINDEL, ET SOOVID LAHKUDA?"
     },
     "timerCard": {
-      "title": "DO YOU NEED MORE TIME?"
+      "title": "KAS SA VAJAD ROHKEM AEGA?"
     },
     "winDreamCard": {
       "title": " ON MÄNGU VÕITNUD!",
@@ -346,7 +346,7 @@
       "copy": " had a dream opportunity!"
     },
     "isbankrupt": {
-      "copy": " is bankrupt!"
+      "copy": " on pankrotis!"
     },
     "receivedpayday": {
       "copy": " received a PAYDAY!"
@@ -429,10 +429,10 @@
       "copy3": " spent $"
     },
     "nobankrupt": {
-      "copy": " is no longer bankrupt!"
+      "copy": " ei ole enam pankrotis!"
     },
     "bankruptlose": {
-      "copy": " has gone bankrupt and is out of the game."
+      "copy": " on pankrotis ja mängust väljas."
     },
     "wongame": {
       "copy": " won the game!"
@@ -471,7 +471,7 @@
       "copy": " escaped the Rat Race with a buyout of $"
     },
     "header": {
-      "bankrupt": "Bankrupt: ",
+      "bankrupt": "Pankrotis: ",
       "downsized": "Downsize: ",
       "takingturn": "Käib praegu",
       "goal": "Goal",

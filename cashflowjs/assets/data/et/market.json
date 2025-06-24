@@ -320,7 +320,7 @@
         "queue": "true"
       },
       {
-        "title": "ÜÜNIK KAHJUSTAB TEIE KINNISVARA",
+        "title": "ÜÜRNIK KAHJUSTAB TEIE KINNISVARA",
         "copy1": "Üürnik ei maksa 2 kuud järjest üüri ja lahkub seejärel linnast, jättes sinu üüripinnale kahjustused.",
         "copy2": "Kindlustus katab enamiku kahjudest ja kuludest, kuid sellest jääb siiski 500 eurot puudu. Kui sul on üürikinnisvara, siis maksa 500 eurot.",
         "rule": "Maksab see inimene, kes tõmbas selle kaardi.",
@@ -329,7 +329,7 @@
         "cost": 500
       },
       {
-        "title": "ÜÜNIK KAHJUSTAB TEIE KINNISVARA",
+        "title": "ÜÜRNIK KAHJUSTAB TEIE KINNISVARA",
         "copy1": "Üürnik keeldub pärast töökoha kaotamist üüri maksmast. Kui sul õnnestub ta välja tõsta, avastad oma varale tekitatud märkimisväärse kahju.",
         "copy2": "Kindlustus katab enamiku kahjudest ja kuludest, kuid sellest jääb siiski 1000 eurot puudu. Kui sul on üürikinnisvara, siis maksa 1000 eurot.",
         "rule": "Maksab see inimene, kes tõmbas selle kaardi.",

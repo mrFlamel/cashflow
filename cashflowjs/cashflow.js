@@ -3202,7 +3202,7 @@ var BankruptCard = (function () {
                 color: color
             };
             config.cardDescription = {
-                text: Data.getVocab("bankruptCard", "copy1") + MathHelper.formatNumber(income) + "\n" + Data.getVocab("bankruptCard", "copy2")
+                text: Data.getVocab("bankruptCard", "copy1") + MathHelper.formatNumber(income) + translations[language]["currency"] + "\n" + Data.getVocab("bankruptCard", "copy2")
             };
             config.cardInformation = {
                 text: Data.getVocab("bankruptCard", "copy3") + "\n" + Data.getVocab("bankruptCard", "copy4") + "\n" + Data.getVocab("bankruptCard", "copy5")
@@ -5539,7 +5539,7 @@ var MarketSellCard = (function () {
                 config.cardDescription = {
                     text: Data.getVocab("marketSellCard", "copy5") + "\n" +
                         MathHelper.formatNumber(cardData.cost) + " * " + MathHelper.formatNumber(amount) + " - " + MathHelper.formatNumber(property.mortgage)
-                        + Data.getVocab("marketSellCard", "copy4") + MathHelper.formatNumber((cardData.cost * amount) - property.mortgage)
+                        + Data.getVocab("marketSellCard", "copy4") + MathHelper.formatNumber((cardData.cost * amount) - property.mortgage) +  + translations[language]["currency"]
                 };
             }
             else if(cardData.type == "market_brother"){
