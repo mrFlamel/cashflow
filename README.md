@@ -1,2 +1,2 @@
 # cashflow
-"Cashflow" server source code
+"Cashflow" game code.
